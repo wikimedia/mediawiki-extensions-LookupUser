@@ -83,10 +83,11 @@ $messages['ar'] = array(
 
 /** Aramaic (ܐܪܡܝܐ)
  * @author Basharh
+ * @author Michaelovic
  */
 $messages['arc'] = array(
 	'lookupuser-realname' => 'ܫܡܐ ܫܪܝܪܐ: $1',
-	'lookupuser-useroptions' => 'ܓܒܝܬ̈ܐ ܕܡܬܚܫܚܢܐ:',
+	'lookupuser-useroptions' => 'ܓܒܝܬ̈ܐ ܕܡܦܠܚܢܐ:',
 );
 
 /** Egyptian Spoken Arabic (مصرى)
