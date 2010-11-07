@@ -384,6 +384,7 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Huji
+ * @author Persianizer
  */
 $messages['fa'] = array(
 	'lookupuser' => 'نگاه کردن به اطلاعات کاربر',
@@ -401,6 +402,7 @@ $messages['fa'] = array(
 	'lookupuser-touched' => 'آخرین دستکاری در اطلاعات کاربر: $1',
 	'lookupuser-info-authenticated' => 'فعال‌سازی پست الکترونیکی: $1',
 	'lookupuser-useroptions' => 'گزینه‌های کاربر:',
+	'right-lookupuser' => 'مراجعه به ترجیحات کاربر',
 );
 
 /** Finnish (Suomi)
