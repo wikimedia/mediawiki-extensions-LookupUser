@@ -212,6 +212,13 @@ $messages['ca'] = array(
 	'lookupuser-useroptions' => "Opcions d'usuari:",
 );
 
+/** Chechen (Нохчийн)
+ * @author Sasan700
+ */
+$messages['ce'] = array(
+	'right-lookupuser' => 'лаха декъашхойн нисдарш',
+);
+
 /** Czech (Česky)
  * @author Matěj Grabovský
  * @author Mormegil
