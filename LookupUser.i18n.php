@@ -1551,12 +1551,22 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (‪中文(繁體)‬)
  * @author Gzdavidwong
+ * @author Mark85296341
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
+	'lookupuser' => '查詢用戶資料',
+	'lookupuser-intro' => '輸入使用者名稱，檢視該用戶的偏好設定',
 	'lookupuser-nonexistent' => '錯誤：使用者不存在',
+	'lookupuser-not-authenticated' => '未驗證',
+	'lookupuser-id' => '使用者 ID：<tt>#$1</tt>',
 	'lookupuser-email' => '電郵：[[Special:EmailUser/$2|$1]]',
+	'lookupuser-no-email' => '未提供',
 	'lookupuser-realname' => '真實姓名：$1',
 	'lookupuser-registration' => '註冊日期：$1',
+	'lookupuser-no-registration' => '沒有記錄',
+	'lookupuser-info-authenticated' => '電子郵件驗證：$1',
+	'lookupuser-useroptions' => '使用者選擇：',
+	'right-lookupuser' => '檢視用戶設定',
 );
 
