@@ -116,11 +116,12 @@ $messages['arz'] = array(
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
+ * @author Zedlik
  */
 $messages['be-tarask'] = array(
 	'lookupuser' => 'Пошук зьвестак пра ўдзельніка',
 	'lookupuser-desc' => '[[Special:LookupUser|Атрыманьне зьвестак]] пра удзельнікаў, такіх, як адрас электроннай пошты і ідэнтыфікатар',
-	'lookupuser-intro' => 'Увядзіце імя ўдзельніка каб праглядзець яго ўстаноўкі.',
+	'lookupuser-intro' => 'Увядзіце імя ўдзельніка каб праглядзець яго налады.',
 	'lookupuser-nonexistent' => 'Памылка: Удзельнік не існуе',
 	'lookupuser-authenticated' => 'аўтэнтыфікаваны па $1',
 	'lookupuser-not-authenticated' => 'не аўтэнтыфікаваны',
