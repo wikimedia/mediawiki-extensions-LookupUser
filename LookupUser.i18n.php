@@ -251,6 +251,7 @@ $messages['cy'] = array(
 );
 
 /** German (Deutsch)
+ * @author Kghbln
  * @author LWChris
  * @author Melancholie
  * @author Umherirrender
@@ -262,7 +263,7 @@ $messages['de'] = array(
 	'lookupuser-nonexistent' => 'Fehler: Benutzer nicht vorhanden',
 	'lookupuser-authenticated' => 'E-Mail-Bestätigung: $1',
 	'lookupuser-not-authenticated' => 'nicht bestätigt',
-	'lookupuser-id' => 'Benutzer-ID: <tt>#$1</tt>',
+	'lookupuser-id' => 'Benutzerkennung: <tt>#$1</tt>',
 	'lookupuser-email' => 'E-Mail: [[Special:EmailUser/$2|$1]]',
 	'lookupuser-no-email' => 'nicht angegeben',
 	'lookupuser-realname' => 'Tatsächlicher Name: $1',
