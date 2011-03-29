@@ -133,7 +133,7 @@ $messages['be-tarask'] = array(
 	'lookupuser-no-registration' => 'не запісаны',
 	'lookupuser-touched' => 'Апошнія абнаўленьні зьвестак пра удзельніка: $1',
 	'lookupuser-info-authenticated' => 'Аўтэнтыфікацыя электроннай пошты: $1',
-	'lookupuser-useroptions' => 'Устаноўкі ўдзельніка:',
+	'lookupuser-useroptions' => 'Налады ўдзельніка:',
 	'right-lookupuser' => 'пошук зьвестак пра удзельнікаў',
 );
 
