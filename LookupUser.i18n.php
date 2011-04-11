@@ -201,6 +201,7 @@ $messages['bs'] = array(
 );
 
 /** Catalan (Català)
+ * @author SMP
  * @author Solde
  * @author Toniher
  */
@@ -211,6 +212,7 @@ $messages['ca'] = array(
 	'lookupuser-no-registration' => 'no guardat',
 	'lookupuser-info-authenticated' => "Autenticació de l'adreça electrònica: $1",
 	'lookupuser-useroptions' => "Opcions d'usuari:",
+	'right-lookupuser' => "Consultar les preferències d'usuari",
 );
 
 /** Chechen (Нохчийн)
