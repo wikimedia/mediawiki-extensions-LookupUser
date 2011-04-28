@@ -859,6 +859,28 @@ $messages['lt'] = array(
 	'lookupuser-no-registration' => 'įrašų nėra',
 );
 
+/** Latvian (Latviešu)
+ * @author GreenZeb
+ */
+$messages['lv'] = array(
+	'lookupuser' => 'Sameklēt informāciju par lietotāju',
+	'lookupuser-desc' => '[[Special:LookupUser|Iegūt informāciju]] par lietotāju (piemēram, e-pasta adresi un ID)',
+	'lookupuser-intro' => 'Ievadiet lietotājvārdu, lai apslatītu lietotāja uzstādījumus.',
+	'lookupuser-nonexistent' => 'Kļūda: Šāda lietotāja nav',
+	'lookupuser-authenticated' => 'autentificēts ar $1',
+	'lookupuser-not-authenticated' => 'nav autentificēts',
+	'lookupuser-id' => 'Lietotāja ID: <tt># $1</tt>',
+	'lookupuser-email' => 'E-pasts: [[Special:EmailUser/$2|$1]]',
+	'lookupuser-no-email' => 'nav sniegts',
+	'lookupuser-realname' => 'Īstais vārds: $1',
+	'lookupuser-registration' => 'Reģistrācijas datums: $1',
+	'lookupuser-no-registration' => 'nav ierakstīts',
+	'lookupuser-touched' => 'Lietotāja ierkasts pēdējoreiz pārbaudīts: $1',
+	'lookupuser-info-authenticated' => 'E-pasta autentifikācija: $1',
+	'lookupuser-useroptions' => 'Lietotājs iespējas:',
+	'right-lookupuser' => 'Meklēt lietotāja uzstādījumus',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */
