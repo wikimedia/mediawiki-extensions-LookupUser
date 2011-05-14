@@ -33,9 +33,19 @@ $specialPageAliases['fa'] = array(
 	'LookupUser' => array( 'جستجوی_کاربر' ),
 );
 
+/** Gagauz (Gagauz) */
+$specialPageAliases['gag'] = array(
+	'LookupUser' => array( 'KullanıcıAra' ),
+);
+
 /** Croatian (Hrvatski) */
 $specialPageAliases['hr'] = array(
 	'LookupUser' => array( 'Pogledaj_suradnika' ),
+);
+
+/** Haitian (Kreyòl ayisyen) */
+$specialPageAliases['ht'] = array(
+	'LookupUser' => array( 'GadeItilizatè' ),
 );
 
 /** Interlingua (Interlingua) */
