@@ -486,6 +486,26 @@ $messages['fr'] = array(
 	'right-lookupuser' => 'Visionner les préférences des utilisateurs',
 );
 
+/** Franco-Provençal (Arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'lookupuser' => 'Parcorir les enformacions a l’utilisator',
+	'lookupuser-nonexistent' => 'Èrror : l’utilisator ègziste pas',
+	'lookupuser-authenticated' => 'ôtenticâ dessus $1',
+	'lookupuser-not-authenticated' => 'pas ôtenticâ',
+	'lookupuser-id' => 'Numerô a l’utilisator : <tt>#$1</tt>',
+	'lookupuser-email' => 'Mèl. : [[Special:EmailUser/$2|$1]]',
+	'lookupuser-no-email' => 'pas balyê',
+	'lookupuser-realname' => 'Veré nom : $1',
+	'lookupuser-registration' => 'Dâta d’encartâjo : $1',
+	'lookupuser-no-registration' => 'pas encartâ',
+	'lookupuser-touched' => 'Encartâjo a l’utilisator tochiê por lo dèrriér côp : $1',
+	'lookupuser-info-authenticated' => 'Ôtenticacion de l’adrèce èlèctronica : $1',
+	'lookupuser-useroptions' => 'Chouèx a l’utilisator :',
+	'right-lookupuser' => 'Vêre les prèferences ux utilisators',
+);
+
 /** Galician (Galego)
  * @author Alma
  * @author Toliño
