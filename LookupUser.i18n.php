@@ -1600,18 +1600,25 @@ $messages['vo'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Gzdavidwong
+ * @author Hydra
  * @author Kuailong
  * @author Wrightbus
  */
 $messages['zh-hans'] = array(
 	'lookupuser' => '查询用户信息',
+	'lookupuser-desc' => '[[Special:LookupUser|检索信息]] 有关的用户 ID 的电子邮件地址等',
 	'lookupuser-intro' => '输入用户名，查看该用户的参数设置',
 	'lookupuser-nonexistent' => '错误：用户不存在',
+	'lookupuser-not-authenticated' => '不进行身份验证',
 	'lookupuser-id' => '用户ID: <tt>#$1</tt>',
 	'lookupuser-email' => '电邮：[[Special:EmailUser/$2|$1]]',
+	'lookupuser-no-email' => '不提供',
 	'lookupuser-realname' => '真实姓名：$1',
 	'lookupuser-registration' => '注册日期：$1',
+	'lookupuser-no-registration' => '不记录',
+	'lookupuser-touched' => '最后触及的用户记录：$1',
 	'lookupuser-info-authenticated' => '电子邮件验证：$1',
+	'lookupuser-useroptions' => '用户选项：',
 	'right-lookupuser' => '查看用户设置',
 );
 
