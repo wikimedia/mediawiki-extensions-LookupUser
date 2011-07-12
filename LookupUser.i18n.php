@@ -989,6 +989,7 @@ $messages['mr'] = array(
 );
 
 /** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
  * @author Aviator
  */
 $messages['ms'] = array(
@@ -1004,8 +1005,10 @@ $messages['ms'] = array(
 	'lookupuser-realname' => 'Nama sebenar: $1',
 	'lookupuser-registration' => 'Tarikh pendaftaran: $1',
 	'lookupuser-no-registration' => 'tidak direkodkan',
+	'lookupuser-touched' => 'Kali terakhir rekod pengguna disentuh: $1',
 	'lookupuser-info-authenticated' => 'Pengesahan e-mel: $1',
 	'lookupuser-useroptions' => 'Pilihan pengguna:',
+	'right-lookupuser' => 'Mencari keutamaan pengguna',
 );
 
 /** Erzya (Эрзянь)
