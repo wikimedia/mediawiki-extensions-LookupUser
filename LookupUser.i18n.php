@@ -276,6 +276,7 @@ $messages['cy'] = array(
  * @author Kghbln
  * @author LWChris
  * @author Melancholie
+ * @author SVG
  * @author Umherirrender
  */
 $messages['de'] = array(
@@ -294,7 +295,7 @@ $messages['de'] = array(
 	'lookupuser-touched' => 'Benutzerkonto zuletzt berührt: $1',
 	'lookupuser-info-authenticated' => 'E-Mail-Bestätigung: $1',
 	'lookupuser-useroptions' => 'Einstellungen des Benutzerkontos:',
-	'right-lookupuser' => 'Benutzereinstellungen anderer Benutzer sehen',
+	'right-lookupuser' => 'Benutzereinstellungen anderer Benutzer einsehen',
 );
 
 /** German (formal address) (‪Deutsch (Sie-Form)‬)
