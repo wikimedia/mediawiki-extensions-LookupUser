@@ -133,6 +133,11 @@ $specialPageAliases['tr'] = array(
 	'LookupUser' => array( 'KullanıcıAra' ),
 );
 
+/** Traditional Chinese (‪中文(繁體)‬) */
+$specialPageAliases['zh-hant'] = array(
+	'LookupUser' => array( '找尋用戶' ),
+);
+
 /**
  * For backwards compatibility with MediaWiki 1.15 and earlier.
  */
