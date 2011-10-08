@@ -42,7 +42,8 @@ class LookupUserPage extends SpecialPage {
 		$this->showForm( $target );
 
 		if ( $target ) {
-			$this->showInfo( $target );
+			$emailUser = $wgRequest->getText( 'email_user' );
+			$this->showInfo( $target, $emailUser );
 		}
 	}
 
@@ -59,7 +60,7 @@ class LookupUserPage extends SpecialPage {
 		$username = wfMsg( 'username' );
 		$inputformtop = wfMsg( 'lookupuser' );
 
-		$wgOut->addWikiMsg('lookupuser-intro');
+		$wgOut->addWikiMsg( 'lookupuser-intro' );
 
 		$wgOut->addHTML( <<<EOT
 <fieldset>
@@ -82,13 +83,81 @@ EOT
 	/**
 	 * Retrieves and shows the gathered info to the user
 	 * @param $target Mixed: user whose info we're looking up
+	 * @param $emailUser String: e-mail address (like example@example.com)
 	 */
-	function showInfo( $target ) {
-		global $wgOut, $wgLang;
-		$user = User::newFromName( $target );
+	function showInfo( $target, $emailUser = '' ) {
+		global $wgOut, $wgLang, $wgScript;
+
+		$count = 0;
+		$users = array();
+		$userTarget = '';
+
+		// Look for @ in username
+		if( strpos( $target, '@' ) !== false ) {
+			// Find username by email
+			$emailUser = htmlspecialchars( $emailUser );
+			$dbr = wfGetDB( DB_SLAVE );
+
+			$res = $dbr->select(
+				'user',
+				array( 'user_name' ),
+				array( 'user_email' => $target ),
+				__METHOD__
+			);
+
+			$loop = 0;
+			foreach( $res as $row ) {
+				if( $loop === 0 ) {
+					$userTarget = $row->user_name;
+				}
+				if( !empty( $emailUser ) && ( $emailUser == $row->user_name ) ) {
+					$userTarget = $emailUser;
+				}
+				$users[] = $row->user_name;
+				$loop++;
+			}
+			$count = $loop;
+		}
+
+		$ourUser = ( !empty( $userTarget ) ) ? $userTarget : $target;
+		$user = User::newFromName( $ourUser );
 		if ( $user == null || $user->getId() == 0 ) {
 			$wgOut->addWikiText( '<span class="error">' . wfMsg( 'lookupuser-nonexistent', $target ) . '</span>' );
 		} else {
+			# Multiple matches?
+			if ( $count > 1 ) {
+				$options = array();
+				if( !empty( $users ) && is_array( $users ) ) {
+					foreach( $users as $id => $userName ) {
+						$options[] = Xml::option( $userName, $userName, ( $userName == $userTarget ) );
+					}
+				}
+				$selectForm = "\n" . Xml::openElement( 'select', array( 'id' => 'email_user', 'name' => 'email_user' ) );
+				$selectForm .= "\n" . implode( "\n", $options ) . "\n";
+				$selectForm .= Xml::closeElement( 'select' ) . "\n";
+
+				$wgOut->addHTML(
+					Xml::openElement( 'fieldset' ) . "\n" .
+					Xml::openElement( 'form', array( 'method' => 'get', 'action' => $wgScript ) ) . "\n" .
+					Html::hidden( 'title', $this->getTitle()->getPrefixedText() ) . "\n" .
+					Html::hidden( 'target', $target ) . "\n" .
+					Xml::openElement( 'table', array( 'border' => '0' ) ) . "\n" .
+					Xml::openElement( 'tr' ) . "\n" .
+					Xml::openElement( 'td', array( 'align' => 'right' ) ) .
+					wfMsgHtml( 'lookupuser-foundmoreusers' ) .
+					Xml::closeElement( 'td' ) . "\n" .
+					Xml::openElement( 'td', array( 'align' => 'left' ) ) . "\n" .
+					$selectForm . Xml::closeElement( 'td' ) . "\n" .
+					Xml::openElement( 'td', array( 'colspan' => '2', 'align' => 'center' ) ) .
+					Xml::submitButton( wfMsgHtml( 'go' ) ) .
+					Xml::closeElement( 'td' ) . "\n" .
+					Xml::closeElement( 'tr' ) . "\n" .
+					Xml::closeElement( 'table' ) . "\n" .
+					Xml::closeElement( 'form' ) . "\n" .
+					Xml::closeElement( 'fieldset' )
+				);
+			}
+
 			$authTs = $user->getEmailAuthenticationTimestamp();
 			if ( $authTs ) {
 				$authenticated = wfMsg( 'lookupuser-authenticated', $wgLang->timeanddate( $authTs ) );

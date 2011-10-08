@@ -14,7 +14,7 @@ $messages = array();
 $messages['en'] = array(
 	'lookupuser' => 'Look up user info',
 	'lookupuser-desc' => '[[Special:LookupUser|Retrieve information]] about a user such as e-mail address and ID',
-	'lookupuser-intro' => 'Enter a username to view the preferences of that user.',
+	'lookupuser-intro' => 'Enter a username to view the preferences of that user. E-mail address can also be used, and will show all accounts using that email.',
 	'lookupuser-nonexistent' => 'Error: User does not exist',
 	'lookupuser-authenticated' => 'authenticated on $1',
 	'lookupuser-not-authenticated' => 'not authenticated',
@@ -27,6 +27,7 @@ $messages['en'] = array(
 	'lookupuser-touched' => 'User record last touched: $1',
 	'lookupuser-info-authenticated' => 'E-mail authentication: $1',
 	'lookupuser-useroptions' => 'User options:',
+	'lookupuser-foundmoreusers' => 'Found more than one user:',
 	'right-lookupuser' => 'Look up user preferences',
 );
 
