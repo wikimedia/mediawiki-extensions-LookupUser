@@ -36,12 +36,13 @@ $messages['en'] = array(
  * @author Fryed-peach
  * @author Purodha
  * @author The Evil IP address
+ * @author Umherirrender
  */
 $messages['qqq'] = array(
 	'lookupuser-desc' => '{{desc}}',
 	'lookupuser-id' => '{{Identical|User ID}}',
 	'lookupuser-no-email' => '{{Identical|Notprovided}}',
-	'right-lookupuser' => '{{doc-right}}',
+	'right-lookupuser' => '{{doc-right|lookupuser}}',
 );
 
 /** Afrikaans (Afrikaans)
@@ -282,20 +283,21 @@ $messages['cy'] = array(
  */
 $messages['de'] = array(
 	'lookupuser' => 'Benutzerinformationen einsehen',
-	'lookupuser-desc' => '[[Special:LookupUser|Informationen]] über Benutzer erhalten wie E-Mail-Adresse und ID',
-	'lookupuser-intro' => 'Gib einen Benutzernamen ein, um dir die persönlichen Einstellungen eines Benutzers anzusehen.',
+	'lookupuser-desc' => 'Ergänzt eine [[Special:LookupUser|Spezialseite]] mit der Informationen zu einem Benutzer eingesehen werden können',
+	'lookupuser-intro' => 'Bitte einen Benutzernamen angeben, um die persönlichen Einstellungen des zugehörigen Benutzers anzusehen. Es kann auch eine E-Mail-Adresse angegeben werden, wobei dann alle Benutzerkonten angezeigt werden, die diese E-Mail-Adresse nutzen.',
 	'lookupuser-nonexistent' => 'Fehler: Benutzer nicht vorhanden',
 	'lookupuser-authenticated' => 'E-Mail-Bestätigung: $1',
 	'lookupuser-not-authenticated' => 'nicht bestätigt',
 	'lookupuser-id' => 'Benutzerkennung: <tt>#$1</tt>',
-	'lookupuser-email' => 'E-Mail: [[Special:EmailUser/$2|$1]]',
+	'lookupuser-email' => 'E-Mail-Adresse: [[Special:EmailUser/$2|$1]]',
 	'lookupuser-no-email' => 'nicht angegeben',
-	'lookupuser-realname' => 'Tatsächlicher Name: $1',
+	'lookupuser-realname' => 'Bürgerlicher Name: $1',
 	'lookupuser-registration' => 'Datum der Registrierung: $1',
 	'lookupuser-no-registration' => 'nicht verzeichnet',
-	'lookupuser-touched' => 'Benutzerkonto zuletzt berührt: $1',
+	'lookupuser-touched' => 'Letzte Aktualisierung der Benutzerdaten: $1',
 	'lookupuser-info-authenticated' => 'E-Mail-Bestätigung: $1',
 	'lookupuser-useroptions' => 'Einstellungen des Benutzerkontos:',
+	'lookupuser-foundmoreusers' => 'Es wurde mehr als ein Benutzer gefunden:',
 	'right-lookupuser' => 'Benutzereinstellungen anderer Benutzer einsehen',
 );
 
@@ -516,8 +518,8 @@ $messages['frp'] = array(
 $messages['gl'] = array(
 	'lookupuser' => 'Consultar a información do usuario',
 	'lookupuser-desc' => '[[Special:LookupUser|Recuperar información]] sobre un usuario como o enderezo de correo electrónico e o ID',
-	'lookupuser-intro' => 'Introduza un nome de usuario para ver as preferencias dese usuario.',
-	'lookupuser-nonexistent' => 'Erro: ese usuario non existe',
+	'lookupuser-intro' => 'Introduza un nome de usuario para ver as preferencias dese usuario. Tamén se poden usar enderezos de correo electrónico e aparecerán todas as contas que empregan ese enderezo.',
+	'lookupuser-nonexistent' => 'Erro: O usuario non existe',
 	'lookupuser-authenticated' => 'autenticado o $1',
 	'lookupuser-not-authenticated' => 'sen autenticar',
 	'lookupuser-id' => 'ID do usuario: <tt>nº$1</tt>',
@@ -529,6 +531,7 @@ $messages['gl'] = array(
 	'lookupuser-touched' => 'Rexistro do usuario tocado por última vez: $1',
 	'lookupuser-info-authenticated' => 'Autenticación por correo electrónico: $1',
 	'lookupuser-useroptions' => 'Opcións do usuario:',
+	'lookupuser-foundmoreusers' => 'Atopouse máis dun usuario:',
 	'right-lookupuser' => 'Consultar as preferencias dun usuario',
 );
 
@@ -679,7 +682,7 @@ $messages['hu'] = array(
 $messages['ia'] = array(
 	'lookupuser' => 'Cercar info de usator',
 	'lookupuser-desc' => '[[Special:LookupUser|Recupera informationes]] super un usator como adresse de e-mail e numero de ID',
-	'lookupuser-intro' => 'Entra un nomine de usator pro vider le preferentias de ille usator.',
+	'lookupuser-intro' => 'Entra un nomine de usator pro vider le preferentias de ille usator. Un adresse de e-mail pote anque esser usate, e monstrara tote le contos que usa ille adresse.',
 	'lookupuser-nonexistent' => 'Error: Usator non existe',
 	'lookupuser-authenticated' => 'Authentication de e-mail: $1',
 	'lookupuser-not-authenticated' => 'non authenticate',
@@ -692,6 +695,7 @@ $messages['ia'] = array(
 	'lookupuser-touched' => 'Ultime alteration del informationes del usator: $1',
 	'lookupuser-info-authenticated' => 'Authentication de e-mail: $1',
 	'lookupuser-useroptions' => 'Optiones del usator:',
+	'lookupuser-foundmoreusers' => 'Plure usatores trovate:',
 	'right-lookupuser' => 'Consultar preferentias de usatores',
 );
 
@@ -929,7 +933,7 @@ $messages['lv'] = array(
 $messages['mk'] = array(
 	'lookupuser' => 'Провери кориснички информации',
 	'lookupuser-desc' => '[[Special:LookupUser|Проверка на информации]] за корисник како е-поштенска адреса и ид. бр.',
-	'lookupuser-intro' => 'Внесете корисничко име за да ги видите нагодувањата на тој корисник.',
+	'lookupuser-intro' => 'Внесете корисничко име за да ги видите нагодувањата на тој корисник. Можете да употребите и е-пошта. Со тоа ќе се покажат сите сметки што ја користат таа е-поштенска адреса.',
 	'lookupuser-nonexistent' => 'Грешка: Таков корисник не постои',
 	'lookupuser-authenticated' => 'потврден на $1',
 	'lookupuser-not-authenticated' => 'непотврден',
@@ -942,6 +946,7 @@ $messages['mk'] = array(
 	'lookupuser-touched' => 'Последна измена во записите на корисникот: $1',
 	'lookupuser-info-authenticated' => 'Потврда по е-пошта: $1',
 	'lookupuser-useroptions' => 'Кориснички прилагодувања:',
+	'lookupuser-foundmoreusers' => 'Пронајдов повеќе од еден корисник:',
 	'right-lookupuser' => 'Проверка на кориснички нагодувања',
 );
 
