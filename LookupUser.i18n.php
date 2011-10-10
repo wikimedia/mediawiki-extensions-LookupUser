@@ -474,7 +474,7 @@ $messages['fi'] = array(
 $messages['fr'] = array(
 	'lookupuser' => 'Parcourir les informations de l’usager',
 	'lookupuser-desc' => 'Extrait les informations concernant un utilisateur telles qu’une adresse électronique et le numéro ID',
-	'lookupuser-intro' => 'Saisir un nom d’utilisateur pour voir ses préférences',
+	'lookupuser-intro' => 'Entrez un nom d’utilisateur pour afficher ses préférences. Une adresse de courriel peut également être utilisée et affichera tous les comptes qui utilisent cette adresse.',
 	'lookupuser-nonexistent' => 'Erreur : l’utilisateur n’existe pas',
 	'lookupuser-authenticated' => 'Courriel d’identification : $1',
 	'lookupuser-not-authenticated' => 'pas identifié',
@@ -487,6 +487,7 @@ $messages['fr'] = array(
 	'lookupuser-touched' => 'Enregistrement de l’utilisateur touché pour la dernière fois : $1',
 	'lookupuser-info-authenticated' => 'Authentification du courriel : $1',
 	'lookupuser-useroptions' => 'Options de l’utilisateur :',
+	'lookupuser-foundmoreusers' => "Plus d'un utilisateur trouvé :",
 	'right-lookupuser' => 'Visionner les préférences des utilisateurs',
 );
 
@@ -855,7 +856,7 @@ $messages['ksh'] = array(
 $messages['lb'] = array(
 	'lookupuser' => 'Benotzerinformatiounen nokucken',
 	'lookupuser-desc' => '[[Special:LookupUser|Informatioune vun engem Benotzer kréien]] wéi seng E-Mailadress a seng Idendifikatiounsnummer (ID)',
-	'lookupuser-intro' => "Gitt e Benotzernumm an fir d'Astellungen vun dem Benotzer ze kucken.",
+	'lookupuser-intro' => "Gitt e Benotzernumm a fir d'Astellunge vum Benotzer ze kucken. D'Mailadress kann och benotzt ginn a weist all Benotzerkonten déi déi Mailadress benotzen.",
 	'lookupuser-nonexistent' => 'Feeler: De Benotzer gëtt et net',
 	'lookupuser-authenticated' => 'E-Mail-Confirmatioun: $1',
 	'lookupuser-not-authenticated' => 'net identifizéiert',
