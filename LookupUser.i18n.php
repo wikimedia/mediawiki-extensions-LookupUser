@@ -1003,7 +1003,7 @@ $messages['mr'] = array(
 $messages['ms'] = array(
 	'lookupuser' => 'Dapatkan maklumat pengguna',
 	'lookupuser-desc' => '[[Special:LookupUser|Dapatkan maklumat]] mengenai seseorang pengguna sepreti alamat e-mel dan ID',
-	'lookupuser-intro' => 'Masukkan nama pengguna untuk melihat keutamaannya.',
+	'lookupuser-intro' => 'Isikan satu nama pengguna untuk melihat keutamaannya. Alamat e-mel juga boleh digunakan, dan akan memaparkan semua akaun yang menggunakan e-mel itu.',
 	'lookupuser-nonexistent' => 'Ralat: Pengguna tidak wujud',
 	'lookupuser-authenticated' => 'Pengesahan e-mel: $1',
 	'lookupuser-not-authenticated' => 'belum disahkan',
@@ -1016,6 +1016,7 @@ $messages['ms'] = array(
 	'lookupuser-touched' => 'Kali terakhir rekod pengguna disentuh: $1',
 	'lookupuser-info-authenticated' => 'Pengesahan e-mel: $1',
 	'lookupuser-useroptions' => 'Pilihan pengguna:',
+	'lookupuser-foundmoreusers' => 'Lebih seorang pengguna dijumpai:',
 	'right-lookupuser' => 'Mencari keutamaan pengguna',
 );
 
@@ -1056,6 +1057,7 @@ $messages['nl'] = array(
 	'lookupuser-touched' => 'Gebruikersvoorkeuren laatst gewijzigd: $1',
 	'lookupuser-info-authenticated' => 'E-mailbevestiging: $1',
 	'lookupuser-useroptions' => 'Gebruikersopties:',
+	'lookupuser-foundmoreusers' => 'Meer dan één gebruiker gevonden:',
 	'right-lookupuser' => 'Gebruikersvoorkeuren bekijken',
 );
 
