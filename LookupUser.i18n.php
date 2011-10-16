@@ -537,12 +537,13 @@ $messages['gl'] = array(
 );
 
 /** Swiss German (Alemannisch)
+ * @author Als-Chlämens
  * @author Als-Holder
  */
 $messages['gsw'] = array(
 	'lookupuser' => 'Benutzerinformatione aaluege',
 	'lookupuser-desc' => '[[Special:LookupUser|Informatione]] iber Benutzer iberchu, z. B. E-Mail-Adräss oder ID.',
-	'lookupuser-intro' => 'Gib e Benutzername yy, go di persenlige Yystellige vu däm Benutzer aaluege.',
+	'lookupuser-intro' => 'Gib e Benutzername yy, go di persenlige Yystellige vu däm Benutzer aaluege. Es cha au e E-Mail-Adräss aagee werde, wo deno alli Chonte aazeigt, wo die E-Mail-Adräss bruuche.',
 	'lookupuser-nonexistent' => 'Fähler: Benutzer git s nit',
 	'lookupuser-authenticated' => 'E-Mail-Bstätigung: $1',
 	'lookupuser-not-authenticated' => 'nit bstätigt',
@@ -555,6 +556,7 @@ $messages['gsw'] = array(
 	'lookupuser-touched' => 'Benutzerkonto s letscht Mol aaglängt: $1',
 	'lookupuser-info-authenticated' => 'E-Mail-Bstätigung: $1',
 	'lookupuser-useroptions' => 'Yystellige vum Benutzerkonto:',
+	'lookupuser-foundmoreusers' => 'Es isch mee wie ei Benutzer gfunde worde:',
 	'right-lookupuser' => 'Suech no Benutzer Yystellige',
 );
 
@@ -1044,7 +1046,7 @@ $messages['nah'] = array(
 $messages['nl'] = array(
 	'lookupuser' => 'Gebruikersinformatie opzoeken',
 	'lookupuser-desc' => '[[Special:LookupUser|Informatie inzien]] van een gebruiker, zoals e-mailadres en gebruikersnummer',
-	'lookupuser-intro' => 'Geef een gebruikersnaam in om de voorkeuren van die gebruiker te bekijken.',
+	'lookupuser-intro' => 'Geef een gebruikersnaam in om de voorkeuren van die gebruiker te bekijken. Een e-mailadres kan ook gebruikt worden, en zal alle gebruikers die dat e-mailadres gebruiken weergeven.',
 	'lookupuser-nonexistent' => 'Fout: Gebruiker bestaat niet',
 	'lookupuser-authenticated' => 'E-mailbevestiging: $1',
 	'lookupuser-not-authenticated' => 'niet bevestigd',
