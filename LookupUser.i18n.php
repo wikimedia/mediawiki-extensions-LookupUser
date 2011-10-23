@@ -184,7 +184,7 @@ $messages['bn'] = array(
 $messages['br'] = array(
 	'lookupuser' => 'Sellet ouzh titouroù an implijer',
 	'lookupuser-desc' => "[[Special:LookupUser|Adpakañ a ra an titouroù]] a denn d'un implijer bennak evel ar chomlec'h postel hag an niverenn ID",
-	'lookupuser-intro' => 'Merkaén un anv implijer da sellet ouzh e benndibaboù.',
+	'lookupuser-intro' => "Merkañ un anv implijer da sellet ouzh e benndibaboù. Gallout a reer implijout ur chomlec'h postel ivez; diskouez a raio an holl gontoù stag ouzh ar postel-se.",
 	'lookupuser-nonexistent' => "Fazi : n'eus ket eus an implijer-mañ",
 	'lookupuser-authenticated' => 'Aotreet e $1',
 	'lookupuser-not-authenticated' => "n'eo ket aotreet",
@@ -871,6 +871,7 @@ $messages['lb'] = array(
 	'lookupuser-touched' => "Benotzerkont de fir d'lescht beréiert gouf: $1",
 	'lookupuser-info-authenticated' => 'E-Mail Authentifikatioun: $1',
 	'lookupuser-useroptions' => 'Astellunge vum Benotzer:',
+	'lookupuser-foundmoreusers' => 'Méi wéi ee Benotzer fonnt:',
 	'right-lookupuser' => 'Benotzerastellungen nokucken',
 );
 
