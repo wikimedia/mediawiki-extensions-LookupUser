@@ -301,14 +301,6 @@ $messages['de'] = array(
 	'right-lookupuser' => 'Benutzereinstellungen anderer Benutzer einsehen',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
- * @author LWChris
- * @author Raimond Spekking
- */
-$messages['de-formal'] = array(
-	'lookupuser-intro' => 'Geben Sie einen Benutzernamen ein, um die persönlichen Einstellungen des Benutzers anzusehen.',
-);
-
 /** Lower Sorbian (Dolnoserbski)
  * @author Michawiki
  */
