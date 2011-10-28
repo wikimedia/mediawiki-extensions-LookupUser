@@ -631,7 +631,7 @@ $messages['hr'] = array(
 $messages['hsb'] = array(
 	'lookupuser' => 'Wužiwarske informacije sej wobhladać',
 	'lookupuser-desc' => '[[Special:LookupUser|Informacije wo wužiwarja wotwołać]], na přikład e-mejlowu adresu a ID',
-	'lookupuser-intro' => 'Zapodaj wužiwarske mjeno, zo by nastajenja toho wužiwarja wobhladował.',
+	'lookupuser-intro' => 'Zapodaj wužiwarske mjeno, zo by nastajenja toho wužiwarja wobhladał. E-mejlowa adresa móže so tež wužiwać a budźe wšě konta pokazować, kotrež tutu e-mejlowu adresu wužiwaja.',
 	'lookupuser-nonexistent' => 'Zmylk: Wužiwar njeeksistuje',
 	'lookupuser-authenticated' => 'E-mejlowe awtentizowanje: $1',
 	'lookupuser-not-authenticated' => 'njeawtentizowany',
@@ -1130,11 +1130,12 @@ $messages['oc'] = array(
  * @author Maikking
  * @author McMonster
  * @author Sp5uhe
+ * @author Woytecr
  */
 $messages['pl'] = array(
 	'lookupuser' => 'Wyszukiwanie informacji o użytkowniku',
 	'lookupuser-desc' => '[[Special:LookupUser|Pobierz informacje]] dotyczące użytkownika, takie jak adres e‐mail i ID',
-	'lookupuser-intro' => 'Wprowadź nazwę użytkownika, żeby zobaczyć jego preferencje.',
+	'lookupuser-intro' => 'Wprowadź nazwę użytkownika, aby zobaczyć jego preferencje. Można też podać adres e-mail co spowoduje pokazanie wszystkich kont z niego korzystających.',
 	'lookupuser-nonexistent' => 'Błąd: użytkownik nie istnieje',
 	'lookupuser-authenticated' => 'uwierzytelniono $1',
 	'lookupuser-not-authenticated' => 'nie uwierzytelnione',
@@ -1147,6 +1148,7 @@ $messages['pl'] = array(
 	'lookupuser-touched' => 'Ostatnią aktywność użytkownika zanotowano $1',
 	'lookupuser-info-authenticated' => 'Uwierzytelnienie e‐mailem: $1',
 	'lookupuser-useroptions' => 'Opcje użytkownika:',
+	'lookupuser-foundmoreusers' => 'Znaleziono więcej niż jednego użytkownika:',
 	'right-lookupuser' => 'Przeglądanie ustawień preferencji użytkowników',
 );
 
