@@ -1135,7 +1135,7 @@ $messages['oc'] = array(
 $messages['pl'] = array(
 	'lookupuser' => 'Wyszukiwanie informacji o użytkowniku',
 	'lookupuser-desc' => '[[Special:LookupUser|Pobierz informacje]] dotyczące użytkownika, takie jak adres e‐mail i ID',
-	'lookupuser-intro' => 'Wprowadź nazwę użytkownika, aby zobaczyć jego preferencje. Można też podać adres e-mail co spowoduje pokazanie wszystkich kont z niego korzystających.',
+	'lookupuser-intro' => 'Wprowadź nazwę użytkownika, aby zobaczyć ustawienia jego preferencji. Możesz również podać adres e‐mail co spowoduje wyświetlenie wszystkich kont do niego przypisanych.',
 	'lookupuser-nonexistent' => 'Błąd: użytkownik nie istnieje',
 	'lookupuser-authenticated' => 'uwierzytelniono $1',
 	'lookupuser-not-authenticated' => 'nie uwierzytelnione',
@@ -1148,7 +1148,7 @@ $messages['pl'] = array(
 	'lookupuser-touched' => 'Ostatnią aktywność użytkownika zanotowano $1',
 	'lookupuser-info-authenticated' => 'Uwierzytelnienie e‐mailem: $1',
 	'lookupuser-useroptions' => 'Opcje użytkownika:',
-	'lookupuser-foundmoreusers' => 'Znaleziono więcej niż jednego użytkownika:',
+	'lookupuser-foundmoreusers' => 'Odnaleziono więcej niż jednego użytkownika:',
 	'right-lookupuser' => 'Przeglądanie ustawień preferencji użytkowników',
 );
 
