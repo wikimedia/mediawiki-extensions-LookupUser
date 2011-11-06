@@ -827,7 +827,8 @@ $messages['ko'] = array(
 $messages['ksh'] = array(
 	'lookupuser' => 'Metmaacher-Enfommazjuhne zeije',
 	'lookupuser-desc' => 'Donn [[Special:LookupUser|Enfommazjuhne övver ene Metmaacher]] aanzeije, esu jet wi de <i lang="en">e-mail</i> Address udder Metmacher-Nommer.',
-	'lookupuser-intro' => 'Jiv enem Metmaacher singe Name aan, öm der däm sing Enstellunge zeije ze lohße.',
+	'lookupuser-intro' => 'JJivv enem Metmaacher singe Name aan, öm däm sing Enstellunge aanzeije ze lohße.
+Jivv en Addräß för de <i lang="en">e-mail<i> aan, öm all de Metmaachere annzeije ze lohße, di di Addräß för de <i lang="en">e-mail<i> aanjejovve han.',
 	'lookupuser-nonexistent' => 'Fähler, esu ene Metmaacher kenne mer nit',
 	'lookupuser-authenticated' => 'E-mail bestätich: $1',
 	'lookupuser-not-authenticated' => '–unbestätich–',
@@ -840,6 +841,7 @@ $messages['ksh'] = array(
 	'lookupuser-touched' => 'Letz Änderung am Metmaacher-Datesatz: $1',
 	'lookupuser-info-authenticated' => 'Bestätesch övver <i lang="en">e-mail</i>: $1',
 	'lookupuser-useroptions' => 'Enstellunge:',
+	'lookupuser-foundmoreusers' => 'Mer han mieh wi eine Metmaacher jefonge:',
 	'right-lookupuser' => 'Enem Metmaacher sing Enstellunge aankike',
 );
 
