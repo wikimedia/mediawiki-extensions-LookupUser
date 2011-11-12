@@ -197,6 +197,7 @@ $messages['br'] = array(
 	'lookupuser-touched' => 'Enrolladenn an implijer bet tizhet da ziwezhañ : $1',
 	'lookupuser-info-authenticated' => 'Gwiriañ ar postel : $1',
 	'lookupuser-useroptions' => 'Dibarzhioù an implijer :',
+	'lookupuser-foundmoreusers' => 'Kavet ez eus bet meur a implijer :',
 	'right-lookupuser' => 'Sellet ouzh ar penndibaboù implijout',
 );
 
