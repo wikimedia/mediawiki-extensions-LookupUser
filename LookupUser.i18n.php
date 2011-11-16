@@ -645,6 +645,7 @@ $messages['hsb'] = array(
 	'lookupuser-touched' => 'Posledni přistup na wužiwarske daty: $1',
 	'lookupuser-info-authenticated' => 'E-mejlowa awtentifikacija: $1',
 	'lookupuser-useroptions' => 'Wužiwarske opcije:',
+	'lookupuser-foundmoreusers' => 'Je so wjace hač jedyn wužiwar namakał:',
 	'right-lookupuser' => 'Wužiwarske nastajenja sej wobhladać',
 );
 
