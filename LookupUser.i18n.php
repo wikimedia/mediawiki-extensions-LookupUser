@@ -441,12 +441,12 @@ $messages['fa'] = array(
  */
 $messages['fi'] = array(
 	'lookupuser' => 'Katso käyttäjän tiedot',
-	'lookupuser-desc' => '[[Special:LookupUser|Hakee tietoja]] käyttäjästä, kuten sähköpostiosoitteen ja tunnuksen.',
+	'lookupuser-desc' => '[[Special:LookupUser|Hakee tietoja]] käyttäjästä, kuten sähköpostiosoitteen ja tunnisteen.',
 	'lookupuser-intro' => 'Anna käyttäjätunnus, jonka asetukset haluat nähdä.',
-	'lookupuser-nonexistent' => 'Virhe: Tunnusta ei ole olemassa',
+	'lookupuser-nonexistent' => 'Virhe: Käyttäjää ei ole olemassa',
 	'lookupuser-authenticated' => 'tunnistettu osoite $1',
 	'lookupuser-not-authenticated' => 'ei tunnistettu',
-	'lookupuser-id' => 'Käyttäjätunnus: <tt>#$1</tt>',
+	'lookupuser-id' => 'Käyttäjätunniste: <tt>#$1</tt>',
 	'lookupuser-email' => 'Sähköposti: [[Special:EmailUser/$2|$1]]',
 	'lookupuser-no-email' => 'ei annettu',
 	'lookupuser-realname' => 'Oikea nimi: $1',
