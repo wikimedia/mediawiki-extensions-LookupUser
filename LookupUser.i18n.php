@@ -1353,7 +1353,7 @@ $messages['sli'] = array(
 	'lookupuser-realname' => 'Wirklicher Noame: $1',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Михајло Анђелковић
  * @author Обрадовић Горан
  */
@@ -1372,7 +1372,7 @@ $messages['sr-ec'] = array(
 	'lookupuser-useroptions' => 'Корисничке опције:',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -1456,7 +1456,7 @@ $messages['te'] = array(
 	'lookupuser-useroptions' => 'వాడుకరి ఎంపికలు:',
 );
 
-/** Tajik (Cyrillic) (Тоҷикӣ (Cyrillic))
+/** Tajik (Cyrillic script) (Тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -1467,7 +1467,7 @@ $messages['tg-cyrl'] = array(
 	'lookupuser-registration' => 'Таърихи сабти ном: $1',
 );
 
-/** Tajik (Latin) (Тоҷикӣ (Latin))
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
