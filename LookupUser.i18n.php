@@ -35,13 +35,27 @@ $messages['en'] = array(
  * @author Bennylin
  * @author Fryed-peach
  * @author Purodha
+ * @author SVG
  * @author The Evil IP address
  * @author Umherirrender
  */
 $messages['qqq'] = array(
+	'lookupuser' => 'Name of Special:LookupUser in Special:SpecialPages and title of Special:LookupUser page',
 	'lookupuser-desc' => '{{desc}}',
+	'lookupuser-intro' => 'Short howto use introduction',
+	'lookupuser-nonexistent' => 'Error message which shown when selected user does not exist',
+	'lookupuser-authenticated' => '{{Identical|emailauthenticated}}',
+	'lookupuser-not-authenticated' => '{{Identical|emailnotauthenticated}}',
 	'lookupuser-id' => '{{Identical|User ID}}',
+	'lookupuser-email' => 'Link to Special:EmailUser/Addressee',
 	'lookupuser-no-email' => '{{Identical|Notprovided}}',
+	'lookupuser-realname' => 'Real name of the selected user',
+	'lookupuser-registration' => '{{Identical|prefs-registration}}, {{Identical|prefs-registration-date-time}}',
+	'lookupuser-no-registration' => 'If no registration date about the selected user is available',
+	'lookupuser-touched' => 'Date of user’s last login',
+	'lookupuser-info-authenticated' => 'E-mail authentication date and time',
+	'lookupuser-useroptions' => 'User’s options',
+	'lookupuser-foundmoreusers' => 'Message which will be shown when more than one user is found',
 	'right-lookupuser' => '{{doc-right|lookupuser}}',
 );
 
