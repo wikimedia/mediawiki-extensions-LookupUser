@@ -1370,6 +1370,7 @@ $messages['sli'] = array(
 );
 
 /** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+ * @author Rancher
  * @author Михајло Анђелковић
  * @author Обрадовић Горан
  */
@@ -1379,7 +1380,7 @@ $messages['sr-ec'] = array(
 	'lookupuser-authenticated' => 'ауторизација на $1',
 	'lookupuser-not-authenticated' => 'није ауторизовано',
 	'lookupuser-id' => 'Кориснички ID: <tt>#$1</tt>',
-	'lookupuser-email' => 'Имејл: [[Special:EmailUser/$2|$1]]',
+	'lookupuser-email' => 'Е-пошта: [[Special:EmailUser/$2|$1]]',
 	'lookupuser-no-email' => 'није приложено',
 	'lookupuser-realname' => 'Право име: $1',
 	'lookupuser-registration' => 'Датум регистрације: $1',
