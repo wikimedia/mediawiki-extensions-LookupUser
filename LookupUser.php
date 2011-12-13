@@ -21,7 +21,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'name' => 'Lookup User',
 	'version' => '1.2',
 	'author' => 'Tim Starling',
-	'url' => 'http://www.mediawiki.org/wiki/Extension:LookupUser',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:LookupUser',
 	'descriptionmsg' => 'lookupuser-desc',
 );
 
