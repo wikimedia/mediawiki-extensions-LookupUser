@@ -1051,6 +1051,29 @@ $messages['nah'] = array(
 	'lookupuser-realname' => 'Melāhuac tōcāitl: $1',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ * @author Laaknor
+ */
+$messages['nb'] = array(
+	'lookupuser' => 'Finn brukerinformasjon',
+	'lookupuser-desc' => '[[Special:LookupUser|Innhent informasjon]] om en bruker, som f.eks. e-postadresse og ID',
+	'lookupuser-intro' => 'Skriv inn et brukernavn for å vise brukerens innstillinger.',
+	'lookupuser-nonexistent' => 'Feil: Brukeren eksisterer ikke',
+	'lookupuser-authenticated' => 'E-postbekrefting: $1',
+	'lookupuser-not-authenticated' => 'ikke bekreftet',
+	'lookupuser-id' => 'Bruker-ID: <tt>#$1</tt>',
+	'lookupuser-email' => 'E-post: [[Special:EmailUser/$2|$1]]',
+	'lookupuser-no-email' => 'ikke oppgitt',
+	'lookupuser-realname' => 'Virkelig navn: $1',
+	'lookupuser-registration' => 'Registrasjonsdato: $1',
+	'lookupuser-no-registration' => 'ikke lagret',
+	'lookupuser-touched' => 'Innstillinger sist endret: $1',
+	'lookupuser-info-authenticated' => 'E-postverifisering: $1',
+	'lookupuser-useroptions' => 'Brukervalg:',
+	'right-lookupuser' => 'Se brukerinnstillinger',
+);
+
 /** Dutch (Nederlands)
  * @author McDutchie
  * @author SPQRobin
@@ -1097,29 +1120,6 @@ $messages['nn'] = array(
 	'lookupuser-info-authenticated' => 'E-postverifisering: $1',
 	'lookupuser-useroptions' => 'Brukarval:',
 	'right-lookupuser' => 'Sjå brukarinnstillingar',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- * @author Laaknor
- */
-$messages['nb'] = array(
-	'lookupuser' => 'Finn brukerinformasjon',
-	'lookupuser-desc' => '[[Special:LookupUser|Innhent informasjon]] om en bruker, som f.eks. e-postadresse og ID',
-	'lookupuser-intro' => 'Skriv inn et brukernavn for å vise brukerens innstillinger.',
-	'lookupuser-nonexistent' => 'Feil: Brukeren eksisterer ikke',
-	'lookupuser-authenticated' => 'E-postbekrefting: $1',
-	'lookupuser-not-authenticated' => 'ikke bekreftet',
-	'lookupuser-id' => 'Bruker-ID: <tt>#$1</tt>',
-	'lookupuser-email' => 'E-post: [[Special:EmailUser/$2|$1]]',
-	'lookupuser-no-email' => 'ikke oppgitt',
-	'lookupuser-realname' => 'Virkelig navn: $1',
-	'lookupuser-registration' => 'Registrasjonsdato: $1',
-	'lookupuser-no-registration' => 'ikke lagret',
-	'lookupuser-touched' => 'Innstillinger sist endret: $1',
-	'lookupuser-info-authenticated' => 'E-postverifisering: $1',
-	'lookupuser-useroptions' => 'Brukervalg:',
-	'right-lookupuser' => 'Se brukerinnstillinger',
 );
 
 /** Occitan (Occitan)
@@ -1283,6 +1283,7 @@ $messages['roa-tara'] = array(
 
 /** Russian (Русский)
  * @author Adata80
+ * @author Eleferen
  * @author Kaganer
  * @author Александр Сигачёв
  */
@@ -1302,6 +1303,7 @@ $messages['ru'] = array(
 	'lookupuser-touched' => 'Последнее обновление записи участника: $1',
 	'lookupuser-info-authenticated' => 'Аутентификация по почте: $1',
 	'lookupuser-useroptions' => 'Настройки участника:',
+	'lookupuser-foundmoreusers' => 'Найдено более одного пользователя:',
 	'right-lookupuser' => 'поиск настроек участников',
 );
 
