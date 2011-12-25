@@ -1103,7 +1103,7 @@ $messages['nn'] = array(
  * @author Jon Harald Søby
  * @author Laaknor
  */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'lookupuser' => 'Finn brukerinformasjon',
 	'lookupuser-desc' => '[[Special:LookupUser|Innhent informasjon]] om en bruker, som f.eks. e-postadresse og ID',
 	'lookupuser-intro' => 'Skriv inn et brukernavn for å vise brukerens innstillinger.',
