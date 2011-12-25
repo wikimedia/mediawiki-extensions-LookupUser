@@ -28,6 +28,11 @@ $specialPageAliases['bs'] = array(
 	'LookupUser' => array( 'PronadjiKorisnika' ),
 );
 
+/** German (Deutsch) */
+$specialPageAliases['de'] = array(
+	'LookupUser' => array( 'Benutzerdaten_einsehen' ),
+);
+
 /** Persian (فارسی) */
 $specialPageAliases['fa'] = array(
 	'LookupUser' => array( 'جستجوی_کاربر' ),
@@ -93,6 +98,11 @@ $specialPageAliases['ml'] = array(
 	'LookupUser' => array( 'ഉപയോക്താവിനെനോക്കുക' ),
 );
 
+/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+$specialPageAliases['nb'] = array(
+	'LookupUser' => array( 'Finn_bruker' ),
+);
+
 /** Nedersaksisch (Nedersaksisch) */
 $specialPageAliases['nds-nl'] = array(
 	'LookupUser' => array( 'Gebruker_opzeuken' ),
@@ -103,12 +113,7 @@ $specialPageAliases['nl'] = array(
 	'LookupUser' => array( 'GebruikerOpzoeken' ),
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬) */
-$specialPageAliases['nb'] = array(
-	'LookupUser' => array( 'Finn_bruker' ),
-);
-
-/** Sanskrit (संस्कृत) */
+/** Sanskrit (संस्कृतम्) */
 $specialPageAliases['sa'] = array(
 	'LookupUser' => array( 'योजकपश्यन्तु' ),
 );
@@ -137,8 +142,3 @@ $specialPageAliases['tr'] = array(
 $specialPageAliases['zh-hant'] = array(
 	'LookupUser' => array( '找尋用戶' ),
 );
-
-/**
- * For backwards compatibility with MediaWiki 1.15 and earlier.
- */
-$aliases =& $specialPageAliases;
