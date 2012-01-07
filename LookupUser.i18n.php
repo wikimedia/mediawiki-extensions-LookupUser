@@ -1178,7 +1178,7 @@ $messages['pl'] = array(
 $messages['pms'] = array(
 	'lookupuser' => 'Varda anformassion utent',
 	'lookupuser-desc' => "[[Special:LookupUser|Treuva anformassion]] an s'un utent con st'adrëssa e-mail e ID-sì",
-	'lookupuser-intro' => 'Anseriss un nòm utent për vëdde im "mè gust" ëd col utent.',
+	'lookupuser-intro' => 'Anseriss un nòm utent për vëdde im "mè gust" ëd col utent. N\'adrëssa e-mail a peul ëdcò esse dovrà, e a mosterà tùit ij cont ch\'a dòvro cola e-mail.',
 	'lookupuser-nonexistent' => "Eror: l'utent a esist pa",
 	'lookupuser-authenticated' => 'Autenticà an dzora a $1',
 	'lookupuser-not-authenticated' => 'pa autenticà',
@@ -1191,6 +1191,7 @@ $messages['pms'] = array(
 	'lookupuser-touched' => "Registr ëd l'ùltim click ëd l'utent: $1",
 	'lookupuser-info-authenticated' => 'Autenticassion e-mail: $1',
 	'lookupuser-useroptions' => "Opsion ëd l'utent:",
+	'lookupuser-foundmoreusers' => 'Trovà pi che un utent:',
 	'right-lookupuser' => 'Varda ij "mè gust" ëd l\'utent',
 );
 
