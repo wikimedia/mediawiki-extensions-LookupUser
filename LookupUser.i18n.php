@@ -1173,12 +1173,13 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
 	'lookupuser' => 'Varda anformassion utent',
 	'lookupuser-desc' => "[[Special:LookupUser|Treuva anformassion]] an s'un utent con st'adrëssa e-mail e ID-sì",
-	'lookupuser-intro' => 'Anseriss un nòm utent për vëdde im "mè gust" ëd col utent. N\'adrëssa e-mail a peul ëdcò esse dovrà, e a mosterà tùit ij cont ch\'a dòvro cola e-mail.',
+	'lookupuser-intro' => "Ch'a anserissa në stranòm për vëdde ij gust ëd col utent. N'adrëssa ëd pòsta eletrònica a peul ëdcò esse dovrà, e a smonrà tùit ij cont ch'a deuvro cola adrëssa.",
 	'lookupuser-nonexistent' => "Eror: l'utent a esist pa",
 	'lookupuser-authenticated' => 'Autenticà an dzora a $1',
 	'lookupuser-not-authenticated' => 'pa autenticà',
