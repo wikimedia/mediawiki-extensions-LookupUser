@@ -132,12 +132,13 @@ $messages['arz'] = array(
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
+ * @author Wizardist
  * @author Zedlik
  */
 $messages['be-tarask'] = array(
 	'lookupuser' => 'Пошук зьвестак пра ўдзельніка',
 	'lookupuser-desc' => '[[Special:LookupUser|Атрыманьне зьвестак]] пра удзельнікаў, такіх, як адрас электроннай пошты і ідэнтыфікатар',
-	'lookupuser-intro' => 'Увядзіце імя ўдзельніка каб праглядзець яго налады.',
+	'lookupuser-intro' => 'Увядзіце імя ўдзельніка каб праглядзець яго налады. Можна ўвесьці адрас электроннай пошты — будуць паказаныя ўсе рахункі, якія выкарыстоўваюць гэты адрас.',
 	'lookupuser-nonexistent' => 'Памылка: Удзельнік не існуе',
 	'lookupuser-authenticated' => 'аўтэнтыфікаваны па $1',
 	'lookupuser-not-authenticated' => 'не аўтэнтыфікаваны',
@@ -150,6 +151,7 @@ $messages['be-tarask'] = array(
 	'lookupuser-touched' => 'Апошнія абнаўленьні зьвестак пра удзельніка: $1',
 	'lookupuser-info-authenticated' => 'Аўтэнтыфікацыя электроннай пошты: $1',
 	'lookupuser-useroptions' => 'Налады ўдзельніка:',
+	'lookupuser-foundmoreusers' => 'Знойдзена больш за аднаго ўдзельніка:',
 	'right-lookupuser' => 'пошук зьвестак пра удзельнікаў',
 );
 
@@ -335,6 +337,7 @@ $messages['dsb'] = array(
 	'lookupuser-touched' => 'Wužywarske daty slědny raz dotyknjone: $1',
 	'lookupuser-info-authenticated' => 'E-mailowa awtentifikacija: $1',
 	'lookupuser-useroptions' => 'Wužywarske nastajenja:',
+	'lookupuser-foundmoreusers' => 'Jo se wěcej ako jaden wužywaŕ namakał:',
 	'right-lookupuser' => 'Wužywarske nastajenja se woglědaś',
 );
 
