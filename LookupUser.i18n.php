@@ -580,6 +580,7 @@ $messages['gv'] = array(
 );
 
 /** Hebrew (עברית)
+ * @author Nirofir
  * @author Rotemliss
  * @author YaronSh
  */
@@ -599,6 +600,7 @@ $messages['he'] = array(
 	'lookupuser-touched' => 'הפעם האחרונה בה ביצעו פעולה במידע המשתמש: $1',
 	'lookupuser-info-authenticated' => 'אימות כתובת דוא"ל: $1',
 	'lookupuser-useroptions' => 'אפשרויות המשתמש:',
+	'lookupuser-foundmoreusers' => 'נמצאו יותר ממשתמש אחד:',
 	'right-lookupuser' => 'בדיקת העדפות משתמש',
 );
 
