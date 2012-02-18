@@ -580,6 +580,7 @@ $messages['gv'] = array(
 );
 
 /** Hebrew (עברית)
+ * @author Amire80
  * @author Nirofir
  * @author Rotemliss
  * @author YaronSh
@@ -587,7 +588,7 @@ $messages['gv'] = array(
 $messages['he'] = array(
 	'lookupuser' => 'בדיקת נתוני משתמש',
 	'lookupuser-desc' => '[[Special:LookupUser|בדיקת נתונים]] אודות משתמש כגון כתובת הדוא"ל ומספר המשתמש',
-	'lookupuser-intro' => 'נא כתבו את שם המשתמש כדי לצפות בהעדפות שלו.',
+	'lookupuser-intro' => 'נא לכתוב את שם המשתמש כדי לצפות בהעדפות שלו. אפשר להשתמש גם בכתובת דוא"ל, וזה יציג את כל החשבונות המזוהים עם הכתובת.',
 	'lookupuser-nonexistent' => 'שגיאה: המשתמש אינו קיים',
 	'lookupuser-authenticated' => 'אימות כתובת דוא"ל: $1',
 	'lookupuser-not-authenticated' => 'לא מאומתת',
