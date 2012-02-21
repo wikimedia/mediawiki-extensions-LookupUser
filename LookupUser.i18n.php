@@ -1155,6 +1155,7 @@ $messages['oc'] = array(
  * @author Leinad
  * @author Maikking
  * @author McMonster
+ * @author Sovq
  * @author Sp5uhe
  * @author Woytecr
  */
