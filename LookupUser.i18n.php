@@ -389,13 +389,14 @@ $messages['eo'] = array(
 );
 
 /** Spanish (Español)
+ * @author Armando-Martin
  * @author Crazymadlover
  * @author Imre
  */
 $messages['es'] = array(
 	'lookupuser' => 'Ver información de usuario',
 	'lookupuser-desc' => '[[Special:LookupUser|Recuperar información]] sobre un usuario tal como correo electrónico y ID',
-	'lookupuser-intro' => 'Ingrese un nombre de usuario para ver las preferencias de ese usuario.',
+	'lookupuser-intro' => 'Introduzca un nombre de usuario para ver las preferencias de ese usuario. También puede usar una dirección de correo electrónico y mostrará todas las cuentas que emplean ese correo electrónico.',
 	'lookupuser-nonexistent' => 'Error: Usuario no existe',
 	'lookupuser-authenticated' => 'autenticado en $1',
 	'lookupuser-not-authenticated' => 'no autenticado',
@@ -408,6 +409,7 @@ $messages['es'] = array(
 	'lookupuser-touched' => 'Registro de usuario tocado por último: $1',
 	'lookupuser-info-authenticated' => 'Autenticación de correo electrónico: $1',
 	'lookupuser-useroptions' => 'Opciones de usuario:',
+	'lookupuser-foundmoreusers' => 'Se encontró más de un usuario:',
 	'right-lookupuser' => 'Ver preferencias de usuario',
 );
 
