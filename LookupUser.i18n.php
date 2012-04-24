@@ -779,6 +779,7 @@ $messages['it'] = array(
  * @author Aotake
  * @author Fievarsty
  * @author Fryed-peach
+ * @author Shirayuki
  */
 $messages['ja'] = array(
 	'lookupuser' => '利用者情報を調査',
@@ -788,7 +789,7 @@ $messages['ja'] = array(
 	'lookupuser-authenticated' => 'Eメール確認日: $1',
 	'lookupuser-not-authenticated' => '確認されてません',
 	'lookupuser-id' => '利用者ID: <tt>#$1</tt>',
-	'lookupuser-email' => 'Eメール: [[Special:EmailUser/$2|$1]]',
+	'lookupuser-email' => 'メール：[[Special:EmailUser/$2|$1]]',
 	'lookupuser-no-email' => '提供されてません',
 	'lookupuser-realname' => '本名: $1',
 	'lookupuser-registration' => '登録日: $1',
