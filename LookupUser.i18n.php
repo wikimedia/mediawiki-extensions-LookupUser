@@ -783,11 +783,11 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'lookupuser' => '利用者情報を調査',
-	'lookupuser-desc' => '電子メールアドレスやIDなどの利用者に関する[[Special:LookupUser|情報を取得]]する',
+	'lookupuser-desc' => 'メールアドレスやIDなどの利用者に関する[[Special:LookupUser|情報を取得]]する',
 	'lookupuser-intro' => '利用者名を入力して、その利用者の個人設定をみることができます。',
 	'lookupuser-nonexistent' => 'エラー: 利用者は存在しません',
-	'lookupuser-authenticated' => 'Eメール確認日: $1',
-	'lookupuser-not-authenticated' => '確認されてません',
+	'lookupuser-authenticated' => 'メール認証日：$1',
+	'lookupuser-not-authenticated' => '認証されてません',
 	'lookupuser-id' => '利用者ID: <tt>#$1</tt>',
 	'lookupuser-email' => 'メール：[[Special:EmailUser/$2|$1]]',
 	'lookupuser-no-email' => '提供されてません',
@@ -795,7 +795,7 @@ $messages['ja'] = array(
 	'lookupuser-registration' => '登録日: $1',
 	'lookupuser-no-registration' => '記録がありません',
 	'lookupuser-touched' => '利用者の最終記録: $1',
-	'lookupuser-info-authenticated' => 'Eメール認証: $1',
+	'lookupuser-info-authenticated' => 'メール認証：$1',
 	'lookupuser-useroptions' => '利用者オプション:',
 	'right-lookupuser' => '利用者の個人設定を調べる',
 );
