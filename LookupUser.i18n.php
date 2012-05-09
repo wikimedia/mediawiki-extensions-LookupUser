@@ -1447,11 +1447,12 @@ $messages['stq'] = array(
  * @author Boivie
  * @author M.M.S.
  * @author Najami
+ * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'lookupuser' => 'Kolla upp användar info',
 	'lookupuser-desc' => '[[Special:LookupUser|Hämta information]] om en användare, som t.ex. e-postadress och ID',
-	'lookupuser-intro' => 'Skriv in ett användarnamn för att visa användarens inställningar.',
+	'lookupuser-intro' => 'Skriv in ett användarnamn för att visa användarens inställningar. En e-postadress kan också användas, och kommer att visa alla konton som använder denna e-post.',
 	'lookupuser-nonexistent' => 'Error: Användare existerar inte',
 	'lookupuser-authenticated' => 'E-postbekräftning: $1',
 	'lookupuser-not-authenticated' => 'inte bekräftad',
@@ -1464,6 +1465,7 @@ $messages['sv'] = array(
 	'lookupuser-touched' => 'Inställningar sist ändrat: $1',
 	'lookupuser-info-authenticated' => 'E-postverifiering: $1',
 	'lookupuser-useroptions' => 'Användarval:',
+	'lookupuser-foundmoreusers' => 'Hittade fler än en användare:',
 	'right-lookupuser' => 'Kolla användarpreferenser',
 );
 
