@@ -509,20 +509,20 @@ $messages['fr'] = array(
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
-	'lookupuser' => 'Parcorir les enformacions a l’utilisator',
-	'lookupuser-nonexistent' => 'Èrror : l’utilisator ègziste pas',
+	'lookupuser' => 'Parcorir les enformacions a l’usanciér',
+	'lookupuser-nonexistent' => 'Èrror : l’usanciér ègziste pas',
 	'lookupuser-authenticated' => 'ôtenticâ dessus $1',
 	'lookupuser-not-authenticated' => 'pas ôtenticâ',
-	'lookupuser-id' => 'Numerô a l’utilisator : <tt>#$1</tt>',
+	'lookupuser-id' => 'Numerô a l’usanciér : <tt>#$1</tt>',
 	'lookupuser-email' => 'Mèl. : [[Special:EmailUser/$2|$1]]',
 	'lookupuser-no-email' => 'pas balyê',
 	'lookupuser-realname' => 'Veré nom : $1',
 	'lookupuser-registration' => 'Dâta d’encartâjo : $1',
 	'lookupuser-no-registration' => 'pas encartâ',
-	'lookupuser-touched' => 'Encartâjo a l’utilisator tochiê por lo dèrriér côp : $1',
+	'lookupuser-touched' => 'Encartâjo a l’usanciér tochiê por lo dèrriér côp : $1',
 	'lookupuser-info-authenticated' => 'Ôtenticacion de l’adrèce èlèctronica : $1',
-	'lookupuser-useroptions' => 'Chouèx a l’utilisator :',
-	'right-lookupuser' => 'Vêre les prèferences ux utilisators',
+	'lookupuser-useroptions' => 'Chouèx a l’usanciér :',
+	'right-lookupuser' => 'Vêre les prèferences ux usanciérs',
 );
 
 /** Galician (Galego)
@@ -1111,6 +1111,7 @@ $messages['nl'] = array(
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Frokor
  * @author Harald Khan
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'lookupuser' => 'Finn brukarinformasjon',
@@ -1500,7 +1501,7 @@ $messages['tg-cyrl'] = array(
 	'lookupuser-registration' => 'Таърихи сабти ном: $1',
 );
 
-/** Tajik (Latin script) (tojikī)
+/** Tajik (Latin script) (Tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -1601,7 +1602,7 @@ $messages['vec'] = array(
 	'right-lookupuser' => "Varda le preferense de l'utente",
 );
 
-/** Veps (Vepsan kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
