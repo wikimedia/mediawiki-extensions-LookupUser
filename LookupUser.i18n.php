@@ -753,13 +753,14 @@ $messages['io'] = array(
 );
 
 /** Italian (Italiano)
+ * @author Beta16
  * @author BrokenArrow
  * @author Darth Kule
  */
 $messages['it'] = array(
 	'lookupuser' => 'Guarda informazioni utente',
 	'lookupuser-desc' => '[[Special:LookupUser|Recupera informazioni]] su un utente come indirizzo e-mail e ID',
-	'lookupuser-intro' => 'Inserisci un nome utente per visualizzarne le preferenze.',
+	'lookupuser-intro' => 'Inserisci un nome utente per visualizzarne le preferenze. Se si inserisce un indirizzo di posta elettronica verranno mostrati tutti gli account che usano quella email.',
 	'lookupuser-nonexistent' => "Errore: l'utente non esiste",
 	'lookupuser-authenticated' => 'Conferma indirizzo e-mail: $1',
 	'lookupuser-not-authenticated' => 'non confermato',
@@ -772,6 +773,7 @@ $messages['it'] = array(
 	'lookupuser-touched' => "Ultima visita registrata dell'utente: $1",
 	'lookupuser-info-authenticated' => 'Autenticazione e-mail: $1',
 	'lookupuser-useroptions' => 'Opzioni utente:',
+	'lookupuser-foundmoreusers' => 'Trovati più di un utente:',
 	'right-lookupuser' => 'Consulta le preferenze utente',
 );
 
