@@ -23,6 +23,11 @@ $specialPageAliases['arz'] = array(
 	'LookupUser' => array( 'شوف_يوزر' ),
 );
 
+/** Banjar (Bahasa Banjar) */
+$specialPageAliases['bjn'] = array(
+	'LookupUser' => array( 'Itihi_pamakai' ),
+);
+
 /** Bosnian (Bosanski) */
 $specialPageAliases['bs'] = array(
 	'LookupUser' => array( 'PronadjiKorisnika' ),
@@ -41,6 +46,11 @@ $specialPageAliases['fa'] = array(
 /** Gagauz (Gagauz) */
 $specialPageAliases['gag'] = array(
 	'LookupUser' => array( 'KullanıcıAra' ),
+);
+
+/** Swiss German (Alemannisch) */
+$specialPageAliases['gsw'] = array(
+	'LookupUser' => array( 'Benutzerdate_noochluege' ),
 );
 
 /** Croatian (Hrvatski) */
