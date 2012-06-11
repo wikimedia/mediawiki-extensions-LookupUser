@@ -28,7 +28,7 @@ $specialPageAliases['bjn'] = array(
 	'LookupUser' => array( 'Itihi_pamakai' ),
 );
 
-/** Bosnian (Bosanski) */
+/** Bosnian (bosanski) */
 $specialPageAliases['bs'] = array(
 	'LookupUser' => array( 'PronadjiKorisnika' ),
 );
@@ -36,6 +36,11 @@ $specialPageAliases['bs'] = array(
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'LookupUser' => array( 'Benutzerdaten_einsehen' ),
+);
+
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'LookupUser' => array( 'KarberBıvin' ),
 );
 
 /** Persian (فارسی) */
@@ -53,7 +58,7 @@ $specialPageAliases['gsw'] = array(
 	'LookupUser' => array( 'Benutzerdate_noochluege' ),
 );
 
-/** Croatian (Hrvatski) */
+/** Croatian (hrvatski) */
 $specialPageAliases['hr'] = array(
 	'LookupUser' => array( 'Pogledaj_suradnika' ),
 );
@@ -63,7 +68,7 @@ $specialPageAliases['ht'] = array(
 	'LookupUser' => array( 'GadeItilizatè' ),
 );
 
-/** Interlingua (Interlingua) */
+/** Interlingua (interlingua) */
 $specialPageAliases['ia'] = array(
 	'LookupUser' => array( 'Cercar_usator' ),
 );
@@ -73,7 +78,7 @@ $specialPageAliases['id'] = array(
 	'LookupUser' => array( 'Lihat_pengguna', 'LihatPengguna' ),
 );
 
-/** Italian (Italiano) */
+/** Italian (italiano) */
 $specialPageAliases['it'] = array(
 	'LookupUser' => array( 'ControllaUtente' ),
 );
@@ -81,6 +86,11 @@ $specialPageAliases['it'] = array(
 /** Japanese (日本語) */
 $specialPageAliases['ja'] = array(
 	'LookupUser' => array( '利用者情報調査', '利用者情報を調査' ),
+);
+
+/** Korean (한국어) */
+$specialPageAliases['ko'] = array(
+	'LookupUser' => array( '사용자찾기' ),
 );
 
 /** Colognian (Ripoarisch) */
@@ -98,7 +108,7 @@ $specialPageAliases['lb'] = array(
 	'LookupUser' => array( 'Benotzer_nokucken' ),
 );
 
-/** Macedonian (Македонски) */
+/** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'LookupUser' => array( 'ПобарајГоКорисникот', 'ПобарајКорисник' ),
 );
@@ -108,7 +118,7 @@ $specialPageAliases['ml'] = array(
 	'LookupUser' => array( 'ഉപയോക്താവിനെനോക്കുക' ),
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $specialPageAliases['nb'] = array(
 	'LookupUser' => array( 'Finn_bruker' ),
 );
@@ -128,7 +138,7 @@ $specialPageAliases['sa'] = array(
 	'LookupUser' => array( 'योजकपश्यन्तु' ),
 );
 
-/** Slovak (Slovenčina) */
+/** Slovak (slovenčina) */
 $specialPageAliases['sk'] = array(
 	'LookupUser' => array( 'VyhľadaniePoužívateľa' ),
 );
@@ -148,7 +158,7 @@ $specialPageAliases['tr'] = array(
 	'LookupUser' => array( 'KullanıcıAra' ),
 );
 
-/** Traditional Chinese (‪中文(繁體)‬) */
+/** Traditional Chinese (‪中文（繁體）‬) */
 $specialPageAliases['zh-hant'] = array(
 	'LookupUser' => array( '找尋用戶' ),
 );
