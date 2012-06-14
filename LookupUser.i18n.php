@@ -155,7 +155,7 @@ $messages['be-tarask'] = array(
 	'right-lookupuser' => 'пошук зьвестак пра удзельнікаў',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -193,7 +193,7 @@ $messages['bn'] = array(
 	'right-lookupuser' => 'ব্যবহারকারীর পছন্দ দেখুন',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  * @author Y-M D
  */
@@ -217,7 +217,7 @@ $messages['br'] = array(
 	'right-lookupuser' => 'Sellet ouzh ar penndibaboù implijout',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -239,7 +239,7 @@ $messages['bs'] = array(
 	'right-lookupuser' => 'Pretraga korisničkih postavki',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author SMP
  * @author Solde
  * @author Toniher
@@ -261,7 +261,7 @@ $messages['ce'] = array(
 	'right-lookupuser' => 'лаха декъашхойн нисдарш',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Matěj Grabovský
  * @author Mormegil
  */
@@ -388,7 +388,7 @@ $messages['eo'] = array(
 	'right-lookupuser' => 'Trarigardi agordojn de uzantoj',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  * @author Crazymadlover
  * @author Imre
@@ -413,7 +413,7 @@ $messages['es'] = array(
 	'right-lookupuser' => 'Ver preferencias de usuario',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Avjoska
  */
 $messages['et'] = array(
@@ -421,7 +421,7 @@ $messages['et'] = array(
 	'lookupuser-registration' => 'Registreerimise kuupäev: $1',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  */
 $messages['eu'] = array(
@@ -454,7 +454,7 @@ $messages['fa'] = array(
 	'right-lookupuser' => 'مراجعه به ترجیحات کاربر',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Crt
  * @author Jaakonam
  * @author Nike
@@ -479,7 +479,7 @@ $messages['fi'] = array(
 	'right-lookupuser' => 'Hakea käyttäjän asetuksia',
 );
 
-/** French (Français)
+/** French (français)
  * @author Crochet.david
  * @author Grondin
  * @author IAlex
@@ -505,7 +505,7 @@ $messages['fr'] = array(
 	'right-lookupuser' => 'Visionner les préférences des utilisateurs',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -627,7 +627,7 @@ $messages['hi'] = array(
 	'lookupuser-useroptions' => 'सदस्य विकल्प:',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Dalibor Bosits
  * @author Ex13
  */
@@ -673,7 +673,7 @@ $messages['hsb'] = array(
 	'right-lookupuser' => 'Wužiwarske nastajenja sej wobhladać',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Glanthor Reviol
  * @author Tgr
@@ -697,7 +697,7 @@ $messages['hu'] = array(
 	'right-lookupuser' => 'felhasználó beállításainak megtekintése',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -752,7 +752,7 @@ $messages['io'] = array(
 	'lookupuser-realname' => 'Reala nomo: $1',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author BrokenArrow
  * @author Darth Kule
@@ -906,7 +906,7 @@ $messages['lfn'] = array(
 	'lookupuser-email' => 'Eposta: [[Special:EmailUser/$2|$1]]',
 );
 
-/** Lumbaart (Lumbaart)
+/** lumbaart (lumbaart)
  * @author Dakrismeno
  */
 $messages['lmo'] = array(
@@ -922,7 +922,7 @@ $messages['lmo'] = array(
 	'lookupuser-registration' => 'Registraa dal: $1',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Tomasdd
  */
 $messages['lt'] = array(
@@ -933,7 +933,7 @@ $messages['lt'] = array(
 	'lookupuser-no-registration' => 'įrašų nėra',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author GreenZeb
  */
 $messages['lv'] = array(
@@ -955,7 +955,7 @@ $messages['lv'] = array(
 	'right-lookupuser' => 'Meklēt lietotāja uzstādījumus',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -1111,7 +1111,7 @@ $messages['nl'] = array(
 	'right-lookupuser' => 'Gebruikersvoorkeuren bekijken',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Frokor
  * @author Harald Khan
  * @author Njardarlogar
@@ -1135,7 +1135,7 @@ $messages['nn'] = array(
 	'right-lookupuser' => 'Sjå brukarinnstillingar',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -1157,7 +1157,7 @@ $messages['oc'] = array(
 	'right-lookupuser' => 'Visionar las preferéncias dels utilizaires',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Derbeth
  * @author Leinad
  * @author Maikking
@@ -1221,7 +1221,7 @@ $messages['ps'] = array(
 	'lookupuser-useroptions' => 'د کارن خوښنې:',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  * @author Malafaya
  */
@@ -1244,7 +1244,7 @@ $messages['pt'] = array(
 	'right-lookupuser' => 'Consultar preferências de utilizador',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  * @author Jesielt
  */
@@ -1267,7 +1267,7 @@ $messages['pt-br'] = array(
 	'right-lookupuser' => 'Consultar preferências de usuário',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author KlaudiuMihaila
  */
 $messages['ro'] = array(
@@ -1281,7 +1281,7 @@ $messages['ro'] = array(
 	'lookupuser-info-authenticated' => 'Autentificare e-mail: $1',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -1297,7 +1297,7 @@ $messages['roa-tara'] = array(
 	'lookupuser-useroptions' => 'Opzione utende:',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Adata80
  * @author Eleferen
  * @author Kaganer
@@ -1323,7 +1323,7 @@ $messages['ru'] = array(
 	'right-lookupuser' => 'поиск настроек участников',
 );
 
-/** Sardinian (Sardu)
+/** Sardinian (sardu)
  * @author Marzedu
  */
 $messages['sc'] = array(
@@ -1332,7 +1332,7 @@ $messages['sc'] = array(
 	'lookupuser-realname' => 'Nòmene beru: $1',
 );
 
-/** Sicilian (Sicilianu)
+/** Sicilian (sicilianu)
  * @author Melos
  * @author Santu
  */
@@ -1355,7 +1355,7 @@ $messages['scn'] = array(
 	'right-lookupuser' => 'Talìa li prifirenzi utenti',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -1387,7 +1387,7 @@ $messages['sli'] = array(
 	'lookupuser-realname' => 'Wirklicher Noame: $1',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  * @author Михајло Анђелковић
  * @author Обрадовић Горан
@@ -1407,7 +1407,7 @@ $messages['sr-ec'] = array(
 	'lookupuser-useroptions' => 'Корисничке опције:',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -1447,7 +1447,7 @@ $messages['stq'] = array(
 	'right-lookupuser' => 'Sjuch do Benutserienstaalengen fon uur Benutsere',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Boivie
  * @author M.M.S.
  * @author Najami
@@ -1493,7 +1493,7 @@ $messages['te'] = array(
 	'lookupuser-useroptions' => 'వాడుకరి ఎంపికలు:',
 );
 
-/** Tajik (Cyrillic script) (Тоҷикӣ)
+/** Tajik (Cyrillic script) (тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -1504,7 +1504,7 @@ $messages['tg-cyrl'] = array(
 	'lookupuser-registration' => 'Таърихи сабти ном: $1',
 );
 
-/** Tajik (Latin script) (Tojikī)
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -1560,7 +1560,7 @@ $messages['tr'] = array(
 	'right-lookupuser' => 'Kullanıcı tercihlerine bak',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author AS
  * @author Aleksandrit
  */
@@ -1583,7 +1583,7 @@ $messages['uk'] = array(
 	'right-lookupuser' => 'Перегляд налаштувань користувачів',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
@@ -1650,7 +1650,7 @@ $messages['vo'] = array(
 	'lookupuser-registration' => 'Registaramadät: $1',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Gzdavidwong
  * @author Hydra
  * @author Kuailong
@@ -1674,7 +1674,7 @@ $messages['zh-hans'] = array(
 	'right-lookupuser' => '查看用户设置',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Gzdavidwong
  * @author Mark85296341
  * @author Wrightbus
