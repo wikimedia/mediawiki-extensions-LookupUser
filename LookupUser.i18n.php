@@ -129,7 +129,7 @@ $messages['arz'] = array(
 	'right-lookupuser' => 'مطالعة تفضيلات المستخدم',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -318,7 +318,7 @@ $messages['de'] = array(
 	'right-lookupuser' => 'Benutzereinstellungen anderer Benutzer einsehen',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -525,7 +525,7 @@ $messages['frp'] = array(
 	'right-lookupuser' => 'Vêre les prèferences ux usanciérs',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Alma
  * @author Toliño
  * @author Xosé
@@ -650,7 +650,7 @@ $messages['hr'] = array(
 	'right-lookupuser' => 'Pogledaj suradničke postavke',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
