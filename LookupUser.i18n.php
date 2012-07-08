@@ -268,7 +268,7 @@ $messages['ce'] = array(
 $messages['cs'] = array(
 	'lookupuser' => 'Vyhledat informace o uživateli',
 	'lookupuser-desc' => '[[Special:LookupUser|Získání informací]] o uživateli jako e-mailová adresa a ID',
-	'lookupuser-intro' => 'Zadejte uživatelské jméno uživatele, kterého nastavení chcete zobrazit.',
+	'lookupuser-intro' => 'Zadejte uživatelské jméno uživatele, jehož nastavení chcete zobrazit. Lze použít i e-mailovou adresu, v tom případě se zobrazí všechny účty, které tento e-mail používají.',
 	'lookupuser-nonexistent' => 'Chyba: Uživatel neexistuje',
 	'lookupuser-authenticated' => 'Ověření e-mailu: $1',
 	'lookupuser-not-authenticated' => 'neověřený',
@@ -281,6 +281,7 @@ $messages['cs'] = array(
 	'lookupuser-touched' => 'Poslední záznam uživatele: $1',
 	'lookupuser-info-authenticated' => 'Ověření emailu: $1',
 	'lookupuser-useroptions' => 'Nastavení uživatele:',
+	'lookupuser-foundmoreusers' => 'Nalezeno více uživatelů:',
 	'right-lookupuser' => 'Prohlížení nastavení jiných uživatelů',
 );
 
@@ -1521,7 +1522,7 @@ $messages['tg-latn'] = array(
 $messages['tl'] = array(
 	'lookupuser' => 'Hanapin at tingnan ang kabatirang pangtagagamit',
 	'lookupuser-desc' => '[[Special:LookupUser|Kuhanin ang kabatirang]] hinggil sa isang tagagamit katulad ng adres ng e-liham at ID',
-	'lookupuser-intro' => 'Maglagay/magpasok ng isang pangalan ng tagagamit upang matingnan ang mga kagustuhan ng tagagamit na iyan.',
+	'lookupuser-intro' => 'Magpasok ng isang pangalan ng tagagamit upang matingnan ang mga kagustuhan ng tagagamit na iyon. Maaari ring gamitin ang isang tirahan ng e-liham, at magpapakita ng lahat ng mga akawnt na ginagamit ang e-liham na iyon.',
 	'lookupuser-nonexistent' => 'Kamalian: Hindi umiiral ang tagagamit',
 	'lookupuser-authenticated' => 'napatunayan noong $1',
 	'lookupuser-not-authenticated' => 'hindi pa napapatunayan',
@@ -1534,6 +1535,7 @@ $messages['tl'] = array(
 	'lookupuser-touched' => 'Huling hinawakan/nagalaw ang talaang pangtagagamit noong: $1',
 	'lookupuser-info-authenticated' => 'Pagpapatunay ng e-liham: $1',
 	'lookupuser-useroptions' => 'Mga pagpipilian ng tagagamit:',
+	'lookupuser-foundmoreusers' => 'Nakatagpo ng mas mahigit kaysa sa isang tagagamit:',
 	'right-lookupuser' => 'Hanapin ang mga kagustuhan ng tagagamit',
 );
 
