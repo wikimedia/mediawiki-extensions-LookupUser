@@ -150,7 +150,7 @@ $specialPageAliases['sw'] = array(
 
 /** Tagalog (Tagalog) */
 $specialPageAliases['tl'] = array(
-	'LookupUser' => array( 'Hanapin ang tagagamit' ),
+	'LookupUser' => array( 'Hanapin_ang_tagagamit' ),
 );
 
 /** Turkish (Türkçe) */
