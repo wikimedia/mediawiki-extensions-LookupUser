@@ -254,7 +254,7 @@ $messages['ca'] = array(
 	'right-lookupuser' => "Consultar les preferències d'usuari",
 );
 
-/** Chechen (Нохчийн)
+/** Chechen (нохчийн)
  * @author Sasan700
  */
 $messages['ce'] = array(
@@ -1048,7 +1048,7 @@ $messages['ms'] = array(
 	'right-lookupuser' => 'Mencari keutamaan pengguna',
 );
 
-/** Erzya (Эрзянь)
+/** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
@@ -1064,8 +1064,7 @@ $messages['nah'] = array(
 	'lookupuser-realname' => 'Melāhuac tōcāitl: $1',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Laaknor
  */
 $messages['nb'] = array(
@@ -1607,7 +1606,7 @@ $messages['vec'] = array(
 	'right-lookupuser' => "Varda le preferense de l'utente",
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
