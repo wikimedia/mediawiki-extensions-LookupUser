@@ -1493,6 +1493,13 @@ $messages['te'] = array(
 	'lookupuser-useroptions' => 'వాడుకరి ఎంపికలు:',
 );
 
+/** Tetum (tetun)
+ * @author MF-Warburg
+ */
+$messages['tet'] = array(
+	'lookupuser-id' => 'Númeru uza-na\'in ("ID"): <tt>#$1</tt>',
+);
+
 /** Tajik (Cyrillic script) (тоҷикӣ)
  * @author Ibrahim
  */
