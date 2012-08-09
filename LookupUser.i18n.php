@@ -1269,6 +1269,7 @@ $messages['pt-br'] = array(
 
 /** Romanian (română)
  * @author KlaudiuMihaila
+ * @author Stelistcristi
  */
 $messages['ro'] = array(
 	'lookupuser-nonexistent' => 'Eroare: Utilizatorul nu există',
@@ -1279,6 +1280,7 @@ $messages['ro'] = array(
 	'lookupuser-realname' => 'Nume real: $1',
 	'lookupuser-registration' => 'Data înregistrării: $1',
 	'lookupuser-info-authenticated' => 'Autentificare e-mail: $1',
+	'lookupuser-useroptions' => 'Opțiuni pentru utilizator:',
 );
 
 /** tarandíne (tarandíne)
