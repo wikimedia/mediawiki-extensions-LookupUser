@@ -820,6 +820,17 @@ $messages['jv'] = array(
 	'lookupuser-useroptions' => 'Opsi panganggo:',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'lookupuser-id' => 'მომხმარებლის ID: <tt>#$1</tt>',
+	'lookupuser-email' => 'ელ. ფოსტა: [[Special:EmailUser/$2|$1]]',
+	'lookupuser-realname' => 'ნამდვილი სახელი: $1',
+	'lookupuser-registration' => 'რეგისტრაციის თარიღი: $1',
+	'lookupuser-useroptions' => 'მომხმარებლის კონფიგურაცია:',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author Chhorran
  * @author Lovekhmer
@@ -1277,6 +1288,7 @@ $messages['ro'] = array(
 	'lookupuser-not-authenticated' => 'neautentificat',
 	'lookupuser-id' => 'ID utilizator: <tt>#$1</tt>',
 	'lookupuser-email' => 'E-mail: [[Special:EmailUser/$2|$1]]',
+	'lookupuser-no-email' => 'nefurnizată',
 	'lookupuser-realname' => 'Nume real: $1',
 	'lookupuser-registration' => 'Data înregistrării: $1',
 	'lookupuser-info-authenticated' => 'Autentificare e-mail: $1',
