@@ -1137,7 +1137,7 @@ $messages['nn'] = array(
 	'lookupuser-not-authenticated' => 'ikkje stadfesta',
 	'lookupuser-id' => 'Brukar-ID: <tt>#$1</tt>',
 	'lookupuser-email' => 'E-post: [[Special:EmailUser/$2|$1]]',
-	'lookupuser-no-email' => 'ikke oppgjeve',
+	'lookupuser-no-email' => 'ikkje oppgjeve',
 	'lookupuser-realname' => 'Verkeleg namn: $1',
 	'lookupuser-registration' => 'Registreringsdato: $1',
 	'lookupuser-no-registration' => 'ikkje lagra',
@@ -1368,6 +1368,16 @@ $messages['scn'] = array(
 	'lookupuser-info-authenticated' => 'Autenticazzioni e-mail: $1',
 	'lookupuser-useroptions' => 'Prifirenzi utenti:',
 	'right-lookupuser' => 'Talìa li prifirenzi utenti',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'lookupuser-no-email' => 'සපයා නොමැත',
+	'lookupuser-realname' => 'සැබෑ නාමය: $1',
+	'lookupuser-no-registration' => 'පටිගත කර නොමැත',
+	'lookupuser-useroptions' => 'පරිශීලක විකල්පයන්:',
 );
 
 /** Slovak (slovenčina)
