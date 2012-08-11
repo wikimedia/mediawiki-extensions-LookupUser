@@ -610,10 +610,11 @@ $messages['he'] = array(
 
 /** Hindi (हिन्दी)
  * @author Kaustubh
+ * @author Siddhartha Ghai
  */
 $messages['hi'] = array(
-	'lookupuser' => 'सदस्य ज़ानकारी खोजें',
-	'lookupuser-desc' => 'एक सदस्यकी [[Special:LookupUser|अधिक ज़ानकारी खोजें]] उदा. इमेल एड्रेस और सदस्य क्रमांक',
+	'lookupuser' => 'सदस्य जानकारी खोजें',
+	'lookupuser-desc' => 'किसी सदस्य की [[Special:LookupUser|अधिक जानकारी खोजें]] उदा. ई-मेल पता और सदस्य क्रमांक',
 	'lookupuser-intro' => 'एक सदस्यकी वरीयतायें देखने के लिये उसका नाम लिखें।',
 	'lookupuser-nonexistent' => 'गलती: सदस्य अस्तित्वमें नहीं हैं',
 	'lookupuser-authenticated' => 'इ-मेल प्रमाणिकरण: $1',
