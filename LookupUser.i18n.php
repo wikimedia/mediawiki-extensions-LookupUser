@@ -1503,6 +1503,17 @@ $messages['sw'] = array(
 	'lookupuser-realname' => 'Jina lako halisi:$1',
 );
 
+/** Tamil (தமிழ்)
+ * @author Karthi.dr
+ * @author Shanmugamp7
+ */
+$messages['ta'] = array(
+	'lookupuser-nonexistent' => 'பிழை: பயனர் இல்லை',
+	'lookupuser-no-registration' => 'பதிவு செய்யப்படவில்லை',
+	'lookupuser-info-authenticated' => 'மின்னஞ்சல் உறுதிப்படுத்தல்: $1',
+	'lookupuser-useroptions' => 'பயனர் விருப்பத் தேர்வுகள்:',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */
