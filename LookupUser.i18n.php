@@ -1506,9 +1506,13 @@ $messages['sw'] = array(
 /** Tamil (தமிழ்)
  * @author Karthi.dr
  * @author Shanmugamp7
+ * @author மதனாஹரன்
  */
 $messages['ta'] = array(
 	'lookupuser-nonexistent' => 'பிழை: பயனர் இல்லை',
+	'lookupuser-no-email' => 'வழங்கப்படவில்லை',
+	'lookupuser-realname' => 'உண்மைப் பெயர்: $1',
+	'lookupuser-registration' => 'பதிவுத் திகதி: $1',
 	'lookupuser-no-registration' => 'பதிவு செய்யப்படவில்லை',
 	'lookupuser-info-authenticated' => 'மின்னஞ்சல் உறுதிப்படுத்தல்: $1',
 	'lookupuser-useroptions' => 'பயனர் விருப்பத் தேர்வுகள்:',
