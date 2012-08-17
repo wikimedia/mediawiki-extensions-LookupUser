@@ -1631,6 +1631,18 @@ $messages['uk'] = array(
 	'right-lookupuser' => 'Перегляд налаштувань користувачів',
 );
 
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'lookupuser' => 'صارف کی معلومات پر نظر ڈالیں',
+	'lookupuser-nonexistent' => 'غلطی: صارف موجود نہیں',
+	'lookupuser-no-registration' => 'ریکارڈ نہیں',
+	'lookupuser-useroptions' => 'صارف کے اختیارات:',
+	'lookupuser-foundmoreusers' => 'ایک سے زیادہ صارف پایا:',
+	'right-lookupuser' => 'صارف کی ترجیحات پر نظر ڈالیں',
+);
+
 /** vèneto (vèneto)
  * @author Candalua
  */
