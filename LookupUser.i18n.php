@@ -1281,6 +1281,7 @@ $messages['pt-br'] = array(
 
 /** Romanian (română)
  * @author KlaudiuMihaila
+ * @author Minisarm
  * @author Stelistcristi
  */
 $messages['ro'] = array(
@@ -1289,11 +1290,11 @@ $messages['ro'] = array(
 	'lookupuser-not-authenticated' => 'neautentificat',
 	'lookupuser-id' => 'ID utilizator: <tt>#$1</tt>',
 	'lookupuser-email' => 'E-mail: [[Special:EmailUser/$2|$1]]',
-	'lookupuser-no-email' => 'nefurnizată',
+	'lookupuser-no-email' => 'nefurnizat',
 	'lookupuser-realname' => 'Nume real: $1',
 	'lookupuser-registration' => 'Data înregistrării: $1',
 	'lookupuser-info-authenticated' => 'Autentificare e-mail: $1',
-	'lookupuser-useroptions' => 'Opțiuni pentru utilizator:',
+	'lookupuser-useroptions' => 'Opțiuni utilizator:',
 );
 
 /** tarandíne (tarandíne)
