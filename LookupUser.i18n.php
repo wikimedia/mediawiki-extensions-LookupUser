@@ -1682,7 +1682,7 @@ $messages['vep'] = array(
 $messages['vi'] = array(
 	'lookupuser' => 'Tra thông tin thành viên',
 	'lookupuser-desc' => '[[Special:LookupUser|Tra thông tin]] về một thành viên như địa chỉ thư điện tử và mã số',
-	'lookupuser-intro' => 'Gõ tên người dùng để xem tùy chọn của thành viên đó.',
+	'lookupuser-intro' => 'Nhập tên người dùng để xem tùy chọn của thành viên đó, hoặc nhập địa chỉ thư điện tử để xem các tài khoản ứng với địa chỉ đó.',
 	'lookupuser-nonexistent' => 'Lỗi: Thành viên không tồn tại',
 	'lookupuser-authenticated' => 'Xác nhận thư điện tử: $1',
 	'lookupuser-not-authenticated' => 'chưa xác nhận',
@@ -1695,6 +1695,7 @@ $messages['vi'] = array(
 	'lookupuser-touched' => 'Bản ghi lại lần cuối truy cập: $1',
 	'lookupuser-info-authenticated' => 'Xác nhận thư điện tử: $1',
 	'lookupuser-useroptions' => 'Lựa chọn của thành viên:',
+	'lookupuser-foundmoreusers' => 'Đã tìm thấy hơn một người dùng:',
 	'right-lookupuser' => 'Tra tùy chọn người dùng',
 );
 
