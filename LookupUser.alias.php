@@ -118,7 +118,7 @@ $specialPageAliases['ml'] = array(
 	'LookupUser' => array( 'ഉപയോക്താവിനെനോക്കുക' ),
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $specialPageAliases['nb'] = array(
 	'LookupUser' => array( 'Finn_bruker' ),
 );
@@ -158,7 +158,7 @@ $specialPageAliases['tr'] = array(
 	'LookupUser' => array( 'KullanıcıAra' ),
 );
 
-/** Traditional Chinese (‪中文（繁體）‬) */
+/** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
 	'LookupUser' => array( '找尋用戶' ),
 );
