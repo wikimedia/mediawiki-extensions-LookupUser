@@ -129,7 +129,7 @@ $messages['arz'] = array(
 	'right-lookupuser' => 'مطالعة تفضيلات المستخدم',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -1076,7 +1076,7 @@ $messages['nah'] = array(
 	'lookupuser-realname' => 'Melāhuac tōcāitl: $1',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Laaknor
  */
 $messages['nb'] = array(
@@ -1123,7 +1123,7 @@ $messages['nl'] = array(
 	'right-lookupuser' => 'Gebruikersvoorkeuren bekijken',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Frokor
  * @author Harald Khan
  * @author Njardarlogar
@@ -1413,7 +1413,7 @@ $messages['sli'] = array(
 	'lookupuser-realname' => 'Wirklicher Noame: $1',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  * @author Михајло Анђелковић
  * @author Обрадовић Горан
@@ -1433,7 +1433,7 @@ $messages['sr-ec'] = array(
 	'lookupuser-useroptions' => 'Корисничке опције:',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -1712,7 +1712,7 @@ $messages['vo'] = array(
 	'lookupuser-registration' => 'Registaramadät: $1',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Gzdavidwong
  * @author Hydra
  * @author Kuailong
@@ -1736,7 +1736,7 @@ $messages['zh-hans'] = array(
 	'right-lookupuser' => '查看用户设置',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Gzdavidwong
  * @author Mark85296341
  * @author Wrightbus
