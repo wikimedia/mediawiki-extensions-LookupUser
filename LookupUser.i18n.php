@@ -1718,12 +1718,14 @@ $messages['vo'] = array(
  * @author Hydra
  * @author Kuailong
  * @author Wrightbus
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
 	'lookupuser' => '查询用户信息',
 	'lookupuser-desc' => '[[Special:LookupUser|检索信息]] 有关的用户 ID 的电子邮件地址等',
-	'lookupuser-intro' => '输入用户名，查看该用户的参数设置', # Fuzzy
+	'lookupuser-intro' => '输入用户名查看该用户的参数设置。也可以使用电子邮箱地址，将显示使用该地址的所有帐户。',
 	'lookupuser-nonexistent' => '错误：用户不存在',
+	'lookupuser-authenticated' => '$1 已验证',
 	'lookupuser-not-authenticated' => '不进行身份验证',
 	'lookupuser-id' => '用户ID: <tt>#$1</tt>',
 	'lookupuser-email' => '电邮：[[Special:EmailUser/$2|$1]]',
@@ -1734,6 +1736,7 @@ $messages['zh-hans'] = array(
 	'lookupuser-touched' => '最后触及的用户记录：$1',
 	'lookupuser-info-authenticated' => '电子邮件验证：$1',
 	'lookupuser-useroptions' => '用户选项：',
+	'lookupuser-foundmoreusers' => '找到多个用户：',
 	'right-lookupuser' => '查看用户设置',
 );
 
