@@ -36,12 +36,13 @@ $messages['en'] = array(
  * @author Fryed-peach
  * @author Purodha
  * @author SVG
+ * @author Shirayuki
  * @author The Evil IP address
  * @author Umherirrender
  */
 $messages['qqq'] = array(
 	'lookupuser' => 'Name of Special:LookupUser in Special:SpecialPages and title of Special:LookupUser page',
-	'lookupuser-desc' => '{{desc}}',
+	'lookupuser-desc' => '{{desc|name=Lookup User|url=http://www.mediawiki.org/wiki/Extension:LookupUser}}',
 	'lookupuser-intro' => 'Short howto use introduction',
 	'lookupuser-nonexistent' => 'Error message which shown when selected user does not exist',
 	'lookupuser-authenticated' => '{{Identical|emailauthenticated}}',
