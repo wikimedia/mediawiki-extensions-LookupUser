@@ -320,6 +320,13 @@ $messages['de'] = array(
 	'right-lookupuser' => 'Benutzereinstellungen anderer Benutzer einsehen',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'lookupuser-id' => "ID'e Karberi: <tt>#$1</tt>",
+);
+
 /** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
