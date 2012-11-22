@@ -138,6 +138,11 @@ $specialPageAliases['sa'] = array(
 	'LookupUser' => array( 'योजकपश्यन्तु' ),
 );
 
+/** Sicilian (sicilianu) */
+$specialPageAliases['scn'] = array(
+	'LookupUser' => array( 'ControllaUtente' ),
+);
+
 /** Slovak (slovenčina) */
 $specialPageAliases['sk'] = array(
 	'LookupUser' => array( 'VyhľadaniePoužívateľa' ),
