@@ -1621,11 +1621,12 @@ $messages['tr'] = array(
 /** Ukrainian (українська)
  * @author AS
  * @author Aleksandrit
+ * @author Ата
  */
 $messages['uk'] = array(
 	'lookupuser' => 'Показати відомості про користувача',
 	'lookupuser-desc' => '[[Special:LookupUser|Отримання відомостей]] про користувача, таких як адреса Е-пошти та ідентифікатор',
-	'lookupuser-intro' => "Введіть ім'я користувача, щоб переглянути налаштування цього користувача.", # Fuzzy
+	'lookupuser-intro' => "Введіть ім'я користувача, щоб переглянути налаштування цього користувача. Можна використати адресу електронної пошти, це покаже усі облікові записи, що її використовують.",
 	'lookupuser-nonexistent' => 'Помилка. Користувача не існує',
 	'lookupuser-authenticated' => 'Аутентифікація ел. поштою: $1',
 	'lookupuser-not-authenticated' => 'не аутентіфіцірован',
@@ -1638,6 +1639,7 @@ $messages['uk'] = array(
 	'lookupuser-touched' => 'Останнє оновлення запису користувача: $1',
 	'lookupuser-info-authenticated' => 'Аутентифікація по пошті: $1',
 	'lookupuser-useroptions' => 'Налаштування користувача:',
+	'lookupuser-foundmoreusers' => 'Знайдено більше одного користувача:',
 	'right-lookupuser' => 'Перегляд налаштувань користувачів',
 );
 
