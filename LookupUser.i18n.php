@@ -1112,7 +1112,7 @@ $messages['nb'] = array(
  * @author Siebrand
  */
 $messages['nl'] = array(
-	'lookupuser' => 'Gebruikersinformatie opzoeken',
+	'lookupuser' => 'Gebruikersgegevens opzoeken',
 	'lookupuser-desc' => '[[Special:LookupUser|Informatie inzien]] van een gebruiker, zoals e-mailadres en gebruikersnummer',
 	'lookupuser-intro' => 'Geef een gebruikersnaam in om de voorkeuren van die gebruiker te bekijken. Een e-mailadres kan ook gebruikt worden, en zal alle gebruikers die dat e-mailadres gebruiken weergeven.',
 	'lookupuser-nonexistent' => 'Fout: gebruiker bestaat niet',
@@ -1288,6 +1288,7 @@ $messages['pt-br'] = array(
 );
 
 /** Romanian (română)
+ * @author Firilacroco
  * @author KlaudiuMihaila
  * @author Minisarm
  * @author Stelistcristi
@@ -1301,6 +1302,7 @@ $messages['ro'] = array(
 	'lookupuser-no-email' => 'nefurnizat',
 	'lookupuser-realname' => 'Nume real: $1',
 	'lookupuser-registration' => 'Data înregistrării: $1',
+	'lookupuser-no-registration' => 'neînregistrat',
 	'lookupuser-info-authenticated' => 'Autentificare e-mail: $1',
 	'lookupuser-useroptions' => 'Opțiuni utilizator:',
 );
