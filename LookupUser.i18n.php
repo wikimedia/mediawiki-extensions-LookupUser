@@ -944,14 +944,17 @@ $messages['lmo'] = array(
 );
 
 /** Lithuanian (lietuvių)
+ * @author Eitvys200
  * @author Tomasdd
  */
 $messages['lt'] = array(
 	'lookupuser-nonexistent' => 'Klaida: Naudotojo tokiu vardu nėra',
 	'lookupuser-id' => 'Naudotojo ID: <tt>#$1</tt>',
+	'lookupuser-no-email' => 'nenurodytas',
 	'lookupuser-realname' => 'Tikras vardas: $1',
 	'lookupuser-registration' => 'Užsiregistravimo data: $1',
 	'lookupuser-no-registration' => 'įrašų nėra',
+	'lookupuser-useroptions' => 'Vartotojo parinktys:',
 );
 
 /** Latvian (latviešu)
@@ -1114,7 +1117,7 @@ $messages['nb'] = array(
 $messages['nl'] = array(
 	'lookupuser' => 'Gebruikersgegevens opzoeken',
 	'lookupuser-desc' => '[[Special:LookupUser|Informatie inzien]] van een gebruiker, zoals e-mailadres en gebruikersnummer',
-	'lookupuser-intro' => 'Geef een gebruikersnaam in om de voorkeuren van die gebruiker te bekijken. Een e-mailadres kan ook gebruikt worden, en zal alle gebruikers die dat e-mailadres gebruiken weergeven.',
+	'lookupuser-intro' => 'Geef een gebruikersnaam in om de voorkeuren van die gebruiker te bekijken. U kunt ook een e-mailadres opgeven om alle gebruikers met dat e-mailadres weer te geven.',
 	'lookupuser-nonexistent' => 'Fout: gebruiker bestaat niet',
 	'lookupuser-authenticated' => 'E-mailbevestiging: $1',
 	'lookupuser-not-authenticated' => 'niet bevestigd',
