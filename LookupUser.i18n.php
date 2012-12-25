@@ -1071,6 +1071,18 @@ $messages['ms'] = array(
 	'right-lookupuser' => 'Mencari keutamaan pengguna',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'lookupuser-no-email' => 'mhux provdut',
+	'lookupuser-realname' => 'Isem veru: $1',
+	'lookupuser-registration' => "Data ta' reġistrazzjoni: $1",
+	'lookupuser-no-registration' => 'mhux rekordjat',
+	'lookupuser-foundmoreusers' => 'Instab iktar minn utent wieħed:',
+	'right-lookupuser' => 'Jikkonsulta l-preferenzi tal-utenti',
+);
+
 /** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
@@ -1297,6 +1309,7 @@ $messages['pt-br'] = array(
  * @author Stelistcristi
  */
 $messages['ro'] = array(
+	'lookupuser' => 'Căutare informații utilizator',
 	'lookupuser-nonexistent' => 'Eroare: Utilizatorul nu există',
 	'lookupuser-authenticated' => 'autentificat la $1',
 	'lookupuser-not-authenticated' => 'neautentificat',
