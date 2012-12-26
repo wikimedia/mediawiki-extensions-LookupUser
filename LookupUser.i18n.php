@@ -1401,10 +1401,20 @@ $messages['scn'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'lookupuser' => 'පරිශීලක තොරතුරු නරඹන්න',
+	'lookupuser-nonexistent' => 'දෝෂය: පරිශීලක නොපවතී',
+	'lookupuser-authenticated' => '$1 හී සත්‍යාපනය වූ',
+	'lookupuser-not-authenticated' => 'සත්‍යාපනය නොවූ',
+	'lookupuser-id' => 'පරිශීලක හැඳුනුම: <tt>#$1</tt>',
+	'lookupuser-email' => 'විද්‍යුත්-තැපෑල: [[Special:EmailUser/$2|$1]]',
 	'lookupuser-no-email' => 'සපයා නොමැත',
 	'lookupuser-realname' => 'සැබෑ නාමය: $1',
+	'lookupuser-registration' => 'ලියාපදිංචි දිනය: $1',
 	'lookupuser-no-registration' => 'පටිගත කර නොමැත',
+	'lookupuser-info-authenticated' => 'විද්‍යුත්-තැපැල් සත්‍යාපනය: $1',
 	'lookupuser-useroptions' => 'පරිශීලක විකල්පයන්:',
+	'lookupuser-foundmoreusers' => 'එක් පරිශීලකයෙකුට වඩා හමුවුණි:',
+	'right-lookupuser' => 'පරිශීලක අභිරුචින් බලන්න',
 );
 
 /** Slovak (slovenčina)
@@ -1538,6 +1548,8 @@ $messages['sw'] = array(
  */
 $messages['ta'] = array(
 	'lookupuser-nonexistent' => 'பிழை: பயனர் இல்லை',
+	'lookupuser-id' => 'பயனர் அடியாள எண்: <tt>#$1</tt>',
+	'lookupuser-email' => 'மின்னஞ்சல்: [[Special:EmailUser/$2|$1]]',
 	'lookupuser-no-email' => 'வழங்கப்படவில்லை',
 	'lookupuser-realname' => 'உண்மைப் பெயர்: $1',
 	'lookupuser-registration' => 'பதிவுத் திகதி: $1',
