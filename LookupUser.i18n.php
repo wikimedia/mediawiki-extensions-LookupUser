@@ -468,11 +468,12 @@ $messages['fa'] = array(
  * @author Jaakonam
  * @author Nike
  * @author Tarmo
+ * @author VezonThunder
  */
 $messages['fi'] = array(
 	'lookupuser' => 'Katso käyttäjän tiedot',
 	'lookupuser-desc' => '[[Special:LookupUser|Hakee tietoja]] käyttäjästä, kuten sähköpostiosoitteen ja tunnisteen.',
-	'lookupuser-intro' => 'Anna käyttäjätunnus, jonka asetukset haluat nähdä.', # Fuzzy
+	'lookupuser-intro' => 'Syötä käyttäjätunnus nähdäksesi kyseisen käyttäjän asetukset. Voidaan käyttää myös sähköpostiosoitetta, jolloin näytetään kaikki kyseistä sähköpostiosoitetta käyttävät tunnukset.',
 	'lookupuser-nonexistent' => 'Virhe: Käyttäjää ei ole olemassa',
 	'lookupuser-authenticated' => 'tunnistettu osoite $1',
 	'lookupuser-not-authenticated' => 'ei tunnistettu',
@@ -485,6 +486,7 @@ $messages['fi'] = array(
 	'lookupuser-touched' => 'Käyttäjätietoja viimeksi muutettu: $1',
 	'lookupuser-info-authenticated' => 'Sähköpostitunnistus: $1',
 	'lookupuser-useroptions' => 'Käyttäjävalinnat:',
+	'lookupuser-foundmoreusers' => 'Löydettiin useita käyttäjiä:',
 	'right-lookupuser' => 'Hakea käyttäjän asetuksia',
 );
 
