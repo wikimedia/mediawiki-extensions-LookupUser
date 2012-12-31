@@ -533,6 +533,7 @@ $messages['frp'] = array(
 	'lookupuser-touched' => 'Encartâjo a l’usanciér tochiê por lo dèrriér côp : $1',
 	'lookupuser-info-authenticated' => 'Ôtenticacion de l’adrèce èlèctronica : $1',
 	'lookupuser-useroptions' => 'Chouèx a l’usanciér :',
+	'lookupuser-foundmoreusers' => 'Més de yon utilisator trovâ :',
 	'right-lookupuser' => 'Vêre les prèferences ux usanciérs',
 );
 
@@ -1413,6 +1414,7 @@ $messages['si'] = array(
 	'lookupuser-realname' => 'සැබෑ නාමය: $1',
 	'lookupuser-registration' => 'ලියාපදිංචි දිනය: $1',
 	'lookupuser-no-registration' => 'පටිගත කර නොමැත',
+	'lookupuser-touched' => 'පරිශීලක සටහන අන්තිමට ඇල්ලුවේ: $1',
 	'lookupuser-info-authenticated' => 'විද්‍යුත්-තැපැල් සත්‍යාපනය: $1',
 	'lookupuser-useroptions' => 'පරිශීලක විකල්පයන්:',
 	'lookupuser-foundmoreusers' => 'එක් පරිශීලකයෙකුට වඩා හමුවුණි:',
