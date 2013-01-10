@@ -29,6 +29,7 @@ $messages['en'] = array(
 	'lookupuser-useroptions' => 'User options:',
 	'lookupuser-foundmoreusers' => 'Found more than one user:',
 	'right-lookupuser' => 'Look up user preferences',
+	'action-lookupuser' => 'look up user preferences',
 );
 
 /** Message documentation (Message documentation)
@@ -58,6 +59,7 @@ $messages['qqq'] = array(
 	'lookupuser-useroptions' => 'User’s options',
 	'lookupuser-foundmoreusers' => 'Message which will be shown when more than one user is found',
 	'right-lookupuser' => '{{doc-right|lookupuser}}',
+	'action-lookupuser' => '{{doc-action|lookupuser}}',
 );
 
 /** Afrikaans (Afrikaans)
