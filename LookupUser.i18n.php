@@ -299,6 +299,7 @@ $messages['cy'] = array(
  * @author Kghbln
  * @author LWChris
  * @author Melancholie
+ * @author Metalhead64
  * @author SVG
  * @author Umherirrender
  */
@@ -320,6 +321,7 @@ $messages['de'] = array(
 	'lookupuser-useroptions' => 'Einstellungen des Benutzerkontos:',
 	'lookupuser-foundmoreusers' => 'Es wurde mehr als ein Benutzer gefunden:',
 	'right-lookupuser' => 'Benutzereinstellungen anderer Benutzer einsehen',
+	'action-lookupuser' => 'Benutzereinstellungen einsehen',
 );
 
 /** Zazaki (Zazaki)
@@ -562,6 +564,7 @@ $messages['gl'] = array(
 	'lookupuser-useroptions' => 'Opcións do usuario:',
 	'lookupuser-foundmoreusers' => 'Atopouse máis dun usuario:',
 	'right-lookupuser' => 'Consultar as preferencias dun usuario',
+	'action-lookupuser' => 'consultar as preferencias dun usuario',
 );
 
 /** Swiss German (Alemannisch)
@@ -816,6 +819,7 @@ $messages['ja'] = array(
 	'lookupuser-useroptions' => '利用者オプション：',
 	'lookupuser-foundmoreusers' => '1 人以上の利用者が見つかりました：',
 	'right-lookupuser' => '利用者の個人設定を調べる',
+	'action-lookupuser' => '利用者の個人設定を調べる',
 );
 
 /** Javanese (Basa Jawa)
@@ -1005,6 +1009,7 @@ $messages['mk'] = array(
 	'lookupuser-useroptions' => 'Кориснички прилагодувања:',
 	'lookupuser-foundmoreusers' => 'Пронајдов повеќе од еден корисник:',
 	'right-lookupuser' => 'Проверка на кориснички нагодувања',
+	'action-lookupuser' => 'проверка на кориснички нагодувања',
 );
 
 /** Malayalam (മലയാളം)
@@ -1149,6 +1154,7 @@ $messages['nl'] = array(
 	'lookupuser-useroptions' => 'Gebruikersopties:',
 	'lookupuser-foundmoreusers' => 'Meer dan één gebruiker gevonden:',
 	'right-lookupuser' => 'Gebruikersvoorkeuren bekijken',
+	'action-lookupuser' => 'gebruikersvoorkeuren te bekijken',
 );
 
 /** Norwegian Nynorsk (norsk (nynorsk)‎)
@@ -1248,6 +1254,7 @@ $messages['pms'] = array(
 	'lookupuser-useroptions' => "Opsion ëd l'utent:",
 	'lookupuser-foundmoreusers' => 'Trovà pi che un utent:',
 	'right-lookupuser' => 'Varda ij "mè gust" ëd l\'utent',
+	'action-lookupuser' => 'varda ij "mè gust" ëd l\'utent',
 );
 
 /** Pashto (پښتو)
