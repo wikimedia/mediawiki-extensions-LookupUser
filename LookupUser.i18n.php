@@ -496,6 +496,7 @@ $messages['fi'] = array(
 
 /** French (français)
  * @author Crochet.david
+ * @author Gomoko
  * @author Grondin
  * @author IAlex
  * @author Sherbrooke
@@ -518,6 +519,7 @@ $messages['fr'] = array(
 	'lookupuser-useroptions' => 'Options de l’utilisateur :',
 	'lookupuser-foundmoreusers' => "Plus d'un utilisateur trouvé :",
 	'right-lookupuser' => 'Visionner les préférences des utilisateurs',
+	'action-lookupuser' => 'rechercher les préférences de l’utilisateur',
 );
 
 /** Franco-Provençal (arpetan)
