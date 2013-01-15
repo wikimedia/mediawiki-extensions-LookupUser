@@ -1686,6 +1686,7 @@ $messages['uk'] = array(
 	'lookupuser-useroptions' => 'Налаштування користувача:',
 	'lookupuser-foundmoreusers' => 'Знайдено більше одного користувача:',
 	'right-lookupuser' => 'Перегляд налаштувань користувачів',
+	'action-lookupuser' => 'переглядати налаштування користувачів',
 );
 
 /** Urdu (اردو)
