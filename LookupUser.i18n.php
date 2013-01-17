@@ -1081,6 +1081,7 @@ $messages['ms'] = array(
 	'lookupuser-useroptions' => 'Pilihan pengguna:',
 	'lookupuser-foundmoreusers' => 'Lebih seorang pengguna dijumpai:',
 	'right-lookupuser' => 'Mencari keutamaan pengguna',
+	'action-lookupuser' => 'melihat keutamaan pengguna',
 );
 
 /** Maltese (Malti)
