@@ -795,6 +795,7 @@ $messages['it'] = array(
 	'lookupuser-useroptions' => 'Opzioni utente:',
 	'lookupuser-foundmoreusers' => 'Trovati più di un utente:',
 	'right-lookupuser' => 'Consulta le preferenze utente',
+	'action-lookupuser' => 'consultare le preferenze utente',
 );
 
 /** Japanese (日本語)
