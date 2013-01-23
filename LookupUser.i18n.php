@@ -1550,6 +1550,7 @@ $messages['sv'] = array(
 	'lookupuser-useroptions' => 'Användarval:',
 	'lookupuser-foundmoreusers' => 'Hittade fler än en användare:',
 	'right-lookupuser' => 'Kolla användarpreferenser',
+	'action-lookupuser' => 'kolla användarpreferenser',
 );
 
 /** Swahili (Kiswahili)
@@ -1796,6 +1797,7 @@ $messages['zh-hans'] = array(
 	'lookupuser-useroptions' => '用户选项：',
 	'lookupuser-foundmoreusers' => '找到多个用户：',
 	'right-lookupuser' => '查看用户设置',
+	'action-lookupuser' => '查阅用户偏好设置',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
