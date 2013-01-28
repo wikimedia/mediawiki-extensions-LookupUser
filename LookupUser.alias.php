@@ -123,7 +123,7 @@ $specialPageAliases['nb'] = array(
 	'LookupUser' => array( 'Finn_bruker' ),
 );
 
-/** Nedersaksies (Nedersaksies) */
+/** Low Saxon (Netherlands) (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'LookupUser' => array( 'Gebruker_opzeuken' ),
 );
