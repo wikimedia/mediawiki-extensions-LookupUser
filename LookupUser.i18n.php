@@ -845,11 +845,13 @@ $messages['jv'] = array(
  * @author David1010
  */
 $messages['ka'] = array(
+	'lookupuser-nonexistent' => 'შეცდომა: მომხმარებელი არ არსებობს',
 	'lookupuser-id' => 'მომხმარებლის ID: <tt>#$1</tt>',
 	'lookupuser-email' => 'ელ. ფოსტა: [[Special:EmailUser/$2|$1]]',
 	'lookupuser-realname' => 'ნამდვილი სახელი: $1',
 	'lookupuser-registration' => 'რეგისტრაციის თარიღი: $1',
 	'lookupuser-useroptions' => 'მომხმარებლის კონფიგურაცია:',
+	'lookupuser-foundmoreusers' => 'ნაპოვნია ერთზე მეტი მომხმარებელი:',
 );
 
 /** Khmer (ភាសាខ្មែរ)
