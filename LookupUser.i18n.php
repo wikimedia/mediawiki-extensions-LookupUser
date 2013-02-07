@@ -691,6 +691,7 @@ $messages['hsb'] = array(
 	'lookupuser-useroptions' => 'Wužiwarske opcije:',
 	'lookupuser-foundmoreusers' => 'Je so wjace hač jedyn wužiwar namakał:',
 	'right-lookupuser' => 'Wužiwarske nastajenja sej wobhladać',
+	'action-lookupuser' => 'Wužiwarske nastajenja sej wobhladać',
 );
 
 /** Hungarian (magyar)

@@ -118,7 +118,7 @@ $specialPageAliases['ml'] = array(
 	'LookupUser' => array( 'ഉപയോക്താവിനെനോക്കുക' ),
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk bokmål) */
 $specialPageAliases['nb'] = array(
 	'LookupUser' => array( 'Finn_bruker' ),
 );
