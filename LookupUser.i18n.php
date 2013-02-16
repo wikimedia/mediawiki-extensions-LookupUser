@@ -49,7 +49,10 @@ $messages['qqq'] = array(
 	'lookupuser-authenticated' => '{{Identical|emailauthenticated}}',
 	'lookupuser-not-authenticated' => '{{Identical|emailnotauthenticated}}',
 	'lookupuser-id' => '{{Identical|User ID}}',
-	'lookupuser-email' => 'Link to Special:EmailUser/Addressee',
+	'lookupuser-email' => 'Link to [[Special:EmailUser/$2]].
+Parameters:
+* $1 - E-mail address or {{msg-mw|lookupuser-no-email}}
+* $2 - username',
 	'lookupuser-no-email' => '{{Identical|Notprovided}}',
 	'lookupuser-realname' => 'Real name of the selected user',
 	'lookupuser-registration' => '{{Identical|prefs-registration}}, {{Identical|prefs-registration-date-time}}',
@@ -814,7 +817,7 @@ $messages['ja'] = array(
 	'lookupuser-not-authenticated' => '認証されてません',
 	'lookupuser-id' => '利用者ID: <tt>#$1</tt>',
 	'lookupuser-email' => 'メール：[[Special:EmailUser/$2|$1]]',
-	'lookupuser-no-email' => '提供されてません',
+	'lookupuser-no-email' => '提供されていません',
 	'lookupuser-realname' => '本名：$1',
 	'lookupuser-registration' => '登録日：$1',
 	'lookupuser-no-registration' => '記録がありません',
