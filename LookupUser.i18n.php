@@ -503,9 +503,10 @@ $messages['fi'] = array(
  * @author Grondin
  * @author IAlex
  * @author Sherbrooke
+ * @author Wyz
  */
 $messages['fr'] = array(
-	'lookupuser' => 'Parcourir les informations de l’usager',
+	'lookupuser' => 'Récupérer les infos de l’utilisateur',
 	'lookupuser-desc' => 'Extrait les informations concernant un utilisateur telles qu’une adresse électronique et le numéro ID',
 	'lookupuser-intro' => 'Entrez un nom d’utilisateur pour afficher ses préférences. Une adresse de courriel peut également être utilisée et affichera tous les comptes qui utilisent cette adresse.',
 	'lookupuser-nonexistent' => 'Erreur : l’utilisateur n’existe pas',
