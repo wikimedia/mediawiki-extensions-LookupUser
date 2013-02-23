@@ -163,6 +163,11 @@ $specialPageAliases['tr'] = array(
 	'LookupUser' => array( 'KullanıcıAra' ),
 );
 
+/** Simplified Chinese (中文（简体）‎) */
+$specialPageAliases['zh-hans'] = array(
+	'LookupUser' => array( '查阅用户' ),
+);
+
 /** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
 	'LookupUser' => array( '找尋用戶' ),
