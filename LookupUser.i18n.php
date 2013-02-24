@@ -46,8 +46,12 @@ $messages['qqq'] = array(
 	'lookupuser-desc' => '{{desc|name=Lookup User|url=http://www.mediawiki.org/wiki/Extension:LookupUser}}',
 	'lookupuser-intro' => 'Short howto use introduction',
 	'lookupuser-nonexistent' => 'Error message which shown when selected user does not exist',
-	'lookupuser-authenticated' => '{{Identical|emailauthenticated}}',
-	'lookupuser-not-authenticated' => '{{Identical|emailnotauthenticated}}',
+	'lookupuser-authenticated' => 'Parameters:
+* $1 - time and date
+See also:
+* {{msg-mw|Emailauthenticated}}',
+	'lookupuser-not-authenticated' => 'See also:
+* {{msg-mw|Emailnotauthenticated}}',
 	'lookupuser-id' => '{{Identical|User ID}}',
 	'lookupuser-email' => 'Link to [[Special:EmailUser/$2]].
 Parameters:
@@ -55,12 +59,19 @@ Parameters:
 * $2 - username',
 	'lookupuser-no-email' => '{{Identical|Notprovided}}',
 	'lookupuser-realname' => 'Real name of the selected user',
-	'lookupuser-registration' => '{{Identical|prefs-registration}}, {{Identical|prefs-registration-date-time}}',
+	'lookupuser-registration' => 'Parameters:
+* $1 - time and date
+See also:
+* {{msg-mw|Prefs-registration}}
+* {{msg-mw|Prefs-registration-date-time}}',
 	'lookupuser-no-registration' => 'If no registration date about the selected user is available',
-	'lookupuser-touched' => 'Date of user’s last login',
+	'lookupuser-touched' => "Date of user's last login. Parameters:
+* $1 - time and date",
 	'lookupuser-info-authenticated' => 'E-mail authentication date and time',
-	'lookupuser-useroptions' => 'User’s options',
-	'lookupuser-foundmoreusers' => 'Message which will be shown when more than one user is found',
+	'lookupuser-useroptions' => "User's options",
+	'lookupuser-foundmoreusers' => 'Message which will be shown when multiple users (2 or more users) are found.
+
+This message is followed by a drop-down box which allows to select a user.',
 	'right-lookupuser' => '{{doc-right|lookupuser}}',
 	'action-lookupuser' => '{{doc-action|lookupuser}}',
 );
@@ -814,18 +825,18 @@ $messages['ja'] = array(
 	'lookupuser-desc' => 'メールアドレスやIDなどの利用者に関する[[Special:LookupUser|情報を取得]]する',
 	'lookupuser-intro' => '利用者の設定を閲覧するには、利用者名を入力します。メールアドレスを入力して、そのメールアドレスを使用するアカウントをすべて表示することもできます。',
 	'lookupuser-nonexistent' => 'エラー: 利用者は存在しません',
-	'lookupuser-authenticated' => 'メール認証日：$1',
-	'lookupuser-not-authenticated' => '認証されてません',
+	'lookupuser-authenticated' => 'メール認証日: $1',
+	'lookupuser-not-authenticated' => '認証されていません',
 	'lookupuser-id' => '利用者ID: <tt>#$1</tt>',
-	'lookupuser-email' => 'メール：[[Special:EmailUser/$2|$1]]',
+	'lookupuser-email' => 'メール: [[Special:EmailUser/$2|$1]]',
 	'lookupuser-no-email' => '提供されていません',
-	'lookupuser-realname' => '本名：$1',
-	'lookupuser-registration' => '登録日：$1',
+	'lookupuser-realname' => '本名: $1',
+	'lookupuser-registration' => '登録日時: $1',
 	'lookupuser-no-registration' => '記録がありません',
-	'lookupuser-touched' => '利用者の最終記録：$1',
-	'lookupuser-info-authenticated' => 'メール認証：$1',
-	'lookupuser-useroptions' => '利用者オプション：',
-	'lookupuser-foundmoreusers' => '1 人以上の利用者が見つかりました：',
+	'lookupuser-touched' => '利用者の最終ログイン日時: $1',
+	'lookupuser-info-authenticated' => 'メール認証: $1',
+	'lookupuser-useroptions' => '利用者オプション:',
+	'lookupuser-foundmoreusers' => '複数の利用者が見つかりました:',
 	'right-lookupuser' => '利用者の個人設定を調べる',
 	'action-lookupuser' => '利用者の個人設定を調べる',
 );
