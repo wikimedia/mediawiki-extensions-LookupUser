@@ -948,6 +948,7 @@ $messages['lb'] = array(
 	'lookupuser-useroptions' => 'Astellunge vum Benotzer:',
 	'lookupuser-foundmoreusers' => 'Méi wéi ee Benotzer fonnt:',
 	'right-lookupuser' => 'Benotzerastellungen nokucken',
+	'action-lookupuser' => 'Benotzerastellungen nokucken',
 );
 
 /** Lingua Franca Nova (Lingua Franca Nova)
