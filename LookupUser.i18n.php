@@ -42,7 +42,7 @@ $messages['en'] = array(
  * @author Umherirrender
  */
 $messages['qqq'] = array(
-	'lookupuser' => 'Name of Special:LookupUser in [[Special:SpecialPages]] and title of Special:LookupUser page.',
+	'lookupuser' => '{{doc-special|LookupUser}}',
 	'lookupuser-desc' => '{{desc|name=Lookup User|url=http://www.mediawiki.org/wiki/Extension:LookupUser}}',
 	'lookupuser-intro' => 'Short howto use introduction',
 	'lookupuser-nonexistent' => 'Error message which shown when selected user does not exist',
