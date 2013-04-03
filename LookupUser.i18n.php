@@ -924,6 +924,7 @@ Jivv en Addräß för de <i lang="en">e-mail<i> aan, öm all de Metmaachere annz
 	'lookupuser-useroptions' => 'Enstellunge:',
 	'lookupuser-foundmoreusers' => 'Mer han mieh wi eine Metmaacher jefonge:',
 	'right-lookupuser' => 'Enem Metmaacher sing Enstellunge aankike',
+	'action-lookupuser' => 'de Metmaacher iehre Enschtällonge ze beloore',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
