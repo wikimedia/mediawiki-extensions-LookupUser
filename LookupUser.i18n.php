@@ -1278,7 +1278,7 @@ $messages['pms'] = array(
 	'lookupuser-useroptions' => "Opsion ëd l'utent:",
 	'lookupuser-foundmoreusers' => 'Trovà pi che un utent:',
 	'right-lookupuser' => 'Varda ij "mè gust" ëd l\'utent',
-	'action-lookupuser' => 'varda ij "mè gust" ëd l\'utent',
+	'action-lookupuser' => "arserché ant ij gust ëd l'utent",
 );
 
 /** Pashto (پښتو)
