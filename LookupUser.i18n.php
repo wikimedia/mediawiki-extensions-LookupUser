@@ -1367,12 +1367,14 @@ $messages['roa-tara'] = array(
 	'lookupuser-authenticated' => 'autendicate sus a $1',
 	'lookupuser-not-authenticated' => 'non autendicate',
 	'lookupuser-id' => "ID de l'utende: <tt>#$1</tt>",
+	'lookupuser-email' => 'E-mail: [[Special:EmailUser/$2|$1]]',
 	'lookupuser-no-email' => "non g'è previste",
 	'lookupuser-realname' => 'Nome vere: $1',
 	'lookupuser-registration' => 'Date de reggistrazione: $1',
 	'lookupuser-no-registration' => 'no reggistrate',
 	'lookupuser-info-authenticated' => "Autendicazione de l'e-mail: $1",
 	'lookupuser-useroptions' => 'Opzione utende:',
+	'lookupuser-foundmoreusers' => "Acchiate cchiù de 'n'utende:",
 );
 
 /** Russian (русский)
