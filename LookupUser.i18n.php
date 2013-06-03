@@ -1134,7 +1134,7 @@ $messages['nah'] = array(
 	'lookupuser-realname' => 'Melāhuac tōcāitl: $1',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Laaknor
  */
 $messages['nb'] = array(
@@ -1182,7 +1182,7 @@ $messages['nl'] = array(
 	'action-lookupuser' => 'gebruikersvoorkeuren te bekijken',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Frokor
  * @author Harald Khan
  * @author Njardarlogar
