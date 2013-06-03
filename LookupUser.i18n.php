@@ -300,6 +300,7 @@ $messages['cs'] = array(
 	'lookupuser-useroptions' => 'Nastavení uživatele:',
 	'lookupuser-foundmoreusers' => 'Nalezeno více uživatelů:',
 	'right-lookupuser' => 'Prohlížení nastavení jiných uživatelů',
+	'action-lookupuser' => 'prohlížet uživatelská nastavení',
 );
 
 /** Welsh (Cymraeg)
