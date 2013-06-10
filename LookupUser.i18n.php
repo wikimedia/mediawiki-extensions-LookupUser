@@ -273,8 +273,10 @@ $messages['ca'] = array(
 
 /** Chechen (нохчийн)
  * @author Sasan700
+ * @author Умар
  */
 $messages['ce'] = array(
+	'lookupuser-registration' => 'ДӀаяздар кхоьллана терахь: $1',
 	'right-lookupuser' => 'лаха декъашхойн нисдарш',
 );
 
@@ -1825,14 +1827,16 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎)
  * @author Gzdavidwong
+ * @author Justincheng12345
  * @author Mark85296341
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
 	'lookupuser' => '查詢用戶資料',
 	'lookupuser-desc' => '[[Special:LookupUser|檢索信息]] 有關的用戶 ID 的電子郵件地址等',
-	'lookupuser-intro' => '輸入使用者名稱，檢視該用戶的偏好設定', # Fuzzy
+	'lookupuser-intro' => '輸入使用者名稱以檢視該用戶的偏好設定，亦可使用電子郵件地址，並顯示所有使用該電子郵件地址的賬號。',
 	'lookupuser-nonexistent' => '錯誤：使用者不存在',
+	'lookupuser-authenticated' => '$1已驗証',
 	'lookupuser-not-authenticated' => '未驗證',
 	'lookupuser-id' => '使用者 ID：<tt>#$1</tt>',
 	'lookupuser-email' => '電郵：[[Special:EmailUser/$2|$1]]',
@@ -1843,5 +1847,7 @@ $messages['zh-hant'] = array(
 	'lookupuser-touched' => '最後觸及的用戶記錄：$1',
 	'lookupuser-info-authenticated' => '電子郵件驗證：$1',
 	'lookupuser-useroptions' => '使用者選擇：',
+	'lookupuser-foundmoreusers' => '找到多名用戶：',
 	'right-lookupuser' => '檢視用戶設定',
+	'action-lookupuser' => '檢視用戶設定',
 );
