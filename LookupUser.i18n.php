@@ -1366,6 +1366,9 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'lookupuser' => "Cirche le 'mbormaziune de l'utende",
+	'lookupuser-desc' => "[[Special:LookupUser|Pigghie le 'mbormaziune]] sus a 'n'utende cumme l'indirizze email e l'ID",
+	'lookupuser-intro' => "Sckaffe 'u nome utende pe 'ndrucà le preferenze de quidde utende. 'N'indirizze email pò pure essere ausate, e pò face vedè tutte le cunde ca ausane quidde indirizze.",
 	'lookupuser-nonexistent' => "Errore: L'utende non g'esiste",
 	'lookupuser-authenticated' => 'autendicate sus a $1',
 	'lookupuser-not-authenticated' => 'non autendicate',
@@ -1375,9 +1378,12 @@ $messages['roa-tara'] = array(
 	'lookupuser-realname' => 'Nome vere: $1',
 	'lookupuser-registration' => 'Date de reggistrazione: $1',
 	'lookupuser-no-registration' => 'no reggistrate',
+	'lookupuser-touched' => "'A righe de l'utende ha state tuccate l'urtema vote: $1",
 	'lookupuser-info-authenticated' => "Autendicazione de l'e-mail: $1",
 	'lookupuser-useroptions' => 'Opzione utende:',
 	'lookupuser-foundmoreusers' => "Acchiate cchiù de 'n'utende:",
+	'right-lookupuser' => "Cirche le preferenze de l'utende",
+	'action-lookupuser' => "cirche le preferenze de l'utende",
 );
 
 /** Russian (русский)
