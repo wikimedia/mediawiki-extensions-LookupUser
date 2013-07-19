@@ -1257,6 +1257,7 @@ $messages['pl'] = array(
 	'lookupuser-useroptions' => 'Opcje użytkownika:',
 	'lookupuser-foundmoreusers' => 'Odnaleziono więcej niż jednego użytkownika:',
 	'right-lookupuser' => 'Przeglądanie ustawień preferencji użytkowników',
+	'action-lookupuser' => 'podejrzyj preferencje użytkownika',
 );
 
 /** Piedmontese (Piemontèis)
