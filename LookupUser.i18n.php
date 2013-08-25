@@ -46,19 +46,26 @@ $messages['qqq'] = array(
 	'lookupuser-desc' => '{{desc|name=Lookup User|url=http://www.mediawiki.org/wiki/Extension:LookupUser}}',
 	'lookupuser-intro' => 'Short howto use introduction',
 	'lookupuser-nonexistent' => 'Error message which shown when selected user does not exist',
-	'lookupuser-authenticated' => 'Parameters:
+	'lookupuser-authenticated' => 'Used as <code>$1</code> in {{msg-mw|Lookupuser-info-authenticated}}.
+
+Parameters:
 * $1 - time and date
 See also:
 * {{msg-mw|Emailauthenticated}}',
-	'lookupuser-not-authenticated' => 'See also:
+	'lookupuser-not-authenticated' => 'Used as <code>$1</code> in {{msg-mw|Lookupuser-info-authenticated}}.
+
+See also:
 * {{msg-mw|Emailnotauthenticated}}',
-	'lookupuser-id' => '{{Identical|User ID}}',
-	'lookupuser-email' => 'Link to [[Special:EmailUser/$2]].
-Parameters:
-* $1 - E-mail address or {{msg-mw|lookupuser-no-email}}
+	'lookupuser-id' => 'Parameters:
+* $1 - user ID
+{{Identical|User ID}}',
+	'lookupuser-email' => 'Link to [[Special:EmailUser/$2]]. Parameters:
+* $1 - email address or {{msg-mw|Lookupuser-no-email}}
 * $2 - username',
-	'lookupuser-no-email' => '{{Identical|Notprovided}}',
-	'lookupuser-realname' => 'Real name of the selected user',
+	'lookupuser-no-email' => 'Used as <code>$1</code> in {{msg-mw|Lookupuser-email}} if the email address is not specified.
+{{Identical|Notprovided}}',
+	'lookupuser-realname' => 'Parameters:
+* $1 - real name of the selected user',
 	'lookupuser-registration' => 'Parameters:
 * $1 - time and date
 See also:
@@ -67,7 +74,10 @@ See also:
 	'lookupuser-no-registration' => 'If no registration date about the selected user is available',
 	'lookupuser-touched' => "Date of user's last login. Parameters:
 * $1 - time and date",
-	'lookupuser-info-authenticated' => 'E-mail authentication date and time',
+	'lookupuser-info-authenticated' => 'Parameters:
+* $1 - any one of the following messages:
+** {{msg-mw|Lookupuser-authenticated}} (<code>$1</code> is time and date)
+** {{msg-mw|Lookupuser-not-authenticated}}',
 	'lookupuser-useroptions' => "User's options",
 	'lookupuser-foundmoreusers' => 'Message which will be shown when multiple users (2 or more users) are found.
 
@@ -828,7 +838,7 @@ $messages['ja'] = array(
 	'lookupuser-desc' => 'メールアドレスやIDなどの利用者に関する[[Special:LookupUser|情報を取得]]する',
 	'lookupuser-intro' => '利用者の設定を閲覧するには、利用者名を入力します。メールアドレスを入力して、そのメールアドレスを使用するアカウントをすべて表示することもできます。',
 	'lookupuser-nonexistent' => 'エラー: 利用者は存在しません',
-	'lookupuser-authenticated' => 'メール認証日: $1',
+	'lookupuser-authenticated' => '$1 に認証済み',
 	'lookupuser-not-authenticated' => '認証されていません',
 	'lookupuser-id' => '利用者ID: <tt>#$1</tt>',
 	'lookupuser-email' => 'メール: [[Special:EmailUser/$2|$1]]',
