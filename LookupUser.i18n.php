@@ -835,12 +835,12 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'lookupuser' => '利用者情報を調査',
-	'lookupuser-desc' => 'メールアドレスやIDなどの利用者に関する[[Special:LookupUser|情報を取得]]する',
+	'lookupuser-desc' => 'メールアドレスや ID などの利用者に関する[[Special:LookupUser|情報を取得]]する',
 	'lookupuser-intro' => '利用者の設定を閲覧するには、利用者名を入力します。メールアドレスを入力して、そのメールアドレスを使用するアカウントをすべて表示することもできます。',
 	'lookupuser-nonexistent' => 'エラー: 利用者は存在しません',
 	'lookupuser-authenticated' => '$1 に認証済み',
 	'lookupuser-not-authenticated' => '認証されていません',
-	'lookupuser-id' => '利用者ID: <tt>#$1</tt>',
+	'lookupuser-id' => '利用者 ID: <tt>#$1</tt>',
 	'lookupuser-email' => 'メール: [[Special:EmailUser/$2|$1]]',
 	'lookupuser-no-email' => '提供されていません',
 	'lookupuser-realname' => '本名: $1',
