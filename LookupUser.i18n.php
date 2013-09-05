@@ -1330,13 +1330,14 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
  * @author Eduardo.mps
  * @author Jesielt
  */
 $messages['pt-br'] = array(
 	'lookupuser' => 'Procurar informação de usuário',
 	'lookupuser-desc' => '[[Special:LookupUser|Retorna informação]] sobre um usuário tal como o endereço de email e o ID',
-	'lookupuser-intro' => 'Introduza um nome de usuário para visualizar as preferências desse usuário.', # Fuzzy
+	'lookupuser-intro' => 'Introduza um nome de usuário para visualizar as preferências deste usuário. Um endereço de email pode também ser introduzido e mostrará todas as contas que utilizam este email.',
 	'lookupuser-nonexistent' => 'Erro: Esse usuário não existe',
 	'lookupuser-authenticated' => 'Autenticação por email: $1',
 	'lookupuser-not-authenticated' => 'não autenticado',
