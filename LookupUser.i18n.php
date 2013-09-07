@@ -1307,13 +1307,14 @@ $messages['ps'] = array(
 );
 
 /** Portuguese (português)
+ * @author Cainamarques
  * @author Hamilton Abreu
  * @author Malafaya
  */
 $messages['pt'] = array(
 	'lookupuser' => 'Procurar informação de utilizador',
 	'lookupuser-desc' => '[[Special:LookupUser|Obter informação]] sobre um utilizador tal como o correio electrónico e a identificação (ID)',
-	'lookupuser-intro' => 'Introduza um nome de utilizador para ver as preferências desse utilizador.', # Fuzzy
+	'lookupuser-intro' => 'Introduza um nome de utilizador para ver as preferências desse utilizador. Um endereço de email pode também ser introduzido e mostrará todas as contas que utilizam este email.',
 	'lookupuser-nonexistent' => 'Erro: Utilizador não existe',
 	'lookupuser-authenticated' => 'autenticado em $1',
 	'lookupuser-not-authenticated' => 'não autenticado',
@@ -1326,7 +1327,9 @@ $messages['pt'] = array(
 	'lookupuser-touched' => 'Registo de utilizador alterado pela última vez: $1',
 	'lookupuser-info-authenticated' => 'Autenticação do correio electrónico: $1',
 	'lookupuser-useroptions' => 'Opções do utilizador:',
+	'lookupuser-foundmoreusers' => 'Foram encontrados mais de um utilizador:',
 	'right-lookupuser' => 'Consultar preferências de utilizador',
+	'action-lookupuser' => 'visualizar preferências de utilizadores',
 );
 
 /** Brazilian Portuguese (português do Brasil)
@@ -1350,7 +1353,9 @@ $messages['pt-br'] = array(
 	'lookupuser-touched' => 'Registro de usuário alterado pela última vez: $1',
 	'lookupuser-info-authenticated' => 'Autenticação de e-mail: $1',
 	'lookupuser-useroptions' => 'Opções de usuário:',
+	'lookupuser-foundmoreusers' => 'Foram encontrados mais de um usuário:',
 	'right-lookupuser' => 'Consultar preferências de usuário',
+	'action-lookupuser' => 'visualizar preferências de usuários',
 );
 
 /** Romanian (română)
