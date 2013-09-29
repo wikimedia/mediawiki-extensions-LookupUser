@@ -1407,6 +1407,7 @@ $messages['roa-tara'] = array(
  * @author Adata80
  * @author Eleferen
  * @author Kaganer
+ * @author Okras
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -1427,6 +1428,7 @@ $messages['ru'] = array(
 	'lookupuser-useroptions' => 'Настройки участника:',
 	'lookupuser-foundmoreusers' => 'Найдено более одного пользователя:',
 	'right-lookupuser' => 'поиск настроек участников',
+	'action-lookupuser' => 'просмотр пользовательских настроек',
 );
 
 /** Sardinian (sardu)
