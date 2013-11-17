@@ -778,6 +778,7 @@ $messages['ia'] = array(
 	'lookupuser-useroptions' => 'Optiones del usator:',
 	'lookupuser-foundmoreusers' => 'Plure usatores trovate:',
 	'right-lookupuser' => 'Consultar preferentias de usatores',
+	'action-lookupuser' => 'consultar le preferentias del usator',
 );
 
 /** Indonesian (Bahasa Indonesia)
