@@ -1202,8 +1202,8 @@ $messages['nl'] = array(
 	'lookupuser-info-authenticated' => 'E-mailbevestiging: $1',
 	'lookupuser-useroptions' => 'Gebruikersopties:',
 	'lookupuser-foundmoreusers' => 'Meer dan één gebruiker gevonden:',
-	'right-lookupuser' => 'Gebruikersvoorkeuren bekijken',
-	'action-lookupuser' => 'gebruikersvoorkeuren te bekijken',
+	'right-lookupuser' => 'Gebruikersvoorkeuren opzoeken',
+	'action-lookupuser' => 'gebruikersvoorkeuren op te zoeken',
 );
 
 /** Norwegian Nynorsk (norsk nynorsk)
