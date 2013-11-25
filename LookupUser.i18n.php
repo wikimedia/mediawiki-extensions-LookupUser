@@ -442,6 +442,7 @@ $messages['eo'] = array(
 /** Spanish (español)
  * @author Armando-Martin
  * @author Crazymadlover
+ * @author Fitoschido
  * @author Imre
  */
 $messages['es'] = array(
@@ -451,7 +452,7 @@ $messages['es'] = array(
 	'lookupuser-nonexistent' => 'Error: Usuario no existe',
 	'lookupuser-authenticated' => 'autenticado en $1',
 	'lookupuser-not-authenticated' => 'no autenticado',
-	'lookupuser-id' => 'ID de usuario: <tt>#$1</tt>',
+	'lookupuser-id' => 'Id. de usuario: <tt>#$1</tt>',
 	'lookupuser-email' => 'Correo electrónico: [[Special:EmailUser/$2|$1]]',
 	'lookupuser-no-email' => 'no proveído',
 	'lookupuser-realname' => 'Nombre real: $1',
