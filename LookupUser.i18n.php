@@ -290,7 +290,7 @@ $messages['ce'] = array(
 	'right-lookupuser' => 'лаха декъашхойн нисдарш',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Matěj Grabovský
  * @author Mormegil
  */
