@@ -1713,7 +1713,7 @@ $messages['tl'] = array(
 $messages['tr'] = array(
 	'lookupuser' => 'Kullanıcı bilgisine bak',
 	'lookupuser-desc' => 'Bir kullanıcı hakkında e-posta adresi ve ID gibi [[Special:LookupUser|bilgileri al]]',
-	'lookupuser-intro' => 'Kullanıcıların tercihlerini görmek için bir kullanıcı adı girin.', # Fuzzy
+	'lookupuser-intro' => 'Kullanıcıların tercihlerini görmek için bir kullanıcı adı girin. Bir e-posta adresi de kullanılabilir, o e-postayı kullanan tüm hesaplar gösterilir.',
 	'lookupuser-nonexistent' => 'Hata: Kullanıcı yok',
 	'lookupuser-authenticated' => '$1 üzerinde denetlendi',
 	'lookupuser-not-authenticated' => 'denetlenmedi',
@@ -1726,7 +1726,9 @@ $messages['tr'] = array(
 	'lookupuser-touched' => 'Kullanıcı kaydı son dokunuldu: $1',
 	'lookupuser-info-authenticated' => 'E-posta doğrulama: $1',
 	'lookupuser-useroptions' => 'Kullanıcı seçenekleri:',
+	'lookupuser-foundmoreusers' => 'Birden çok kullanıcı bulundu:',
 	'right-lookupuser' => 'Kullanıcı tercihlerine bak',
+	'action-lookupuser' => 'kullanıcı tercihlerine bak',
 );
 
 /** Ukrainian (українська)
