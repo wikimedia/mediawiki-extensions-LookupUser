@@ -1734,15 +1734,16 @@ $messages['tr'] = array(
 /** Ukrainian (українська)
  * @author AS
  * @author Aleksandrit
+ * @author Ua2004
  * @author Ата
  */
 $messages['uk'] = array(
-	'lookupuser' => 'Показати відомості про користувача',
-	'lookupuser-desc' => '[[Special:LookupUser|Отримання відомостей]] про користувача, таких як адреса Е-пошти та ідентифікатор',
-	'lookupuser-intro' => "Введіть ім'я користувача, щоб переглянути налаштування цього користувача. Можна використати адресу електронної пошти, це покаже усі облікові записи, що її використовують.",
-	'lookupuser-nonexistent' => 'Помилка. Користувача не існує',
+	'lookupuser' => 'Відомості про користувача',
+	'lookupuser-desc' => '[[Special:LookupUser|Отримання відомостей]] про користувача',
+	'lookupuser-intro' => "Введіть ім'я користувача, щоб переглянути відомості про нього. Можна використати адресу електронної пошти, тоді ви побачите усі облікові записи, що її використовують.",
+	'lookupuser-nonexistent' => 'Помилка. Такого користувача не існує',
 	'lookupuser-authenticated' => 'Аутентифікація ел. поштою: $1',
-	'lookupuser-not-authenticated' => 'не аутентіфіцірован',
+	'lookupuser-not-authenticated' => 'не автентифікований',
 	'lookupuser-id' => 'ID користувача: <tt>#$1</tt>',
 	'lookupuser-email' => 'Ел. пошта: [[Special:EmailUser/$2|$1]]',
 	'lookupuser-no-email' => 'не указан',
@@ -1754,7 +1755,7 @@ $messages['uk'] = array(
 	'lookupuser-useroptions' => 'Налаштування користувача:',
 	'lookupuser-foundmoreusers' => 'Знайдено більше одного користувача:',
 	'right-lookupuser' => 'Перегляд налаштувань користувачів',
-	'action-lookupuser' => 'переглядати налаштування користувачів',
+	'action-lookupuser' => 'перегляд налаштувань користувачів',
 );
 
 /** Urdu (اردو)
