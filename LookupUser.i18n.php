@@ -484,6 +484,7 @@ $messages['eu'] = array(
 /** Persian (فارسی)
  * @author Huji
  * @author Persianizer
+ * @author Reza1615
  * @author ZxxZxxZ
  */
 $messages['fa'] = array(
@@ -504,6 +505,7 @@ $messages['fa'] = array(
 	'lookupuser-useroptions' => 'گزینه‌های کاربر:',
 	'lookupuser-foundmoreusers' => 'بیش از یک کاربر یافت شد:',
 	'right-lookupuser' => 'مراجعه به ترجیحات کاربر',
+	'action-lookupuser' => 'جستجوی ترجیحات کاربر',
 );
 
 /** Finnish (suomi)
