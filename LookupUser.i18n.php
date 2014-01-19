@@ -940,6 +940,12 @@ $messages['ko'] = array(
 	'lookupuser-realname' => '실명: $1',
 	'lookupuser-registration' => '등록 날짜: $1',
 	'lookupuser-no-registration' => '기록되지 않음',
+	'lookupuser-touched' => '사용자가 마지막으로 접속한 기록: $1',
+	'lookupuser-info-authenticated' => '이메일 인증: $1',
+	'lookupuser-useroptions' => '사용자 선택 사항:',
+	'lookupuser-foundmoreusers' => '한 명 이상의 사용자를 찾음:',
+	'right-lookupuser' => '사용자 환경설정을 검색',
+	'action-lookupuser' => '사용자 환경설정을 검색',
 );
 
 /** Colognian (Ripoarisch)
