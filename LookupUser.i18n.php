@@ -506,6 +506,7 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Ebraminio
  * @author Huji
  * @author Persianizer
  * @author Reza1615
@@ -513,19 +514,19 @@ $messages['eu'] = array(
  */
 $messages['fa'] = array(
 	'lookupuser' => 'نگاه کردن به اطلاعات کاربر',
-	'lookupuser-desc' => '[[Special:LookupUser|به دست آوردن اطلاعات]] در مورد یک کاربر نظیر نشانی پست الکترونیکی و ID',
-	'lookupuser-intro' => 'یک نام کاربری وارد کنید تا تنشیمات آن کاربر را ببینید. همچنین می‌تواند از نشانی پست الکترونیکی استفاده کرد تا همهٔ حساب‌های کاربری استفاده‌کننده از آن پست الکترونیکی را دید.',
+	'lookupuser-desc' => '[[Special:LookupUser|به دست آوردن اطلاعات]] در مورد یک کاربر نظیر نشانی رایانامه و ID',
+	'lookupuser-intro' => 'یک نام کاربری وارد کنید تا تنشیمات آن کاربر را ببینید. همچنین می‌تواند از نشانی رایانامه استفاده کرد تا همهٔ حساب‌های کاربری استفاده‌کننده از آن رایانامه را دید.',
 	'lookupuser-nonexistent' => 'خطا: کاربر وجود ندارد',
 	'lookupuser-authenticated' => 'اعتبارداده‌شده روی $1',
 	'lookupuser-not-authenticated' => 'فاقد اعتبار',
 	'lookupuser-id' => 'نام کاربری: <tt>#$1</tt>',
-	'lookupuser-email' => 'پست الکترونیکی: [[Special:EmailUser/$2|$1]]',
+	'lookupuser-email' => 'رایانامه: [[Special:EmailUser/$2|$1]]',
 	'lookupuser-no-email' => 'تامین نشده',
 	'lookupuser-realname' => 'نام حقیقی: $1',
 	'lookupuser-registration' => 'تاریخ ثبت‌نام: $1',
 	'lookupuser-no-registration' => 'ثبت نشده',
 	'lookupuser-touched' => 'آخرین دستکاری در اطلاعات کاربر: $1',
-	'lookupuser-info-authenticated' => 'فعال‌سازی پست الکترونیکی: $1',
+	'lookupuser-info-authenticated' => 'هویت‌سنجی رایانامه‌ای: $1',
 	'lookupuser-useroptions' => 'گزینه‌های کاربر:',
 	'lookupuser-foundmoreusers' => 'بیش از یک کاربر یافت شد:',
 	'right-lookupuser' => 'مراجعه به ترجیحات کاربر',
