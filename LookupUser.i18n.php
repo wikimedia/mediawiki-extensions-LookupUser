@@ -1685,12 +1685,13 @@ $messages['ta'] = array(
 );
 
 /** Telugu (తెలుగు)
+ * @author Chaduvari
  * @author Veeven
  */
 $messages['te'] = array(
 	'lookupuser' => 'వాడుకరి సమాచారంలో వెతకండి',
 	'lookupuser-intro' => 'ఒక వాడుకరి యొక్క అభిరుచులు చూడడానికి ఆ వాడుకరిపేరుని ఇవ్వండి.', # Fuzzy
-	'lookupuser-nonexistent' => 'పొరపాటు: వాడుకరి ఉనికిలో లేరు',
+	'lookupuser-nonexistent' => 'లోపం: వాడుకరి లేనే లేరు',
 	'lookupuser-id' => 'వాడుకరి ID: <tt>#$1</tt>',
 	'lookupuser-email' => 'ఈ-మెయిల్: [[Special:EmailUser/$2|$1]]',
 	'lookupuser-no-email' => 'ఇవ్వలేదు',
