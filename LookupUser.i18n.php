@@ -672,6 +672,7 @@ $messages['gv'] = array(
  * @author Nirofir
  * @author Rotemliss
  * @author YaronSh
+ * @author Yona b
  */
 $messages['he'] = array(
 	'lookupuser' => 'בדיקת נתוני משתמש',
@@ -691,6 +692,7 @@ $messages['he'] = array(
 	'lookupuser-useroptions' => 'אפשרויות המשתמש:',
 	'lookupuser-foundmoreusers' => 'נמצאו יותר ממשתמש אחד:',
 	'right-lookupuser' => 'בדיקת העדפות משתמש',
+	'action-lookupuser' => 'לבדוק העדפות משתמש',
 );
 
 /** Hindi (हिन्दी)
