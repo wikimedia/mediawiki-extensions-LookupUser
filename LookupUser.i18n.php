@@ -1297,6 +1297,7 @@ $messages['oc'] = array(
 	'lookupuser-touched' => "Enregistrament de l'utilizaire tocat pel darrièr còp : $1",
 	'lookupuser-info-authenticated' => 'Autentificacion del corrièr electronic : $1',
 	'lookupuser-useroptions' => "Opcions de l'utilizaire :",
+	'lookupuser-foundmoreusers' => "Mai d'un utilizaire de trobat :",
 	'right-lookupuser' => 'Visionar las preferéncias dels utilizaires',
 );
 
