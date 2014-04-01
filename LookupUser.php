@@ -4,7 +4,6 @@
  *
  * @file
  * @ingroup Extensions
- * @version 1.2
  * @author Tim Starling
  * @copyright © 2006 Tim Starling
  * @licence GNU General Public Licence
@@ -19,7 +18,7 @@ if( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Lookup User',
-	'version' => '1.2',
+	'version' => '1.3.0',
 	'author' => 'Tim Starling',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:LookupUser',
 	'descriptionmsg' => 'lookupuser-desc',
@@ -27,6 +26,7 @@ $wgExtensionCredits['specialpage'][] = array(
 
 // Set up the new special page
 $dir = dirname( __FILE__ ) . '/';
+$wgMessagesDirs['LookupUser'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['LookupUser'] = $dir . 'LookupUser.i18n.php';
 $wgExtensionMessagesFiles['LookupUserAlias'] = $dir . 'LookupUser.alias.php';
 $wgAutoloadClasses['LookupUserPage'] = $dir . 'LookupUser.body.php';
