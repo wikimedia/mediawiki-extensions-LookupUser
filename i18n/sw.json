@@ -1,6 +1,4 @@
 {
-    "@metadata": {
-        "authors": []
-    },
-    "lookupuser-realname": "Jina lako halisi:$1"
+	"@metadata": [],
+	"lookupuser-realname": "Jina lako halisi:$1"
 }

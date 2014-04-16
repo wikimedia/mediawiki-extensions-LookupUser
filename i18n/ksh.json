@@ -1,25 +1,25 @@
 {
-    "@metadata": {
-        "authors": [
-            "Purodha"
-        ]
-    },
-    "lookupuser": "Metmaacher-Enfommazjuhne zeije",
-    "lookupuser-desc": "Donn [[Special:LookupUser|Enfommazjuhne övver ene Metmaacher]] aanzeije, esu jet wi de <i lang=\"en\">e-mail</i> Address udder Metmacher-Nommer.",
-    "lookupuser-intro": "JJivv enem Metmaacher singe Name aan, öm däm sing Enstellunge aanzeije ze lohße.\nJivv en Addräß för de <i lang=\"en\">e-mail<i> aan, öm all de Metmaachere annzeije ze lohße, di di Addräß för de <i lang=\"en\">e-mail<i> aanjejovve han.",
-    "lookupuser-nonexistent": "Fähler, esu ene Metmaacher kenne mer nit",
-    "lookupuser-authenticated": "E-mail bestätich: $1",
-    "lookupuser-not-authenticated": "–unbestätich–",
-    "lookupuser-id": "Metmaacher-Nommer: <tt>$1</tt>",
-    "lookupuser-email": "E-mail Address: [[Special:EmailUser/$2|$1]]",
-    "lookupuser-no-email": "–nit&nbsp;aanjejovve–",
-    "lookupuser-realname": "Rechteje Name: $1",
-    "lookupuser-registration": "Et eets aanjemelldt om: $1",
-    "lookupuser-no-registration": "–nit&nbsp;faßjehallde–",
-    "lookupuser-touched": "Letz Änderung am Metmaacher-Datesatz: $1",
-    "lookupuser-info-authenticated": "Bestätesch övver <i lang=\"en\">e-mail</i>: $1",
-    "lookupuser-useroptions": "Enstellunge:",
-    "lookupuser-foundmoreusers": "Mer han mieh wi eine Metmaacher jefonge:",
-    "right-lookupuser": "Enem Metmaacher sing Enstellunge aankike",
-    "action-lookupuser": "de Metmaacher iehre Enschtällonge ze beloore"
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"lookupuser": "Metmaacher-Enfommazjuhne zeije",
+	"lookupuser-desc": "Donn [[Special:LookupUser|Enfommazjuhne övver ene Metmaacher]] aanzeije, esu jet wi de <i lang=\"en\">e-mail</i> Address udder Metmacher-Nommer.",
+	"lookupuser-intro": "JJivv enem Metmaacher singe Name aan, öm däm sing Enstellunge aanzeije ze lohße.\nJivv en Addräß för de <i lang=\"en\">e-mail<i> aan, öm all de Metmaachere annzeije ze lohße, di di Addräß för de <i lang=\"en\">e-mail<i> aanjejovve han.",
+	"lookupuser-nonexistent": "Fähler, esu ene Metmaacher kenne mer nit",
+	"lookupuser-authenticated": "E-mail bestätich: $1",
+	"lookupuser-not-authenticated": "–unbestätich–",
+	"lookupuser-id": "Metmaacher-Nommer: <tt>$1</tt>",
+	"lookupuser-email": "E-mail Address: [[Special:EmailUser/$2|$1]]",
+	"lookupuser-no-email": "–nit&nbsp;aanjejovve–",
+	"lookupuser-realname": "Rechteje Name: $1",
+	"lookupuser-registration": "Et eets aanjemelldt om: $1",
+	"lookupuser-no-registration": "–nit&nbsp;faßjehallde–",
+	"lookupuser-touched": "Letz Änderung am Metmaacher-Datesatz: $1",
+	"lookupuser-info-authenticated": "Bestätesch övver <i lang=\"en\">e-mail</i>: $1",
+	"lookupuser-useroptions": "Enstellunge:",
+	"lookupuser-foundmoreusers": "Mer han mieh wi eine Metmaacher jefonge:",
+	"right-lookupuser": "Enem Metmaacher sing Enstellunge aankike",
+	"action-lookupuser": "de Metmaacher iehre Enschtällonge ze beloore"
 }

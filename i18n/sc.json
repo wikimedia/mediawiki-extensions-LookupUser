@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Marzedu"
-        ]
-    },
-    "lookupuser-id": "ID usuàriu: <tt>#$1</tt>",
-    "lookupuser-email": "E-mail: [[Special:EmailUser/$2|$1]]",
-    "lookupuser-realname": "Nòmene beru: $1"
+	"@metadata": {
+		"authors": [
+			"Marzedu"
+		]
+	},
+	"lookupuser-id": "ID usuàriu: <tt>#$1</tt>",
+	"lookupuser-email": "E-mail: [[Special:EmailUser/$2|$1]]",
+	"lookupuser-realname": "Nòmene beru: $1"
 }

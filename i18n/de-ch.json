@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Filzstift"
-        ]
-    },
-    "lookupuser-realname": "Richtiger Name: $1"
+	"@metadata": {
+		"authors": [
+			"Filzstift"
+		]
+	},
+	"lookupuser-realname": "Richtiger Name: $1"
 }

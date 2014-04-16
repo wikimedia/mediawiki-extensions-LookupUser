@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "MF-Warburg"
-        ]
-    },
-    "lookupuser-id": "Númeru uza-na'in (\"ID\"): <tt>#$1</tt>"
+	"@metadata": {
+		"authors": [
+			"MF-Warburg"
+		]
+	},
+	"lookupuser-id": "Númeru uza-na'in (\"ID\"): <tt>#$1</tt>"
 }
