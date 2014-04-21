@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"AnakngAraw"
+			"AnakngAraw",
+			"Jojit fb"
 		]
 	},
 	"lookupuser": "Hanapin at tingnan ang kabatirang pangtagagamit",
 	"lookupuser-desc": "[[Special:LookupUser|Kuhanin ang kabatirang]] hinggil sa isang tagagamit katulad ng adres ng e-liham at ID",
-	"lookupuser-intro": "Magpasok ng isang pangalan ng tagagamit upang matingnan ang mga kagustuhan ng tagagamit na iyon. Maaari ring gamitin ang isang tirahan ng e-liham, at magpapakita ng lahat ng mga akawnt na ginagamit ang e-liham na iyon.",
+	"lookupuser-intro": "Magpasok ng isang pangalan ng tagagamit upang matingnan ang mga kagustuhan ng tagagamit na iyon. Maaari ring gamitin ang isang email address, at magpapakita ng lahat ng mga account na ginagamit ang e-mail na iyon.",
 	"lookupuser-nonexistent": "Kamalian: Hindi umiiral ang tagagamit",
 	"lookupuser-authenticated": "napatunayan noong $1",
 	"lookupuser-not-authenticated": "hindi pa napapatunayan",
