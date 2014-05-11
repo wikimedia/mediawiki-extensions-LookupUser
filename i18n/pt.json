@@ -3,10 +3,11 @@
 		"authors": [
 			"Cainamarques",
 			"Hamilton Abreu",
-			"Malafaya"
+			"Malafaya",
+			"Vitorvicentevalente"
 		]
 	},
-	"lookupuser": "Procurar informação de utilizador",
+	"lookupuser": "Procurar informação do utilizador",
 	"lookupuser-desc": "[[Special:LookupUser|Obter informação]] sobre um utilizador tal como o correio electrónico e a identificação (ID)",
 	"lookupuser-intro": "Introduza um nome de utilizador para ver as preferências desse utilizador. Um endereço de email pode também ser introduzido e mostrará todas as contas que utilizam este email.",
 	"lookupuser-nonexistent": "Erro: Utilizador não existe",
