@@ -5,7 +5,8 @@
 			"Jaakonam",
 			"Nike",
 			"Tarmo",
-			"VezonThunder"
+			"VezonThunder",
+			"Pxos"
 		]
 	},
 	"lookupuser": "Katso käyttäjän tiedot",
@@ -14,7 +15,7 @@
 	"lookupuser-nonexistent": "Virhe: Käyttäjää ei ole olemassa",
 	"lookupuser-authenticated": "tunnistettu osoite $1",
 	"lookupuser-not-authenticated": "ei tunnistettu",
-	"lookupuser-id": "Tunniste: <tt>#$1</tt>",
+	"lookupuser-id": "Käyttäjänumero: <tt>#$1</tt>",
 	"lookupuser-email": "Sähköposti: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "ei annettu",
 	"lookupuser-realname": "Oikea nimi: $1",
