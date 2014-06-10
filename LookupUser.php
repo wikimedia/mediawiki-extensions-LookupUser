@@ -18,7 +18,7 @@ if( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Lookup User',
-	'version' => '1.3.0',
+	'version' => '1.3.1',
 	'author' => 'Tim Starling',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:LookupUser',
 	'descriptionmsg' => 'lookupuser-desc',
@@ -47,7 +47,7 @@ $wgHooks['ContributionsToolLinks'][] = 'efLoadLookupUserLink';
  */
 function efLoadLookupUserLink( $id, $nt, &$links ) {
 	global $wgUser;
-	if( $wgUser->isAllowed( 'lookupuser' ) ) {
+	if( $wgUser->isAllowed( 'lookupuser' ) && !User::isIP( $nt->getText() ) ) {
 		$links[] = Linker::linkKnown(
 			SpecialPage::getTitleFor( 'LookupUser' ),
 			wfMsgHtml( 'lookupuser' ),
