@@ -53,7 +53,7 @@ class LookupUserPage extends SpecialPage {
 	 */
 	function showForm( $target ) {
 		global $wgScript, $wgOut;
-		$title = htmlspecialchars( $this->getTitle()->getPrefixedText() );
+		$title = htmlspecialchars( $this->getPageTitle()->getPrefixedText() );
 		$action = htmlspecialchars( $wgScript );
 		$target = htmlspecialchars( $target );
 		$ok = wfMsg( 'go' );
@@ -139,7 +139,7 @@ EOT
 				$wgOut->addHTML(
 					Xml::openElement( 'fieldset' ) . "\n" .
 					Xml::openElement( 'form', array( 'method' => 'get', 'action' => $wgScript ) ) . "\n" .
-					Html::hidden( 'title', $this->getTitle()->getPrefixedText() ) . "\n" .
+					Html::hidden( 'title', $this->getPageTitle()->getPrefixedText() ) . "\n" .
 					Html::hidden( 'target', $target ) . "\n" .
 					Xml::openElement( 'table', array( 'border' => '0' ) ) . "\n" .
 					Xml::openElement( 'tr' ) . "\n" .
