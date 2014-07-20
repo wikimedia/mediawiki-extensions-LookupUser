@@ -171,5 +171,5 @@ $specialPageAliases['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
-	'LookupUser' => array( '找尋用戶' ),
+	'LookupUser' => array( '找尋使用者' ),
 );
