@@ -4,7 +4,8 @@
 			"EugeneZelenko",
 			"Jim-by",
 			"Wizardist",
-			"Zedlik"
+			"Zedlik",
+			"Red Winged Duck"
 		]
 	},
 	"lookupuser": "Пошук зьвестак пра ўдзельніка",
@@ -23,5 +24,6 @@
 	"lookupuser-info-authenticated": "Аўтэнтыфікацыя электроннай пошты: $1",
 	"lookupuser-useroptions": "Налады ўдзельніка:",
 	"lookupuser-foundmoreusers": "Знойдзена больш за аднаго ўдзельніка:",
-	"right-lookupuser": "пошук зьвестак пра удзельнікаў"
+	"right-lookupuser": "пошук зьвестак пра удзельнікаў",
+	"action-lookupuser": "прагляд наладаў карыстальніка"
 }
