@@ -5,7 +5,8 @@
 			"Huji",
 			"Persianizer",
 			"Reza1615",
-			"ZxxZxxZ"
+			"ZxxZxxZ",
+			"Mjbmr"
 		]
 	},
 	"lookupuser": "نگاه کردن به اطلاعات کاربر",
@@ -15,7 +16,7 @@
 	"lookupuser-authenticated": "اعتبارداده‌شده روی $1",
 	"lookupuser-not-authenticated": "فاقد اعتبار",
 	"lookupuser-id": "نام کاربری: <tt>#$1</tt>",
-	"lookupuser-email": "رایانامه: [[Special:EmailUser/$2|$1]]",
+	"lookupuser-email": "پست الکترونیکی: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "تامین نشده",
 	"lookupuser-realname": "نام حقیقی: $1",
 	"lookupuser-registration": "تاریخ ثبت‌نام: $1",
