@@ -11,7 +11,7 @@
 		]
 	},
 	"lookupuser": "{{doc-special|LookupUser}}",
-	"lookupuser-desc": "{{desc|name=Lookup User|url=http://www.mediawiki.org/wiki/Extension:LookupUser}}",
+	"lookupuser-desc": "{{desc|name=Lookup User|url=https://www.mediawiki.org/wiki/Extension:LookupUser}}",
 	"lookupuser-intro": "Short howto use introduction",
 	"lookupuser-nonexistent": "Error message which shown when selected user does not exist",
 	"lookupuser-authenticated": "Used as <code>$1</code> in {{msg-mw|Lookupuser-info-authenticated}}.\n\nParameters:\n* $1 - time and date\nSee also:\n* {{msg-mw|Emailauthenticated}}",
