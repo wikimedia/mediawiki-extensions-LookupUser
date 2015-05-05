@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Melos",
-			"Santu"
+			"Santu",
+			"Pippinu"
 		]
 	},
 	"lookupuser": "Talìa nfurmazzioni utenti",
 	"lookupuser-desc": "[[Special:LookupUser|Ricùpira nfurmazzioni]] supra a n'utenti comu ndirizzu e-mail e ID",
-	"lookupuser-intro": "Nzirisci nu nomu utenti pi taliari li prifirenzi.",
+	"lookupuser-intro": "Nzirisci nu nomu utenti pi' taliari li prifirenzi di dd'utenti. Poi mèttiri macari nu nnirizzu di posta, e accussi' facennu s'ammùstrunu tutti li cunti chi adòpirunu ddu nnirizzu.",
 	"lookupuser-nonexistent": "Sbàgghiu: l'utenti non esisti",
 	"lookupuser-authenticated": "Cunferma nnirizzu e-mail: $1",
 	"lookupuser-not-authenticated": "no cunfirmatu",
