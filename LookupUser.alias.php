@@ -19,7 +19,7 @@ $specialPageAliases['ar'] = array(
 	'LookupUser' => array( 'مطالعة_مستخدم' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'LookupUser' => array( 'شوف_يوزر' ),
 );
