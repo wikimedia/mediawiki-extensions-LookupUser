@@ -5,7 +5,7 @@
 		]
 	},
 	"lookupuser": "Metmaacher-Enfommazjuhne zeije",
-	"lookupuser-desc": "Donn [[Special:LookupUser|Enfommazjuhne övver ene Metmaacher]] aanzeije, esu jet wi de <i lang=\"en\">e-mail</i> Address udder Metmacher-Nommer.",
+	"lookupuser-desc": "Donn [[Special:LookupUser|Enfommazjuhne övver ene Metmaacher]] aanzeije, esu jät wi de <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"„de eläktrohnesche Poß“\">e-mail</i>-Adräß udder de Kännong.",
 	"lookupuser-intro": "JJivv enem Metmaacher singe Name aan, öm däm sing Enstellunge aanzeije ze lohße.\nJivv en Addräß för de <i lang=\"en\">e-mail<i> aan, öm all de Metmaachere annzeije ze lohße, di di Addräß för de <i lang=\"en\">e-mail<i> aanjejovve han.",
 	"lookupuser-nonexistent": "Fähler, esu ene Metmaacher kenne mer nit",
 	"lookupuser-authenticated": "E-mail bestätich: $1",
