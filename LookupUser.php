@@ -31,8 +31,6 @@ $wgExtensionMessagesFiles['LookupUser'] = $dir . 'LookupUser.i18n.php';
 $wgExtensionMessagesFiles['LookupUserAlias'] = $dir . 'LookupUser.alias.php';
 $wgAutoloadClasses['LookupUserPage'] = $dir . 'LookupUser.body.php';
 $wgSpecialPages['LookupUser'] = 'LookupUserPage';
-// Special page group for MW 1.13+
-$wgSpecialPageGroups['LookupUser'] = 'users';
 
 // New user right, required to use the special page
 $wgAvailableRights[] = 'lookupuser';

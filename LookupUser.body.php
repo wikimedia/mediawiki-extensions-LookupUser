@@ -193,4 +193,8 @@ EOT
 			$wgOut->addWikiText( '*' . wfMsg( 'lookupuser-useroptions' ) . '<br />' . $optionsString );
 		}
 	}
+
+	protected function getGroupName() {
+		return 'users';
+	}
 }
