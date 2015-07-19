@@ -4,12 +4,13 @@
 			"Armando-Martin",
 			"Crazymadlover",
 			"Fitoschido",
-			"Imre"
+			"Imre",
+			"Macofe"
 		]
 	},
 	"lookupuser": "Ver información de usuario",
 	"lookupuser-desc": "[[Special:LookupUser|Recuperar información]] sobre un usuario tal como correo electrónico y ID",
-	"lookupuser-intro": "Introduzca un nombre de usuario para ver las preferencias de ese usuario. También puede usar una dirección de correo electrónico y mostrará todas las cuentas que emplean ese correo electrónico.",
+	"lookupuser-intro": "Escribe un nombre de usuario para ver las preferencias de ese usuario. También se puede usar una dirección de correo electrónico, que mostrará todas las cuentas que emplean ese correo electrónico.",
 	"lookupuser-nonexistent": "Error: Usuario no existe",
 	"lookupuser-authenticated": "autenticado en $1",
 	"lookupuser-not-authenticated": "no autenticado",
