@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"GreenZeb"
+			"GreenZeb",
+			"Papuass"
 		]
 	},
 	"lookupuser": "Sameklēt informāciju par lietotāju",
 	"lookupuser-desc": "[[Special:LookupUser|Iegūt informāciju]] par lietotāju (piemēram, e-pasta adresi un ID)",
 	"lookupuser-intro": "Ievadiet lietotājvārdu, lai apslatītu lietotāja uzstādījumus.",
-	"lookupuser-nonexistent": "Kļūda: Šāda lietotāja nav",
+	"lookupuser-nonexistent": "Kļūda: Šāda dalībnieka nav",
 	"lookupuser-authenticated": "autentificēts ar $1",
 	"lookupuser-not-authenticated": "nav autentificēts",
 	"lookupuser-id": "Lietotāja ID: <tt># $1</tt>",
