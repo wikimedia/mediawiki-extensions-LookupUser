@@ -5,11 +5,12 @@
 			"Hydra",
 			"Kuailong",
 			"Wrightbus",
-			"Yfdyh000"
+			"Yfdyh000",
+			"Liuxinyu970226"
 		]
 	},
 	"lookupuser": "查询用户信息",
-	"lookupuser-desc": "[[Special:LookupUser|检索信息]] 有关的用户 ID 的电子邮件地址等",
+	"lookupuser-desc": "[[Special:LookupUser|检索]]有关某位用户的信息，例如电子邮件地址和ID",
 	"lookupuser-intro": "输入用户名查看该用户的参数设置。也可以使用电子邮箱地址，将显示使用该地址的所有帐户。",
 	"lookupuser-nonexistent": "错误：用户不存在",
 	"lookupuser-authenticated": "$1 已验证",
