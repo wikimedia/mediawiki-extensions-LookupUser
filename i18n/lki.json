@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hosseinblue"
+			"Hosseinblue",
+			"Lakzon"
 		]
 	},
 	"right-lookupuser": "مراجعه به ترجیحات کاربر",
-	"action-lookupuser": "جستجوی ترجیحات کاربر"
+	"action-lookupuser": "مِنِ کردن تمارزووەل(ترجیحات)کاربەر"
 }
