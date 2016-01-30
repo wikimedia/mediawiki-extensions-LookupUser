@@ -190,7 +190,7 @@ EOT
 			$out->addWikiText( '*' . $this->msg( 'lookupuser-email', $email, $name )->text() );
 			$out->addWikiText( '*' . $this->msg( 'lookupuser-realname', $user->getRealName() )->text() );
 			$out->addWikiText( '*' . $this->msg( 'lookupuser-registration', $registration )->text() );
-			$out->addWikiText( '*' . $this->msg( 'lookupuser-touched', $lang->timeanddate( $user->mTouched ) ->text()) );
+			$out->addWikiText( '*' . $this->msg( 'lookupuser-touched', $lang->timeanddate( $user->mTouched ) )->text() );
 			$out->addWikiText( '*' . $this->msg( 'lookupuser-info-authenticated', $authenticated )->text() );
 			$out->addWikiText( '*' . $this->msg( 'lookupuser-useroptions' )->text() . '<br />' . $optionsString );
 		}
