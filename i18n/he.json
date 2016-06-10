@@ -5,7 +5,8 @@
 			"Nirofir",
 			"Rotemliss",
 			"YaronSh",
-			"Yona b"
+			"Yona b",
+			"Guycn2"
 		]
 	},
 	"lookupuser": "בדיקת נתוני משתמש",
@@ -24,6 +25,6 @@
 	"lookupuser-info-authenticated": "אימות כתובת דוא\"ל: $1",
 	"lookupuser-useroptions": "אפשרויות המשתמש:",
 	"lookupuser-foundmoreusers": "נמצאו יותר ממשתמש אחד:",
-	"right-lookupuser": "בדיקת העדפות משתמש",
+	"right-lookupuser": "בדיקת העדפות של משתמשים",
 	"action-lookupuser": "לבדוק העדפות משתמש"
 }
