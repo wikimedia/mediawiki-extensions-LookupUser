@@ -6,7 +6,8 @@
 			"Rotemliss",
 			"YaronSh",
 			"Yona b",
-			"Guycn2"
+			"Guycn2",
+			"Drorsnir"
 		]
 	},
 	"lookupuser": "בדיקת נתוני משתמש",
@@ -20,7 +21,7 @@
 	"lookupuser-no-email": "לא סופקה",
 	"lookupuser-realname": "שם אמיתי: $1",
 	"lookupuser-registration": "תאריך ההרשמה: $1",
-	"lookupuser-no-registration": "לא נשמר",
+	"lookupuser-no-registration": "לא נרשם",
 	"lookupuser-touched": "הפעם האחרונה בה ביצעו פעולה במידע המשתמש: $1",
 	"lookupuser-info-authenticated": "אימות כתובת דוא\"ל: $1",
 	"lookupuser-useroptions": "אפשרויות המשתמש:",
