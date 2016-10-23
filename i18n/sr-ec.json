@@ -3,7 +3,8 @@
 		"authors": [
 			"Rancher",
 			"Михајло Анђелковић",
-			"Обрадовић Горан"
+			"Обрадовић Горан",
+			"Сербијана"
 		]
 	},
 	"lookupuser": "Погледај информације о кориснику",
@@ -11,7 +12,7 @@
 	"lookupuser-authenticated": "ауторизација на $1",
 	"lookupuser-not-authenticated": "није ауторизовано",
 	"lookupuser-id": "Кориснички ID: <tt>#$1</tt>",
-	"lookupuser-email": "Е-пошта: [[Special:EmailUser/$2|$1]]",
+	"lookupuser-email": "Имејл: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "није приложено",
 	"lookupuser-realname": "Право име: $1",
 	"lookupuser-registration": "Датум регистрације: $1",
