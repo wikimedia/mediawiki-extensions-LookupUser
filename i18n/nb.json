@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Laaknor"
+			"Laaknor",
+			"Jon Harald Søby"
 		]
 	},
 	"lookupuser": "Finn brukerinformasjon",
 	"lookupuser-desc": "[[Special:LookupUser|Innhent informasjon]] om en bruker, som f.eks. e-postadresse og ID",
-	"lookupuser-intro": "Skriv inn et brukernavn for å vise brukerens innstillinger.",
+	"lookupuser-intro": "Skriv inn et brukernavn for å se innstillingene til den brukeren. En epostadresse kan også brukes, og viser alle kontoene som bruker den epostadressa.",
 	"lookupuser-nonexistent": "Feil: Brukeren eksisterer ikke",
 	"lookupuser-authenticated": "E-postbekrefting: $1",
 	"lookupuser-not-authenticated": "ikke bekreftet",
@@ -19,5 +20,7 @@
 	"lookupuser-touched": "Innstillinger sist endret: $1",
 	"lookupuser-info-authenticated": "E-postverifisering: $1",
 	"lookupuser-useroptions": "Brukervalg:",
-	"right-lookupuser": "Se brukerinnstillinger"
+	"lookupuser-foundmoreusers": "Fant mer enn én bruker:",
+	"right-lookupuser": "Se brukerinnstillinger",
+	"action-lookupuser": "vise brukeres innstillinger"
 }
