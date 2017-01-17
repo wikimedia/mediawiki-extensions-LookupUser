@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Malafaya"
+			"Malafaya",
+			"Robin van der Vliet"
 		]
 	},
-	"lookupuser-nonexistent": "Eroro: Uzanto ne existas",
+	"lookupuser-nonexistent": "Eroro: Uzero ne existas",
 	"lookupuser-realname": "Reala nomo: $1"
 }
