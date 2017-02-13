@@ -21,5 +21,6 @@
 	"lookupuser-info-authenticated": "Gwiriañ ar postel : $1",
 	"lookupuser-useroptions": "Dibarzhioù an implijer :",
 	"lookupuser-foundmoreusers": "Kavet ez eus bet meur a implijer :",
-	"right-lookupuser": "Sellet ouzh ar penndibaboù implijout"
+	"right-lookupuser": "Sellet ouzh ar penndibaboù implijout",
+	"action-lookupuser": "Sellet ouzh penndibaboù an implijer"
 }
