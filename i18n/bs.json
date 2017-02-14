@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"CERminator"
+			"CERminator",
+			"Srdjan m"
 		]
 	},
 	"lookupuser": "Pretraga podataka o korisniku",
@@ -16,7 +17,7 @@
 	"lookupuser-realname": "Pravo ime: $1",
 	"lookupuser-registration": "Datum registracije: $1",
 	"lookupuser-no-registration": "nije zabilježen",
-	"lookupuser-touched": "Korisnički zapis posljednji pogledan: $1",
+	"lookupuser-touched": "Datum i vrijeme posljednje zapisane korisnikove izmjene: $1",
 	"lookupuser-info-authenticated": "Potvrđen e-mailom: $1",
 	"lookupuser-useroptions": "Korisničke postavke:",
 	"right-lookupuser": "Pretraga korisničkih postavki"
