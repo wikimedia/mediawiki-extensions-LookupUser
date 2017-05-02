@@ -7,7 +7,7 @@
 	},
 	"lookupuser": "Pretraga podataka o korisniku",
 	"lookupuser-desc": "[[Special:LookupUser|Traženje podataka]] o korisniku poput e-mail adresa i ID",
-	"lookupuser-intro": "Unesite korisničko ime da biste vidjeli postavke tog korisnika.",
+	"lookupuser-intro": "Unesite korisničko ime da biste vidjeli postavke tog korisnika. Možete koristiti i adresu e-pošte, što će Vam pokazati sve račune koji koriste tu adresu.",
 	"lookupuser-nonexistent": "Greška: Korisnik ne postoji",
 	"lookupuser-authenticated": "potvrđeno $1",
 	"lookupuser-not-authenticated": "nije potvrđeno",
