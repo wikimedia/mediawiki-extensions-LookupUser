@@ -26,10 +26,7 @@ class LookupUserPage extends SpecialPage {
 		$this->setHeaders();
 
 		# If the user doesn't have the required 'lookupuser' permission, display an error
-		if ( !$this->getUser()->isAllowed( 'lookupuser' ) ) {
-			$this->displayRestrictionError();
-			return;
-		}
+		$this->checkPermissions();
 
 		if ( $subpage ) {
 			$target = $subpage;
