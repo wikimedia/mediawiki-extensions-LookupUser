@@ -6,7 +6,8 @@
 			"Nike",
 			"Tarmo",
 			"VezonThunder",
-			"Pxos"
+			"Pxos",
+			"01miki10"
 		]
 	},
 	"lookupuser": "Katso käyttäjän tiedot",
@@ -25,5 +26,6 @@
 	"lookupuser-info-authenticated": "Sähköpostitunnistus: $1",
 	"lookupuser-useroptions": "Käyttäjävalinnat:",
 	"lookupuser-foundmoreusers": "Löydettiin useita käyttäjiä:",
-	"right-lookupuser": "Hakea käyttäjän asetuksia"
+	"right-lookupuser": "Hakea käyttäjän asetuksia",
+	"action-lookupuser": "hakea käyttäjän asetuksia"
 }
