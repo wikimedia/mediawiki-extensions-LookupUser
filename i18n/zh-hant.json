@@ -6,14 +6,15 @@
 			"Mark85296341",
 			"Wrightbus",
 			"LNDDYL",
-			"Cwlin0416"
+			"Cwlin0416",
+			"A2093064"
 		]
 	},
 	"lookupuser": "查詢使用者資訊",
 	"lookupuser-desc": "[[Special:LookupUser|檢索資訊]] 有關的使用者 ID 的電子郵件地址等",
 	"lookupuser-intro": "輸入使用者名稱以檢視該使用者的偏好設定，亦可使用電子郵件地址，並顯示所有使用該電子郵件地址的帳號。",
 	"lookupuser-nonexistent": "錯誤：使用者不存在",
-	"lookupuser-authenticated": "$1已驗証",
+	"lookupuser-authenticated": "$1已驗證",
 	"lookupuser-not-authenticated": "未驗證",
 	"lookupuser-id": "使用者 ID：<tt>#$1</tt>",
 	"lookupuser-email": "電郵：[[Special:EmailUser/$2|$1]]",
