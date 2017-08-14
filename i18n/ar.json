@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Meno25"
+			"Meno25",
+			"ديفيد"
 		]
 	},
 	"lookupuser": "ابحث عن معلومات المستخدم",
 	"lookupuser-desc": "[[Special:LookupUser|يعرض معلومات]] عن المستخدم مثل عنوان البريد الإلكتروني والرقم",
-	"lookupuser-intro": "أدخل اسم مستخدم لرؤية تفضيلات هذا المستخدم.",
+	"lookupuser-intro": "أدخل اسم مستخدم لرؤية تفضيلات هذا المستخدم، ويمكن أيضًا استخدام عنوان بريد إلكتروني، وسوف تظهر جميع الحسابات التي تستخدم هذا البريد الإلكتروني.",
 	"lookupuser-nonexistent": "المستخدم غير موجود",
 	"lookupuser-authenticated": "تأكيد البريد الإلكتروني: $1",
 	"lookupuser-not-authenticated": "غير مرخص",
