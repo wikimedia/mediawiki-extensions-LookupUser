@@ -9,7 +9,7 @@
 	},
 	"lookupuser": "Procurar informação do utilizador",
 	"lookupuser-desc": "[[Special:LookupUser|Obter informação]] sobre um utilizador tal como o correio eletrónico e a identificação (ID)",
-	"lookupuser-intro": "Introduza um nome de utilizador para ver as preferências desse utilizador. Um endereço de email pode também ser introduzido e mostrará todas as contas que utilizam este email.",
+	"lookupuser-intro": "Introduza um nome de utilizador para ver as preferências desse utilizador. Também pode ser usado um endereço de correio eletrónico e serão mostradas todas as contas que utilizam esse endereço.",
 	"lookupuser-nonexistent": "Erro: Utilizador não existe",
 	"lookupuser-authenticated": "autenticado em $1",
 	"lookupuser-not-authenticated": "não autenticado",
