@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"MokaAkashiyaPT"
+		]
+	},
+	"lookupuser-email": "Morada eiletrónica: [[Special:EmailUser/$2|$1]]",
+	"lookupuser-no-email": "nun fornecido"
+}
