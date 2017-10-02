@@ -3,7 +3,8 @@
 		"authors": [
 			"Dani",
 			"Glanthor Reviol",
-			"Tgr"
+			"Tgr",
+			"Tacsipacsi"
 		]
 	},
 	"lookupuser": "Felhasználói információ keresése",
@@ -19,7 +20,7 @@
 	"lookupuser-registration": "Regisztráció időpontja: $1",
 	"lookupuser-no-registration": "nincs feljegyezve",
 	"lookupuser-touched": "Utolsó hozzáférés ideje: $1",
-	"lookupuser-info-authenticated": "Megerősített e-mail cím: $1",
+	"lookupuser-info-authenticated": "Megerősített e-mail-cím: $1",
 	"lookupuser-useroptions": "Beállításai:",
 	"right-lookupuser": "felhasználó beállításainak megtekintése"
 }
