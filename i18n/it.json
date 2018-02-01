@@ -7,10 +7,10 @@
 		]
 	},
 	"lookupuser": "Guarda informazioni utente",
-	"lookupuser-desc": "[[Special:LookupUser|Recupera informazioni]] su un utente come indirizzo e-mail e ID",
+	"lookupuser-desc": "[[Special:LookupUser|Recupera informazioni]] su un utente come indirizzo email e ID",
 	"lookupuser-intro": "Inserisci un nome utente per visualizzarne le preferenze. Se si inserisce un indirizzo di posta elettronica verranno mostrati tutti gli account che usano quella email.",
 	"lookupuser-nonexistent": "Errore: l'utente non esiste",
-	"lookupuser-authenticated": "Conferma indirizzo e-mail: $1",
+	"lookupuser-authenticated": "autenticato su $1",
 	"lookupuser-not-authenticated": "non confermato",
 	"lookupuser-id": "ID utente: <tt>#$1</tt>",
 	"lookupuser-email": "E-mail: [[Special:EmailUser/$2|$1]]",
