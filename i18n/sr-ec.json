@@ -4,7 +4,8 @@
 			"Rancher",
 			"Михајло Анђелковић",
 			"Обрадовић Горан",
-			"Сербијана"
+			"Сербијана",
+			"Acamicamacaraca"
 		]
 	},
 	"lookupuser": "Погледај информације о кориснику",
@@ -18,5 +19,5 @@
 	"lookupuser-registration": "Датум регистрације: $1",
 	"lookupuser-no-registration": "није забележено",
 	"lookupuser-info-authenticated": "Потврда имејла: $1",
-	"lookupuser-useroptions": "Корисничке опције:"
+	"lookupuser-useroptions": "Корисничка подешавања:"
 }
