@@ -128,33 +128,31 @@ EOT
 				$options = array();
 				if ( !empty( $users ) && is_array( $users ) ) {
 					foreach ( $users as $id => $userName ) {
-						$options[] = Xml::option( $userName, $userName, ( $userName == $userTarget ) );
+						$option[$userName] = $userName;
 					}
 				}
-				$selectForm = "\n" . Xml::openElement( 'select', array( 'id' => 'email_user', 'name' => 'email_user' ) );
-				$selectForm .= "\n" . implode( "\n", $options ) . "\n";
-				$selectForm .= Xml::closeElement( 'select' ) . "\n";
 
-				$out->addHTML(
-					Xml::openElement( 'fieldset' ) . "\n" .
-					Xml::openElement( 'form', array( 'method' => 'get', 'action' => $wgScript ) ) . "\n" .
-					Html::hidden( 'title', $this->getPageTitle()->getPrefixedText() ) . "\n" .
-					Html::hidden( 'target', $target ) . "\n" .
-					Xml::openElement( 'table', array( 'border' => '0' ) ) . "\n" .
-					Xml::openElement( 'tr' ) . "\n" .
-					Xml::openElement( 'td', array( 'align' => 'right' ) ) .
-					$this->msg( 'lookupuser-foundmoreusers' )->text() .
-					Xml::closeElement( 'td' ) . "\n" .
-					Xml::openElement( 'td', array( 'align' => 'left' ) ) . "\n" .
-					$selectForm . Xml::closeElement( 'td' ) . "\n" .
-					Xml::openElement( 'td', array( 'colspan' => '2', 'align' => 'center' ) ) .
-					Xml::submitButton( $this->msg( 'go' )->text() ) .
-					Xml::closeElement( 'td' ) . "\n" .
-					Xml::closeElement( 'tr' ) . "\n" .
-					Xml::closeElement( 'table' ) . "\n" .
-					Xml::closeElement( 'form' ) . "\n" .
-					Xml::closeElement( 'fieldset' )
-				);
+				$formDescriptor = [
+					'select' => [
+						'type' => 'select',
+						'name' => 'email_user',
+						'id' => 'email_user',
+						'label' => $this->msg( 'lookupuser-foundmoreusers' )->text(),
+						'options' => $option,
+						'value' =>  $userName == $userTarget,
+					]
+				];
+
+				$htmlForm = HTMLForm::factory( 'ooui', $formDescriptor, $this->getContext() );
+				$htmlForm
+					->addHiddenField( 'title', $this->getPageTitle()->getPrefixedText() )
+					->addHiddenField( 'target', $target )
+					->setMethod( 'get' )
+					->setAction( $wgScript )
+					->setSubmitText( $this->msg( 'go' )->text() )
+					->setWrapperLegend( Null )
+					->prepareForm()
+					->displayForm( false );
 			}
 
 			$authTs = $user->getEmailAuthenticationTimestamp();
