@@ -58,22 +58,26 @@ class LookupUserPage extends SpecialPage {
 
 		$this->getOutput()->addWikiMsg( 'lookupuser-intro' );
 
-		$this->getOutput()->addHTML( <<<EOT
-<fieldset>
-<legend>$inputformtop</legend>
-<form method="get" action="$action">
-<input type="hidden" name="title" value="{$title}" />
-<table border="0">
-<tr>
-<td align="right">$username</td>
-<td align="left"><input type="text" size="50" name="target" value="$target" />
-<td colspan="2" align="center"><input type="submit" name="submit" value="$ok" /></td>
-</tr>
-</table>
-</form>
-</fieldset>
-EOT
-		);
+		$formDescriptor = [
+			'textbox' => [
+				'type' => 'user',
+				'name' => 'target',
+				'label' => $username,
+				'size' => 50,
+				'value' => $target,
+			]
+		];
+
+		$htmlForm = HTMLForm::factory( 'ooui', $formDescriptor, $this->getContext() );
+		$htmlForm
+			->addHiddenField( 'title', $title )
+			->setAction( $action )
+			->setMethod( 'get' )
+			->setSubmitName( 'submit' )
+			->setSubmitText( $ok )
+			->setWrapperLegend( $inputformtop )
+			->prepareForm()
+			->displayForm( false );
 	}
 
 	/**
