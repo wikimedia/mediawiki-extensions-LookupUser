@@ -64,7 +64,7 @@ class LookupUserPage extends SpecialPage {
 				'name' => 'target',
 				'label' => $username,
 				'size' => 50,
-				'value' => $target,
+				'default' => $target,
 			]
 		];
 
