@@ -20,5 +20,7 @@
 	"lookupuser-touched": "سجل المستخدم تم تعديله آخر مرة في: $1",
 	"lookupuser-info-authenticated": "توكيد البريد الإلكتروني: $1",
 	"lookupuser-useroptions": "خيارات المستخدم:",
-	"right-lookupuser": "مطالعة تفضيلات المستخدم"
+	"lookupuser-foundmoreusers": "تم العثور على أكثر من مستخدم واحد:",
+	"right-lookupuser": "مطالعة تفضيلات المستخدم",
+	"action-lookupuser": "بحث عن تفضيلات المستخدم"
 }
