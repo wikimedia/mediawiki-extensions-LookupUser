@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"lookupuser-intro": "輸入用戶名稱以檢視該用戶的偏好設定，亦可使用電子郵件位址，並顯示所有使用該電子郵件位址的戶口。",
+	"lookupuser-id": "用戶 ID: <tt>#$1</tt>"
+}
