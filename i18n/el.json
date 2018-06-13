@@ -5,7 +5,8 @@
 			"Crazymadlover",
 			"Omnipaedista",
 			"ZaDiak",
-			"Protnet"
+			"Protnet",
+			"Nikosgranturismogt"
 		]
 	},
 	"lookupuser": "Αναζήτηση πληροφοριών για τον χρήστη",
@@ -23,5 +24,7 @@
 	"lookupuser-touched": "Το ρεκόρ χρήστη άλλαξε τελευταία: $1",
 	"lookupuser-info-authenticated": "Επιβεβαίωση ηλεκτρονικής διεύθυνσης: $1",
 	"lookupuser-useroptions": "Επιλογές χρήστη:",
-	"right-lookupuser": "Δείτε τις προτιμήσεις χρήστη"
+	"lookupuser-foundmoreusers": "Βρέθηκαν περισσότεροι από ένας χρήστης:",
+	"right-lookupuser": "Δείτε τις προτιμήσεις χρήστη",
+	"action-lookupuser": "δείτε τις προτιμήσεις χρήστη"
 }
