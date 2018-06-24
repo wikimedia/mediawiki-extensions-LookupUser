@@ -5,7 +5,8 @@
 			"Михајло Анђелковић",
 			"Обрадовић Горан",
 			"Сербијана",
-			"Acamicamacaraca"
+			"Acamicamacaraca",
+			"BadDog"
 		]
 	},
 	"lookupuser": "Погледај информације о кориснику",
@@ -19,5 +20,5 @@
 	"lookupuser-registration": "Датум регистрације: $1",
 	"lookupuser-no-registration": "није забележено",
 	"lookupuser-info-authenticated": "Потврда имејла: $1",
-	"lookupuser-useroptions": "Корисничка подешавања:"
+	"lookupuser-useroptions": "Корисничке опције:"
 }
