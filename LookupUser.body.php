@@ -44,6 +44,7 @@ class LookupUserPage extends SpecialPage {
 
 	/**
 	 * Show the LookupUser form
+	 *
 	 * @param mixed $target User whose info we're about to look up
 	 */
 	function showForm( $target ) {
@@ -82,6 +83,7 @@ class LookupUserPage extends SpecialPage {
 
 	/**
 	 * Retrieves and shows the gathered info to the user
+	 *
 	 * @param mixed $target User whose info we're looking up
 	 * @param string $emailUser E-mail address (like example@example.com)
 	 */
@@ -92,19 +94,19 @@ class LookupUserPage extends SpecialPage {
 		$out = $this->getOutput();
 
 		$count = 0;
-		$users = array();
+		$users = [];
 		$userTarget = '';
 
 		// Look for @ in username
 		if ( strpos( $target, '@' ) !== false ) {
 			// Find username by email
 			$emailUser = htmlspecialchars( $emailUser, ENT_QUOTES );
-			$dbr = wfGetDB( DB_SLAVE );
+			$dbr = wfGetDB( DB_REPLICA );
 
 			$res = $dbr->select(
 				'user',
-				array( 'user_name' ),
-				array( 'user_email' => $target ),
+				[ 'user_name' ],
+				[ 'user_email' => $target ],
 				__METHOD__
 			);
 
@@ -129,7 +131,7 @@ class LookupUserPage extends SpecialPage {
 		} else {
 			# Multiple matches?
 			if ( $count > 1 ) {
-				$options = array();
+				$options = [];
 				if ( !empty( $users ) && is_array( $users ) ) {
 					foreach ( $users as $id => $userName ) {
 						$option[$userName] = $userName;
@@ -154,7 +156,7 @@ class LookupUserPage extends SpecialPage {
 					->setMethod( 'get' )
 					->setAction( $wgScript )
 					->setSubmitText( $this->msg( 'go' )->text() )
-					->setWrapperLegend( Null )
+					->setWrapperLegend( null )
 					->prepareForm()
 					->displayForm( false );
 			}
@@ -181,10 +183,10 @@ class LookupUserPage extends SpecialPage {
 				$registration = $this->msg( 'lookupuser-no-registration' )->text();
 			}
 			$out->addWikiText( '*' . $this->msg( 'username' )->text() . ' [[User:' . $name . '|' . $name . ']] (' .
-				$lang->pipeList( array(
+				$lang->pipeList( [
 					'[[User talk:' . $name . '|' . $this->msg( 'talkpagelinktext' )->text() . ']]',
 					'[[Special:Contributions/' . $name . '|' . $this->msg( 'contribslink' )->text() . ']])'
-				) ) );
+				] ) );
 			$out->addWikiText( '*' . $this->msg( 'lookupuser-id', $user->getId() )->text() );
 			$out->addWikiText( '*' . $this->msg( 'lookupuser-email', $email, $name )->text() );
 			$out->addWikiText( '*' . $this->msg( 'lookupuser-realname', $user->getRealName() )->text() );
@@ -202,8 +204,6 @@ class LookupUserPage extends SpecialPage {
 	/**
 	 * Add a link to Special:LookupUser from Special:Contributions/USERNAME if
 	 * the user has 'lookupuser' permission
-	 *
-	 * @return bool
 	 */
 	public static function onContributionsToolLinks( $id, $nt, &$links ) {
 		global $wgUser;
@@ -211,11 +211,10 @@ class LookupUserPage extends SpecialPage {
 			$links[] = Linker::linkKnown(
 				SpecialPage::getTitleFor( 'LookupUser' ),
 				wfMessage( 'lookupuser' )->plain(),
-				array(),
-				array( 'target' => $nt->getText() )
+				[],
+				[ 'target' => $nt->getText() ]
 			);
 		}
-		return true;
 	}
 
 }

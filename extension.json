@@ -1,6 +1,6 @@
 {
 	"name": "LookupUser",
-	"version": "1.5.1",
+	"version": "1.5.2",
 	"author": [
 		"Tim Starling"
 	],
@@ -23,9 +23,7 @@
 		"LookupUserPage": "LookupUser.body.php"
 	},
 	"Hooks": {
-		"ContributionsToolLinks": [
-			"LookupUserPage::onContributionsToolLinks"
-		]
+		"ContributionsToolLinks": "LookupUserPage::onContributionsToolLinks"
 	},
 	"AvailableRights": [
 		"lookupuser"
