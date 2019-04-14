@@ -7,7 +7,8 @@
 			"McMonster",
 			"Sovq",
 			"Sp5uhe",
-			"Woytecr"
+			"Woytecr",
+			"Railfail536"
 		]
 	},
 	"lookupuser": "Wyszukiwanie informacji o użytkowniku",
@@ -27,5 +28,5 @@
 	"lookupuser-useroptions": "Opcje użytkownika:",
 	"lookupuser-foundmoreusers": "Odnaleziono więcej niż jednego użytkownika:",
 	"right-lookupuser": "Przeglądanie ustawień preferencji użytkowników",
-	"action-lookupuser": "podejrzyj preferencje użytkownika"
+	"action-lookupuser": "podglądania preferencji użytkownika"
 }
