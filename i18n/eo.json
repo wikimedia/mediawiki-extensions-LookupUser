@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yekrats"
+			"Yekrats",
+			"Mirin"
 		]
 	},
 	"lookupuser": "Konsulti informon pri uzanto",
@@ -19,5 +20,6 @@
 	"lookupuser-touched": "Rikordo de uzanto estis laste ŝanĝita: $1",
 	"lookupuser-info-authenticated": "Retpoŝta aŭtentokontrolo: $1",
 	"lookupuser-useroptions": "Opcioj de uzanto:",
+	"lookupuser-foundmoreusers": "Trovis plurajn uzantojn:",
 	"right-lookupuser": "Trarigardi agordojn de uzantoj"
 }
