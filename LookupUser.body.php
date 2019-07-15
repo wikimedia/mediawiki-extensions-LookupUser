@@ -127,7 +127,7 @@ class LookupUserPage extends SpecialPage {
 		$ourUser = ( !empty( $userTarget ) ) ? $userTarget : $target;
 		$user = User::newFromName( $ourUser );
 		if ( $user == null || $user->getId() == 0 ) {
-			$out->addWikiText( '<span class="error">' . $this->msg( 'lookupuser-nonexistent', $target )->text() . '</span>' );
+			$out->addWikiTextAsInterface( '<span class="error">' . $this->msg( 'lookupuser-nonexistent', $target )->text() . '</span>' );
 		} else {
 			# Multiple matches?
 			if ( $count > 1 ) {
@@ -182,18 +182,18 @@ class LookupUserPage extends SpecialPage {
 			} else {
 				$registration = $this->msg( 'lookupuser-no-registration' )->text();
 			}
-			$out->addWikiText( '*' . $this->msg( 'username' )->text() . ' [[User:' . $name . '|' . $name . ']] (' .
+			$out->addWikiTextAsInterface( '*' . $this->msg( 'username' )->text() . ' [[User:' . $name . '|' . $name . ']] (' .
 				$lang->pipeList( [
 					'[[User talk:' . $name . '|' . $this->msg( 'talkpagelinktext' )->text() . ']]',
 					'[[Special:Contributions/' . $name . '|' . $this->msg( 'contribslink' )->text() . ']])'
 				] ) );
-			$out->addWikiText( '*' . $this->msg( 'lookupuser-id', $user->getId() )->text() );
-			$out->addWikiText( '*' . $this->msg( 'lookupuser-email', $email, $name )->text() );
-			$out->addWikiText( '*' . $this->msg( 'lookupuser-realname', $user->getRealName() )->text() );
-			$out->addWikiText( '*' . $this->msg( 'lookupuser-registration', $registration )->text() );
-			$out->addWikiText( '*' . $this->msg( 'lookupuser-touched', $lang->timeanddate( $user->mTouched ) )->text() );
-			$out->addWikiText( '*' . $this->msg( 'lookupuser-info-authenticated', $authenticated )->text() );
-			$out->addWikiText( '*' . $this->msg( 'lookupuser-useroptions' )->text() . '<br />' . $optionsString );
+			$out->addWikiTextAsInterface( '*' . $this->msg( 'lookupuser-id', $user->getId() )->text() );
+			$out->addWikiTextAsInterface( '*' . $this->msg( 'lookupuser-email', $email, $name )->text() );
+			$out->addWikiTextAsInterface( '*' . $this->msg( 'lookupuser-realname', $user->getRealName() )->text() );
+			$out->addWikiTextAsInterface( '*' . $this->msg( 'lookupuser-registration', $registration )->text() );
+			$out->addWikiTextAsInterface( '*' . $this->msg( 'lookupuser-touched', $lang->timeanddate( $user->mTouched ) )->text() );
+			$out->addWikiTextAsInterface( '*' . $this->msg( 'lookupuser-info-authenticated', $authenticated )->text() );
+			$out->addWikiTextAsInterface( '*' . $this->msg( 'lookupuser-useroptions' )->text() . '<br />' . $optionsString );
 		}
 	}
 
