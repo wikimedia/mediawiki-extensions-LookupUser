@@ -6,7 +6,8 @@
 			"Kuailong",
 			"Wrightbus",
 			"Yfdyh000",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"LNDDYL"
 		]
 	},
 	"lookupuser": "查询用户信息",
@@ -20,7 +21,7 @@
 	"lookupuser-no-email": "不提供",
 	"lookupuser-realname": "真实姓名：$1",
 	"lookupuser-registration": "注册日期：$1",
-	"lookupuser-no-registration": "不记录",
+	"lookupuser-no-registration": "没有记录",
 	"lookupuser-touched": "最后触及的用户记录：$1",
 	"lookupuser-info-authenticated": "电子邮件验证：$1",
 	"lookupuser-useroptions": "用户选项：",
