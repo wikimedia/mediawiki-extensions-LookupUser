@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Helix84"
+			"Helix84",
+			"Vlad5250"
 		]
 	},
 	"lookupuser": "Vyhľadať informácie o používateľovi",
@@ -19,5 +20,6 @@
 	"lookupuser-touched": "Posledný záznam používateľa: $1",
 	"lookupuser-info-authenticated": "Overenie emailu: $1",
 	"lookupuser-useroptions": "Nastavenia používateľa:",
-	"right-lookupuser": "Zistiť nastavenia používateľa"
+	"right-lookupuser": "Zistiť nastavenia používateľa",
+	"action-lookupuser": "zistiť nastavenia používateľa"
 }
