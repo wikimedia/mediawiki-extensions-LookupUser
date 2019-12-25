@@ -20,7 +20,7 @@
 		"LookupUserAlias": "LookupUser.alias.php"
 	},
 	"AutoloadClasses": {
-		"LookupUserPage": "LookupUser.body.php"
+		"LookupUserPage": "LookupUserPage.php"
 	},
 	"Hooks": {
 		"ContributionsToolLinks": "LookupUserPage::onContributionsToolLinks"

@@ -145,7 +145,7 @@ class LookupUserPage extends SpecialPage {
 						'id' => 'email_user',
 						'label' => $this->msg( 'lookupuser-foundmoreusers' )->text(),
 						'options' => $option,
-						'value' =>  $userName == $userTarget,
+						'value' => $userName == $userTarget,
 					]
 				];
 
