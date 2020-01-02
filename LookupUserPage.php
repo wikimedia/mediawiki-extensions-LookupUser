@@ -209,7 +209,7 @@ class LookupUserPage extends SpecialPage {
 		if ( $sp->getUser()->isAllowed( 'lookupuser' ) && !User::isIP( $nt->getText() ) ) {
 			$links[] = Linker::linkKnown(
 				SpecialPage::getTitleFor( 'LookupUser' ),
-				wfMessage( 'lookupuser' )->escaped(),
+				$sp->msg( 'lookupuser' )->escaped(),
 				[],
 				[ 'target' => $nt->getText() ]
 			);
