@@ -205,9 +205,8 @@ class LookupUserPage extends SpecialPage {
 	 * Add a link to Special:LookupUser from Special:Contributions/USERNAME if
 	 * the user has 'lookupuser' permission
 	 */
-	public static function onContributionsToolLinks( $id, $nt, &$links ) {
-		global $wgUser;
-		if ( $wgUser->isAllowed( 'lookupuser' ) && !User::isIP( $nt->getText() ) ) {
+	public static function onContributionsToolLinks( $id, $nt, &$links, SpecialPage $sp ) {
+		if ( $sp->getUser()->isAllowed( 'lookupuser' ) && !User::isIP( $nt->getText() ) ) {
 			$links[] = Linker::linkKnown(
 				SpecialPage::getTitleFor( 'LookupUser' ),
 				wfMessage( 'lookupuser' )->escaped(),
