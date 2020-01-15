@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Helix84",
-			"Vlad5250"
+			"Vlad5250",
+			"Luky001"
 		]
 	},
 	"lookupuser": "Vyhľadať informácie o používateľovi",
 	"lookupuser-desc": "[[Special:LookupUser|Získať informácií]] o používateľovi ako emailová adresa a ID",
-	"lookupuser-intro": "Zadajte používateľské meno, ktorého nastavenia chcete zobraziť.",
+	"lookupuser-intro": "Zadajte používateľské meno používateľa, ktorého nastavenia chcete zobraziť. Dá sa použiť aj e-mailová adresa, v tom prípade sa zobrazia všetky účty, ktoré tento e-mail používajú.",
 	"lookupuser-nonexistent": "Chyba: Používateľ neexistuje",
 	"lookupuser-authenticated": "Overenie emailu: $1",
 	"lookupuser-not-authenticated": "neoverený",
