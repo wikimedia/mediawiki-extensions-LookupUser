@@ -14,7 +14,7 @@
 	"lookupuser-email": "Е-пошта: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "ненаведено",
 	"lookupuser-realname": "Вистинско име: $1",
-	"lookupuser-registration": "Датум на регистрација: $1",
+	"lookupuser-registration": "Датум на зачленување: $1",
 	"lookupuser-no-registration": "незапишано",
 	"lookupuser-touched": "Последна измена во записите на корисникот: $1",
 	"lookupuser-info-authenticated": "Потврда по е-пошта: $1",
