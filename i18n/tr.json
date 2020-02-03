@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Joseph",
-			"Mach"
+			"Mach",
+			"BaRaN6161 TURK"
 		]
 	},
 	"lookupuser": "Kullanıcı bilgisine bak",
@@ -11,7 +12,7 @@
 	"lookupuser-nonexistent": "Hata: Kullanıcı yok",
 	"lookupuser-authenticated": "$1 üzerinde denetlendi",
 	"lookupuser-not-authenticated": "denetlenmedi",
-	"lookupuser-id": "Kullanıcı IDsi: <tt>#$1</tt>",
+	"lookupuser-id": "Kullanıcı kimliği: <tt>#$1</tt>",
 	"lookupuser-email": "E-mail: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "sağlanmamış",
 	"lookupuser-realname": "Gerçek isim: $1",
