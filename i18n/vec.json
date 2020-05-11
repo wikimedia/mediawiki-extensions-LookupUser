@@ -15,7 +15,7 @@
 	"lookupuser-email": "E-mail: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "mia fornìo",
 	"lookupuser-realname": "Vero nome: $1",
-	"lookupuser-registration": "Data de rejistrasion: $1",
+	"lookupuser-registration": "Data de notasion: $1",
 	"lookupuser-no-registration": "mia disponibile",
 	"lookupuser-touched": "Ultima visita registrà de l'utente: $1",
 	"lookupuser-info-authenticated": "Autenticassion de posta eletronica: $1",
