@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Bennylin",
+			"Diki Ananta",
 			"IvanLanin",
 			"Rex"
 		]
 	},
 	"lookupuser": "Mencari informasi pengguna",
 	"lookupuser-desc": "[[Special:LookupUser|Menampilkan informasi]] seorang pengguna seperti alamat surel dan ID",
-	"lookupuser-intro": "Masukkan nama pengguna untuk melihat daftar preferensinya.",
+	"lookupuser-intro": "Masukkan nama pengguna untuk melihat daftar preferensinya. Sebuah alamat surel juga dapat digunakan, dan akan menampilkan semua akun yang menggunakan surel tersebut.",
 	"lookupuser-nonexistent": "Galat: Pengguna tidak ditemukan",
 	"lookupuser-authenticated": "di-otentifikasi pada $1",
 	"lookupuser-not-authenticated": "tidak di-otentifikasi",
