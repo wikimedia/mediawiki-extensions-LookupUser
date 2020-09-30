@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Bennylin",
+			"Daud I.F. Argana",
 			"Diki Ananta",
 			"IvanLanin",
 			"Rex",
@@ -23,5 +24,7 @@
 	"lookupuser-touched": "Catatan pengguna terakhir dilihat: $1",
 	"lookupuser-info-authenticated": "Otentifikasi surel: $1",
 	"lookupuser-useroptions": "Pilihan pengguna:",
-	"right-lookupuser": "Lihat preferensi pengguna"
+	"lookupuser-foundmoreusers": "Lebih dari satu orang pengguna ditemukan:",
+	"right-lookupuser": "Melihat preferensi pengguna",
+	"action-lookupuser": "melihat preferensi pengguna"
 }
