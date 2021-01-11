@@ -6,8 +6,8 @@
 		]
 	},
 	"lookupuser": "Varda i informazzion de l'utent",
-	"lookupuser-intro": "Met dent un nom utent per vedenn i preferenze. A se po doprà anca un adress de posta eletronica e se vedran tucc i cunt che doperen quel adress là.",
-	"lookupuser-nonexistent": "Eror: quel utent chì l'esist minga",
+	"lookupuser-intro": "Met dent un nom utent per vedenn i preferenze. A se po doprà anca un adress de posta eletronica e se vedran tucc i cunt che doperen quell adress là.",
+	"lookupuser-nonexistent": "Eror: quell utent chì l'esist minga",
 	"lookupuser-authenticated": "autenticad sora: $1",
 	"lookupuser-not-authenticated": "minga autenticad",
 	"lookupuser-id": "ID del l'utent: <tt>#$1</tt>",
