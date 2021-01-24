@@ -13,6 +13,7 @@ class LookupUserPage extends SpecialPage {
 		parent::__construct( 'LookupUser'/*class*/, 'lookupuser'/*restriction*/ );
 	}
 
+	/** @inheritDoc */
 	function getDescription() {
 		return $this->msg( 'lookupuser' )->text();
 	}
@@ -20,7 +21,7 @@ class LookupUserPage extends SpecialPage {
 	/**
 	 * Show the special page
 	 *
-	 * @param mixed|null $subpage Parameter passed to the page (user name or email address)
+	 * @param string|null $subpage Parameter passed to the page (user name or email address)
 	 */
 	public function execute( $subpage ) {
 		$this->setHeaders();
@@ -45,7 +46,7 @@ class LookupUserPage extends SpecialPage {
 	/**
 	 * Show the LookupUser form
 	 *
-	 * @param mixed $target User whose info we're about to look up
+	 * @param string $target User whose info we're about to look up
 	 */
 	function showForm( $target ) {
 		global $wgScript;
@@ -84,7 +85,7 @@ class LookupUserPage extends SpecialPage {
 	/**
 	 * Retrieves and shows the gathered info to the user
 	 *
-	 * @param mixed $target User whose info we're looking up
+	 * @param string $target User whose info we're looking up
 	 * @param string $emailUser E-mail address (like example@example.com)
 	 */
 	function showInfo( $target, $emailUser = '' ) {
@@ -197,6 +198,7 @@ class LookupUserPage extends SpecialPage {
 		}
 	}
 
+	/** @inheritDoc */
 	protected function getGroupName() {
 		return 'users';
 	}
@@ -204,6 +206,10 @@ class LookupUserPage extends SpecialPage {
 	/**
 	 * Add a link to Special:LookupUser from Special:Contributions/USERNAME if
 	 * the user has 'lookupuser' permission
+	 * @param int $id
+	 * @param Title $nt
+	 * @param array &$links
+	 * @param SpecialPage $sp
 	 */
 	public static function onContributionsToolLinks( $id, $nt, &$links, SpecialPage $sp ) {
 		if ( $sp->getUser()->isAllowed( 'lookupuser' ) && !User::isIP( $nt->getText() ) ) {
