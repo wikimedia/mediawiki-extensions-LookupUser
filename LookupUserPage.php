@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\MediaWikiServices;
+
 /**
  * Provides the special page to look up user info
  *
@@ -169,7 +172,16 @@ class LookupUserPage extends SpecialPage {
 				$authenticated = $this->msg( 'lookupuser-not-authenticated' )->text();
 			}
 			$optionsString = '';
-			foreach ( $user->getOptions() as $name => $value ) {
+
+			if ( method_exists( MediaWikiServices::class, 'getUserOptionsLookup' ) ) {
+				// MW 1.35+
+				$userOptionsLookup = MediaWikiServices::getInstance()->getUserOptionsLookup();
+				$options = $userOptionsLookup->getOptions( $user );
+			} else {
+				$options = $user->getOptions();
+			}
+
+			foreach ( $options as $name => $value ) {
 				$optionsString .= "$name = $value <br />";
 			}
 			$name = $user->getName();
@@ -212,7 +224,15 @@ class LookupUserPage extends SpecialPage {
 	 * @param SpecialPage $sp
 	 */
 	public static function onContributionsToolLinks( $id, $nt, &$links, SpecialPage $sp ) {
-		if ( $sp->getUser()->isAllowed( 'lookupuser' ) && !User::isIP( $nt->getText() ) ) {
+		if ( method_exists( MediaWikiServices::class, 'getUserNameUtils' ) ) {
+			// MW 1.35+
+			$userNameUtils = MediaWikiServices::getInstance()->getUserNameUtils();
+			$isIp = $userNameUtils->isIP( $nt->getText() );
+		} else {
+			$isIp = User::isIP( $nt->getText() );
+		}
+
+		if ( $sp->getUser()->isAllowed( 'lookupuser' ) && !$isIp ) {
 			$links[] = Linker::linkKnown(
 				SpecialPage::getTitleFor( 'LookupUser' ),
 				$sp->msg( 'lookupuser' )->escaped(),
