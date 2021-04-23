@@ -218,6 +218,7 @@ class LookupUserPage extends SpecialPage {
 	/**
 	 * Add a link to Special:LookupUser from Special:Contributions/USERNAME if
 	 * the user has 'lookupuser' permission
+	 *
 	 * @param int $id
 	 * @param Title $nt
 	 * @param array &$links
@@ -233,9 +234,9 @@ class LookupUserPage extends SpecialPage {
 		}
 
 		if ( $sp->getUser()->isAllowed( 'lookupuser' ) && !$isIp ) {
-			$links[] = Linker::linkKnown(
+			$links[] = $sp->getLinkRenderer()->makeKnownLink(
 				SpecialPage::getTitleFor( 'LookupUser' ),
-				$sp->msg( 'lookupuser' )->escaped(),
+				$sp->msg( 'lookupuser' )->text(),
 				[],
 				[ 'target' => $nt->getText() ]
 			);
