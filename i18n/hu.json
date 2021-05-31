@@ -9,7 +9,7 @@
 	},
 	"lookupuser": "Felhasználói információ keresése",
 	"lookupuser-desc": "[[Special:LookupUser|Információ lekérése]] egy adott felhasználóról, például annak e-mail címe vagy azonosítója",
-	"lookupuser-intro": "Add meg a felhasználó nevét, akinek meg szeretnéd nézni a beállításait.",
+	"lookupuser-intro": "Add meg a felhasználó nevét, akinek meg szeretnéd nézni a beállításait. E-mail-cím is használható, ebben az esetben az e-mail-címet használó összes felhasználó beállításai meg fognak jelenni.",
 	"lookupuser-nonexistent": "Hiba: a felhasználó nem létezik",
 	"lookupuser-authenticated": "Email megerősítés: $1",
 	"lookupuser-not-authenticated": "nincs megerősítve",
