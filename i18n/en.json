@@ -10,7 +10,7 @@
 	"lookupuser-nonexistent": "Error: User does not exist",
 	"lookupuser-authenticated": "authenticated on $1",
 	"lookupuser-not-authenticated": "not authenticated",
-	"lookupuser-id": "User ID: <tt>#$1</tt>",
+	"lookupuser-id": "User ID: <code>#$1</code>",
 	"lookupuser-email": "Email: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "not provided",
 	"lookupuser-realname": "Real name: $1",
