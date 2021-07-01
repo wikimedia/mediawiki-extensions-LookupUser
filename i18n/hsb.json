@@ -10,7 +10,7 @@
 	"lookupuser-nonexistent": "Zmylk: Wužiwar njeeksistuje",
 	"lookupuser-authenticated": "E-mejlowe awtentizowanje: $1",
 	"lookupuser-not-authenticated": "njeawtentizowany",
-	"lookupuser-id": "Wužiwarski ID: <tt>#$1</tt>",
+	"lookupuser-id": "Wužiwarski ID: <code>#$1</code>",
 	"lookupuser-email": "E-mejl: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "njepodaty",
 	"lookupuser-realname": "Woprawdźite mjeno: $1",

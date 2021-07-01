@@ -14,7 +14,7 @@
 	"lookupuser-nonexistent": "Памылка: Удзельнік не існуе",
 	"lookupuser-authenticated": "аўтэнтыфікаваны па $1",
 	"lookupuser-not-authenticated": "не аўтэнтыфікаваны",
-	"lookupuser-id": "Ідэнтыфікатар удзельніка: <tt>#$1</tt>",
+	"lookupuser-id": "Ідэнтыфікатар удзельніка: <code>#$1</code>",
 	"lookupuser-email": "Электронная пошта: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "не пазначана",
 	"lookupuser-realname": "Сапраўднае імя: $1",

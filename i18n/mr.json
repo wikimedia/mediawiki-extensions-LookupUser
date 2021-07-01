@@ -11,7 +11,7 @@
 	"lookupuser-nonexistent": "त्रुटी: सदस्य अस्तित्वात नाही",
 	"lookupuser-authenticated": "इमेल तपासणी: $1",
 	"lookupuser-not-authenticated": "तपासणी पूर्ण झालेली नाही",
-	"lookupuser-id": "सदस्य क्रमांक: <tt>#$1</tt>",
+	"lookupuser-id": "सदस्य क्रमांक: <code>#$1</code>",
 	"lookupuser-email": "विपत्र: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "दिलेले नाही",
 	"lookupuser-realname": "खरे नाव: $1",

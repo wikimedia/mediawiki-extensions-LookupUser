@@ -11,7 +11,7 @@
 	"lookupuser-nonexistent": "Greška: Korisnik ne postoji",
 	"lookupuser-authenticated": "autorizacija na $1",
 	"lookupuser-not-authenticated": "nije autorizovano",
-	"lookupuser-id": "Korisnički ID: <tt>#$1</tt>",
+	"lookupuser-id": "Korisnički ID: <code>#$1</code>",
 	"lookupuser-email": "Imejl: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "nije priloženo",
 	"lookupuser-realname": "Pravo ime: $1",

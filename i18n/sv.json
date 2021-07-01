@@ -13,7 +13,7 @@
 	"lookupuser-nonexistent": "Error: Användare existerar inte",
 	"lookupuser-authenticated": "E-postbekräftning: $1",
 	"lookupuser-not-authenticated": "inte bekräftad",
-	"lookupuser-id": "Användar ID: <tt>#$1</tt>",
+	"lookupuser-id": "Användar ID: <code>#$1</code>",
 	"lookupuser-email": "E-post: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "inte uppgett",
 	"lookupuser-realname": "Riktigt namn: $1",

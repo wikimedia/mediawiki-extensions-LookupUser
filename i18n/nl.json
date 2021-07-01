@@ -12,7 +12,7 @@
 	"lookupuser-nonexistent": "Fout: gebruiker bestaat niet",
 	"lookupuser-authenticated": "E-mailbevestiging: $1",
 	"lookupuser-not-authenticated": "niet bevestigd",
-	"lookupuser-id": "Gebruikersnummer: <tt>#$1</tt>",
+	"lookupuser-id": "Gebruikersnummer: <code>#$1</code>",
 	"lookupuser-email": "E-mailadres: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "niet opgegeven",
 	"lookupuser-realname": "Echte naam: $1",

@@ -10,7 +10,7 @@
 	"lookupuser-nonexistent": "Error: L'usuariu nun esiste",
 	"lookupuser-authenticated": "identificáu el $1",
 	"lookupuser-not-authenticated": "ensin identificar",
-	"lookupuser-id": "ID d'usuariu: <tt>nº$1</tt>",
+	"lookupuser-id": "ID d'usuariu: <code>nº$1</code>",
 	"lookupuser-email": "Corréu electrónicu: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "nun se dio",
 	"lookupuser-realname": "Nome real: $1",

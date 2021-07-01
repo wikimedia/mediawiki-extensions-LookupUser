@@ -12,7 +12,7 @@
 	"lookupuser-nonexistent": "Грешка: Потребителят не съществува",
 	"lookupuser-authenticated": "потвърден на $1",
 	"lookupuser-not-authenticated": "не е удостоверен",
-	"lookupuser-id": "Потребителски номер: <tt>#$1</tt>",
+	"lookupuser-id": "Потребителски номер: <code>#$1</code>",
 	"lookupuser-email": "Е-поща: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "не е посочена",
 	"lookupuser-realname": "Име и фамилия: $1",

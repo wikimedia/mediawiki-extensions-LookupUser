@@ -13,7 +13,7 @@
 	"lookupuser-nonexistent": "Hata: Kullanıcı mevcut değil",
 	"lookupuser-authenticated": "$1 üzerinde doğrulandı",
 	"lookupuser-not-authenticated": "doğrulanmadı",
-	"lookupuser-id": "Kullanıcı kimliği: <tt>#$1</tt>",
+	"lookupuser-id": "Kullanıcı kimliği: <code>#$1</code>",
 	"lookupuser-email": "E-posta: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "sağlanmadı",
 	"lookupuser-realname": "Gerçek ad: $1",

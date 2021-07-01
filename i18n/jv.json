@@ -10,7 +10,7 @@
 	"lookupuser-nonexistent": "Kaluputan: Naraguna ora ana",
 	"lookupuser-authenticated": "ka-otèntifikasi nalika: $1",
 	"lookupuser-not-authenticated": "durung dipastèkaké",
-	"lookupuser-id": "ID naraguna: <tt>#$1</tt>",
+	"lookupuser-id": "ID naraguna: <code>#$1</code>",
 	"lookupuser-email": "Layang-èl: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "ora diwènèhaké",
 	"lookupuser-realname": "Jeneng asli: $1",

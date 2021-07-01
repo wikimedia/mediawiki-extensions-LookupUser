@@ -11,7 +11,7 @@
 	"lookupuser-nonexistent": "Fähler: Benutzer git s nit",
 	"lookupuser-authenticated": "E-Mail-Bstätigung: $1",
 	"lookupuser-not-authenticated": "nit bstätigt",
-	"lookupuser-id": "Benutzer-ID: <tt>$1</tt>",
+	"lookupuser-id": "Benutzer-ID: <code>$1</code>",
 	"lookupuser-email": "E-Mail: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "git s nit",
 	"lookupuser-realname": "Wirklige Name: $1",

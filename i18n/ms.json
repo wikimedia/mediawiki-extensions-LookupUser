@@ -11,7 +11,7 @@
 	"lookupuser-nonexistent": "Ralat: Pengguna tidak wujud",
 	"lookupuser-authenticated": "Pengesahan e-mel: $1",
 	"lookupuser-not-authenticated": "belum disahkan",
-	"lookupuser-id": "ID pengguna: <tt>#$1</tt>",
+	"lookupuser-id": "ID pengguna: <code>#$1</code>",
 	"lookupuser-email": "E-mel: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "tidak dibekalkan",
 	"lookupuser-realname": "Nama sebenar: $1",

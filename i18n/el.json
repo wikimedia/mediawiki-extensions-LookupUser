@@ -16,7 +16,7 @@
 	"lookupuser-nonexistent": "Σφάλμα: Ο Χρήστης δεν υπάρχει",
 	"lookupuser-authenticated": "επιβεβαιωμένο στο $1",
 	"lookupuser-not-authenticated": "μη επικυρωμένος",
-	"lookupuser-id": "Ταυτότητα χρήστη: <tt>#$1</tt>",
+	"lookupuser-id": "Ταυτότητα χρήστη: <code>#$1</code>",
 	"lookupuser-email": "Ηλεκτρονικό μήνυμα: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "μη διαθέσιμο",
 	"lookupuser-realname": "Πραγματικό όνομα: $1",

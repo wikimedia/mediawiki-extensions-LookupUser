@@ -8,7 +8,7 @@
 	"lookupuser-nonexistent": "Èrror : l’usanciér ègziste pas",
 	"lookupuser-authenticated": "ôtenticâ dessus $1",
 	"lookupuser-not-authenticated": "pas ôtenticâ",
-	"lookupuser-id": "Numerô a l’usanciér : <tt>#$1</tt>",
+	"lookupuser-id": "Numerô a l’usanciér : <code>#$1</code>",
 	"lookupuser-email": "Mèl. : [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "pas balyê",
 	"lookupuser-realname": "Veré nom : $1",

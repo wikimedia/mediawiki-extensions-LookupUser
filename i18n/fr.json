@@ -16,7 +16,7 @@
 	"lookupuser-nonexistent": "Erreur : l’utilisateur n’existe pas",
 	"lookupuser-authenticated": "Courriel d’identification : $1",
 	"lookupuser-not-authenticated": "pas identifié",
-	"lookupuser-id": "ID de l’utilisateur : <tt>#$1</tt>",
+	"lookupuser-id": "ID de l’utilisateur : <code>#$1</code>",
 	"lookupuser-email": "Courriel : [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "non fourni",
 	"lookupuser-realname": "Vrai nom : $1",

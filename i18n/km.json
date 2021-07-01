@@ -14,7 +14,7 @@
 	"lookupuser-nonexistent": "កំហុស៖ អ្នកប្រើប្រាស់មិនមានទេ",
 	"lookupuser-authenticated": "ភាពពិតប្រាកដនៃអ៊ីមែល៖ $1",
 	"lookupuser-not-authenticated": "មិនបានស្គាល់ភិនភាគទេ",
-	"lookupuser-id": "អត្តសញ្ញាណអ្នកប្រើប្រាស់៖<tt>#$1</tt>",
+	"lookupuser-id": "អត្តសញ្ញាណអ្នកប្រើប្រាស់៖<code>#$1</code>",
 	"lookupuser-email": "អ៊ីមែល៖[[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "មិនត្រូវបានផ្តល់ឱ្យ",
 	"lookupuser-realname": "ឈ្មោះពិត៖$1",

@@ -11,7 +11,7 @@
 	"lookupuser-nonexistent": "المستخدم غير موجود",
 	"lookupuser-authenticated": "تأكيد البريد الإلكتروني: $1",
 	"lookupuser-not-authenticated": "غير مرخص",
-	"lookupuser-id": "رقم المستخدم: <tt>#$1</tt>",
+	"lookupuser-id": "رقم المستخدم: <code>#$1</code>",
 	"lookupuser-email": "البريد الإلكتروني: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "غير موفر",
 	"lookupuser-realname": "الاسم الحقيقي: $1",

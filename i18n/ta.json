@@ -7,7 +7,7 @@
 		]
 	},
 	"lookupuser-nonexistent": "பிழை: பயனர் இல்லை",
-	"lookupuser-id": "பயனர் அடியாள எண்: <tt>#$1</tt>",
+	"lookupuser-id": "பயனர் அடியாள எண்: <code>#$1</code>",
 	"lookupuser-email": "மின்னஞ்சல்: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "வழங்கப்படவில்லை",
 	"lookupuser-realname": "உண்மைப் பெயர்: $1",

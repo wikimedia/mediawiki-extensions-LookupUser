@@ -12,7 +12,7 @@
 	"lookupuser-nonexistent": "Eraro: Tiu uzanto ne ekzistas",
 	"lookupuser-authenticated": "retpoŝta aŭtentkontrolo: $1",
 	"lookupuser-not-authenticated": "ne aŭtentita",
-	"lookupuser-id": "Uzantnomo: <tt>#$1</tt>",
+	"lookupuser-id": "Uzantnomo: <code>#$1</code>",
 	"lookupuser-email": "Retpoŝto: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "ne provizita",
 	"lookupuser-realname": "Reala nomo: $1",

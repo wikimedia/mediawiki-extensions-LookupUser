@@ -6,7 +6,7 @@
 	},
 	"lookupuser-authenticated": "dilyswyd am $1",
 	"lookupuser-not-authenticated": "heb ei ddilysu",
-	"lookupuser-id": "ID y defnyddiwr: <tt>#$1</tt>",
+	"lookupuser-id": "ID y defnyddiwr: <code>#$1</code>",
 	"lookupuser-email": "E-bost: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-realname": "Yr enw cywir: $1",
 	"lookupuser-registration": "Dyddiad cofrestru: $1",

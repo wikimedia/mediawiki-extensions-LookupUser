@@ -4,5 +4,5 @@
 			"Erdemaslancan"
 		]
 	},
-	"lookupuser-id": "ID'e Karberi: <tt>#$1</tt>"
+	"lookupuser-id": "ID'e Karberi: <code>#$1</code>"
 }

@@ -17,7 +17,7 @@
 	"lookupuser-nonexistent": "錯誤：使用者不存在",
 	"lookupuser-authenticated": "$1已驗證",
 	"lookupuser-not-authenticated": "未驗證",
-	"lookupuser-id": "使用者 ID：<tt>#$1</tt>",
+	"lookupuser-id": "使用者 ID：<code>#$1</code>",
 	"lookupuser-email": "電郵：[[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "未提供",
 	"lookupuser-realname": "真實姓名：$1",

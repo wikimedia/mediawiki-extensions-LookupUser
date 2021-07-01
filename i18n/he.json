@@ -16,7 +16,7 @@
 	"lookupuser-nonexistent": "שגיאה: המשתמש אינו קיים",
 	"lookupuser-authenticated": "אימות כתובת דוא\"ל: $1",
 	"lookupuser-not-authenticated": "לא מאומתת",
-	"lookupuser-id": "מספר המשתמש: <tt>#$1</tt>",
+	"lookupuser-id": "מספר המשתמש: <code>#$1</code>",
 	"lookupuser-email": "כתובת דוא\"ל: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "לא סופקה",
 	"lookupuser-realname": "שם אמיתי: $1",

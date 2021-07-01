@@ -9,7 +9,7 @@
 	"lookupuser-nonexistent": "ত্রুটি: এই নামে কোনো ব্যবহারকারী নেই",
 	"lookupuser-authenticated": "$1-এ নিশ্চিতকৃত",
 	"lookupuser-not-authenticated": "নিশ্চিতকৃত নয়",
-	"lookupuser-id": "ব্যবহারকারী আইডি: <tt>#$1</tt>",
+	"lookupuser-id": "ব্যবহারকারী আইডি: <code>#$1</code>",
 	"lookupuser-email": "ই-মেইল: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "দেয়া হয়নি",
 	"lookupuser-realname": "প্রকৃত নাম: $1",

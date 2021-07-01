@@ -16,7 +16,7 @@
 	"lookupuser-nonexistent": "错误：用户不存在",
 	"lookupuser-authenticated": "$1 已验证",
 	"lookupuser-not-authenticated": "不进行身份验证",
-	"lookupuser-id": "用户ID: <tt>#$1</tt>",
+	"lookupuser-id": "用户ID: <code>#$1</code>",
 	"lookupuser-email": "电邮：[[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "不提供",
 	"lookupuser-realname": "真实姓名：$1",

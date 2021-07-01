@@ -11,7 +11,7 @@
 	"lookupuser-nonexistent": "Kamalian: Hindi umiiral ang tagagamit",
 	"lookupuser-authenticated": "napatunayan noong $1",
 	"lookupuser-not-authenticated": "hindi pa napapatunayan",
-	"lookupuser-id": "ID ng tagagamit: <tt>#$1</tt>",
+	"lookupuser-id": "ID ng tagagamit: <code>#$1</code>",
 	"lookupuser-email": "E-liham: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "hindi ibinigay",
 	"lookupuser-realname": "Tunay na pangalan: $1",

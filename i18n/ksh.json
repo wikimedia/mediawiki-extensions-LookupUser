@@ -10,7 +10,7 @@
 	"lookupuser-nonexistent": "Fähler, esu ene Metmaacher kenne mer nit",
 	"lookupuser-authenticated": "E-mail bestätich: $1",
 	"lookupuser-not-authenticated": "–unbestätich–",
-	"lookupuser-id": "Metmaacher-Nommer: <tt>$1</tt>",
+	"lookupuser-id": "Metmaacher-Nommer: <code>$1</code>",
 	"lookupuser-email": "E-mail Address: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "–nit&nbsp;aanjejovve–",
 	"lookupuser-realname": "Rechteje Nahme: $1",

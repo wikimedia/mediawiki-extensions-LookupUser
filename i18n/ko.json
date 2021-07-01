@@ -11,7 +11,7 @@
 	"lookupuser-nonexistent": "오류: 사용자가 존재하지 않습니다.",
 	"lookupuser-authenticated": "$1에 인증됨",
 	"lookupuser-not-authenticated": "인증되지 않음",
-	"lookupuser-id": "사용자 ID: <tt>#$1</tt>",
+	"lookupuser-id": "사용자 ID: <code>#$1</code>",
 	"lookupuser-email": "이메일: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "제공되지 않음",
 	"lookupuser-realname": "실명: $1",

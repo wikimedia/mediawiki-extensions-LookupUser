@@ -12,7 +12,7 @@
 	"lookupuser-nonexistent": "Chyba: Používateľ neexistuje",
 	"lookupuser-authenticated": "Overenie emailu: $1",
 	"lookupuser-not-authenticated": "neoverený",
-	"lookupuser-id": "ID používateľa: <tt>#$1</tt>",
+	"lookupuser-id": "ID používateľa: <code>#$1</code>",
 	"lookupuser-email": "Email: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "nebol poskytnutý",
 	"lookupuser-realname": "Skutočné meno: $1",

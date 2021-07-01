@@ -8,7 +8,7 @@
 	"lookupuser-nonexistent": "දෝෂය: පරිශීලක නොපවතී",
 	"lookupuser-authenticated": "$1 හී සත්‍යාපනය වූ",
 	"lookupuser-not-authenticated": "සත්‍යාපනය නොවූ",
-	"lookupuser-id": "පරිශීලක හැඳුනුම: <tt>#$1</tt>",
+	"lookupuser-id": "පරිශීලක හැඳුනුම: <code>#$1</code>",
 	"lookupuser-email": "විද්‍යුත්-තැපෑල: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "සපයා නොමැත",
 	"lookupuser-realname": "සැබෑ නාමය: $1",

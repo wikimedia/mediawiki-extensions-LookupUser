@@ -6,7 +6,7 @@
 		]
 	},
 	"lookupuser-nonexistent": "Klaida: Naudotojo tokiu vardu nėra",
-	"lookupuser-id": "Naudotojo ID: <tt>#$1</tt>",
+	"lookupuser-id": "Naudotojo ID: <code>#$1</code>",
 	"lookupuser-no-email": "nenurodytas",
 	"lookupuser-realname": "Tikras vardas: $1",
 	"lookupuser-registration": "Užsiregistravimo data: $1",

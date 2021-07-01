@@ -11,7 +11,7 @@
 	"lookupuser-nonexistent": "Lỗi: Thành viên không tồn tại",
 	"lookupuser-authenticated": "Xác nhận thư điện tử: $1",
 	"lookupuser-not-authenticated": "chưa xác nhận",
-	"lookupuser-id": "Mã số thành viên: <tt>#$1</tt>",
+	"lookupuser-id": "Mã số thành viên: <code>#$1</code>",
 	"lookupuser-email": "Thư điện tử: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "không cung cấp",
 	"lookupuser-realname": "Tên thật: $1",

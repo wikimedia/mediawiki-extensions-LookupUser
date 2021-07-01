@@ -10,7 +10,7 @@
 	"lookupuser-nonexistent": "Грешка: Таков корисник не постои",
 	"lookupuser-authenticated": "потврден на $1",
 	"lookupuser-not-authenticated": "непотврден",
-	"lookupuser-id": "Кориснички ид. бр.: <tt>#$1</tt>",
+	"lookupuser-id": "Кориснички ид. бр.: <code>#$1</code>",
 	"lookupuser-email": "Е-пошта: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "ненаведено",
 	"lookupuser-realname": "Вистинско име: $1",

@@ -10,7 +10,7 @@
 	"lookupuser-nonexistent": "Error : l'utilizaire existís pas",
 	"lookupuser-authenticated": "Corrièr electronic d'identificacion : $1",
 	"lookupuser-not-authenticated": "pas identificat",
-	"lookupuser-id": "ID de l'utilizaire : <tt>#$1</tt>",
+	"lookupuser-id": "ID de l'utilizaire : <code>#$1</code>",
 	"lookupuser-email": "Corrièr electronic : [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "pas provesit",
 	"lookupuser-realname": "Nom vertadièr : $1",

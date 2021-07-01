@@ -14,7 +14,7 @@
 	"lookupuser-nonexistent": "Помилка. Такого користувача не існує",
 	"lookupuser-authenticated": "автентифіковано о $1",
 	"lookupuser-not-authenticated": "не автентифікований",
-	"lookupuser-id": "ID користувача: <tt>#$1</tt>",
+	"lookupuser-id": "ID користувача: <code>#$1</code>",
 	"lookupuser-email": "Ел. пошта: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "не указан",
 	"lookupuser-realname": "Справжнє ім'я: $1",

@@ -15,7 +15,7 @@
 	"lookupuser-nonexistent": "خطا: کاربر وجود ندارد",
 	"lookupuser-authenticated": "اعتبارداده‌شده روی $1",
 	"lookupuser-not-authenticated": "فاقد اعتبار",
-	"lookupuser-id": "نام کاربری: <tt>#$1</tt>",
+	"lookupuser-id": "نام کاربری: <code>#$1</code>",
 	"lookupuser-email": "ایمیل: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "تامین نشده",
 	"lookupuser-realname": "نام حقیقی: $1",

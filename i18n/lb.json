@@ -11,7 +11,7 @@
 	"lookupuser-nonexistent": "Feeler: De Benotzer gëtt et net",
 	"lookupuser-authenticated": "E-Mail-Confirmatioun: $1",
 	"lookupuser-not-authenticated": "net identifizéiert",
-	"lookupuser-id": "Benotzer-Nummer: <tt>#$1</tt>",
+	"lookupuser-id": "Benotzer-Nummer: <code>#$1</code>",
 	"lookupuser-email": "E-mail: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "net uginn",
 	"lookupuser-realname": "Richtegen Numm: $1",

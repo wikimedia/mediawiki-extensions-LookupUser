@@ -11,7 +11,7 @@
 	"lookupuser-nonexistent": "Feil: Brukeren eksisterer ikke",
 	"lookupuser-authenticated": "E-postbekrefting: $1",
 	"lookupuser-not-authenticated": "ikke bekreftet",
-	"lookupuser-id": "Bruker-ID: <tt>#$1</tt>",
+	"lookupuser-id": "Bruker-ID: <code>#$1</code>",
 	"lookupuser-email": "E-post: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "ikke oppgitt",
 	"lookupuser-realname": "Virkelig navn: $1",

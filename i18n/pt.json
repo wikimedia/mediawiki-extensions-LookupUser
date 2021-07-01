@@ -13,7 +13,7 @@
 	"lookupuser-nonexistent": "Erro: Utilizador não existe",
 	"lookupuser-authenticated": "autenticado em $1",
 	"lookupuser-not-authenticated": "não autenticado",
-	"lookupuser-id": "Identificador de utilizador: <tt>#$1</tt>",
+	"lookupuser-id": "Identificador de utilizador: <code>#$1</code>",
 	"lookupuser-email": "Correio eletrónico: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "não fornecido",
 	"lookupuser-realname": "Nome real: $1",

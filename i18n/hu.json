@@ -13,7 +13,7 @@
 	"lookupuser-nonexistent": "Hiba: a felhasználó nem létezik",
 	"lookupuser-authenticated": "Email megerősítés: $1",
 	"lookupuser-not-authenticated": "nincs megerősítve",
-	"lookupuser-id": "Azonosító: <tt>#$1</tt>",
+	"lookupuser-id": "Azonosító: <code>#$1</code>",
 	"lookupuser-email": "E-mail: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "nincs megadva",
 	"lookupuser-realname": "Valódi név: $1",

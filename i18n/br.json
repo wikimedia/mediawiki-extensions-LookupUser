@@ -11,7 +11,7 @@
 	"lookupuser-nonexistent": "Fazi : n'eus ket eus an implijer-mañ",
 	"lookupuser-authenticated": "Aotreet e $1",
 	"lookupuser-not-authenticated": "n'eo ket aotreet",
-	"lookupuser-id": "ID an implijer : <tt>#$1</tt>",
+	"lookupuser-id": "ID an implijer : <code>#$1</code>",
 	"lookupuser-email": "Postel : [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "N'eo ket bet pourchaset",
 	"lookupuser-realname": "Anv gwir : $1",

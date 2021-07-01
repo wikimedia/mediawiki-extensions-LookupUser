@@ -11,7 +11,7 @@
 	"lookupuser-nonexistent": "Chyba: Uživatel neexistuje",
 	"lookupuser-authenticated": "Ověření e-mailu: $1",
 	"lookupuser-not-authenticated": "neověřený",
-	"lookupuser-id": "ID uživatele: <tt>#$1</tt>",
+	"lookupuser-id": "ID uživatele: <code>#$1</code>",
 	"lookupuser-email": "E-mail: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "nebyl poskytnut",
 	"lookupuser-realname": "Skutečné jméno: $1",

@@ -10,7 +10,7 @@
 	"lookupuser-nonexistent": "Failer: Benutser bestoant nit",
 	"lookupuser-authenticated": "E-Mail-Bestäätigenge: $1",
 	"lookupuser-not-authenticated": "nit bestäätiged",
-	"lookupuser-id": "Benutser-ID: <tt>#$1</tt>",
+	"lookupuser-id": "Benutser-ID: <code>#$1</code>",
 	"lookupuser-email": "E-Mail: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "nit deer",
 	"lookupuser-realname": "Wuddelken Noome: $1",
