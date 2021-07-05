@@ -3,9 +3,11 @@
 		"authors": [
 			"SMP",
 			"Solde",
-			"Toniher"
+			"Toniher",
+			"Vfc"
 		]
 	},
+	"lookupuser-id": "ID de la persona usuària: <code>$1</code>",
 	"lookupuser-no-email": "no proporcionat",
 	"lookupuser-realname": "Nom real: $1",
 	"lookupuser-registration": "Data de registre: $1",
