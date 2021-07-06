@@ -7,6 +7,7 @@
 		]
 	},
 	"lookupuser-nonexistent": "Eroro: Uzero ne existas",
+	"lookupuser-id": "Nomo dil uzero: <code>#$1</code>",
 	"lookupuser-realname": "Reala nomo: $1",
 	"lookupuser-touched": "L'enrejistro dil uzero lastafoye chanjesis ye $1"
 }
