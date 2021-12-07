@@ -6,7 +6,8 @@
 			"Grondin",
 			"IAlex",
 			"Sherbrooke",
-			"Wyz"
+			"Wyz",
+			"Verdy p"
 		]
 	},
 	"lookupuser": "Récupérer les infos de l’utilisateur",
@@ -18,7 +19,7 @@
 	"lookupuser-id": "ID de l’utilisateur : <tt>#$1</tt>",
 	"lookupuser-email": "Courriel : [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "non fourni",
-	"lookupuser-realname": "Nom réel : $1",
+	"lookupuser-realname": "Vrai nom : $1",
 	"lookupuser-registration": "Date d’enregistrement : $1",
 	"lookupuser-no-registration": "non enregistré",
 	"lookupuser-touched": "Enregistrement de l’utilisateur touché pour la dernière fois : $1",
