@@ -8,6 +8,9 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:LookupUser",
 	"descriptionmsg": "lookupuser-desc",
 	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
 	"SpecialPages": {
 		"LookupUser": "LookupUserPage"
 	},
@@ -28,5 +31,5 @@
 	"AvailableRights": [
 		"lookupuser"
 	],
-	"manifest_version": 1
+	"manifest_version": 2
 }
