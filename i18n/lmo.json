@@ -1,17 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dakrismeno"
+			"Dakrismeno",
+			"Salvemm el lombard"
 		]
 	},
-	"lookupuser": "Varda i infurmazión del druvadur",
-	"lookupuser-intro": "Meta denter un suranom per vedè i sò preferenz.",
-	"lookupuser-nonexistent": "Erur: 'stu druvadur l'esist mía",
-	"lookupuser-authenticated": "utenticaa del: $1",
-	"lookupuser-not-authenticated": "mía utenticaa",
+	"lookupuser": "Varda i informazzion de l'utent",
+	"lookupuser-intro": "Met dent un nom utent per vedenn i preferenze. A se po doprà anca un adress de posta eletronica e se vedran tucc i cunt che doperen quell adress là.",
+	"lookupuser-nonexistent": "Eror: quell utent chì l'esist minga",
+	"lookupuser-authenticated": "autenticad sora: $1",
+	"lookupuser-not-authenticated": "minga autenticad",
 	"lookupuser-id": "ID del druvadur: <tt>#$1</tt>",
-	"lookupuser-email": "E-mail: [[Special:EmailUser/$2|$1]]",
-	"lookupuser-no-email": "mía furnii",
-	"lookupuser-realname": "Nom vér: $1",
-	"lookupuser-registration": "Registraa dal: $1"
+	"lookupuser-email": "Posta eletronica: [[Special:EmailUser/$2|$1]]",
+	"lookupuser-no-email": "minga fornid",
+	"lookupuser-realname": "Nom ver: $1",
+	"lookupuser-registration": "Registrad del: $1"
 }
