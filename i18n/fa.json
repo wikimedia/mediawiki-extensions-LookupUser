@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Beginneruser",
 			"Ebraminio",
 			"Huji",
 			"Mjbmr",
@@ -25,6 +26,6 @@
 	"lookupuser-info-authenticated": "احراز هویت از طریق پست الکترونیکی: $1",
 	"lookupuser-useroptions": "گزینه‌های کاربر:",
 	"lookupuser-foundmoreusers": "بیش از یک کاربر یافت شد:",
-	"right-lookupuser": "مراجعه به ترجیحات کاربر",
-	"action-lookupuser": "جستجوی ترجیحات کاربر"
+	"right-lookupuser": "مراجعه به ترجیحات کاربری",
+	"action-lookupuser": "جستجوی ترجیحات کاربری"
 }
