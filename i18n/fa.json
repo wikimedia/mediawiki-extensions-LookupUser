@@ -23,7 +23,7 @@
 	"lookupuser-registration": "تاریخ ثبت‌نام: $1",
 	"lookupuser-no-registration": "ثبت نشده",
 	"lookupuser-touched": "آخرین دستکاری در اطلاعات کاربر: $1",
-	"lookupuser-info-authenticated": "احراز هویت از طریق پست الکترونیکی: $1",
+	"lookupuser-info-authenticated": "تأیید اعتبار ایمیلی: $1",
 	"lookupuser-useroptions": "گزینه‌های کاربر:",
 	"lookupuser-foundmoreusers": "بیش از یک کاربر یافت شد:",
 	"right-lookupuser": "مراجعه به ترجیحات کاربری",
