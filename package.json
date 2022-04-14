@@ -1,4 +1,5 @@
 {
+	"name": "LookupUser",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"
