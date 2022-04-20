@@ -5,7 +5,8 @@
 			"Crazymadlover",
 			"Fitoschido",
 			"Imre",
-			"Macofe"
+			"Macofe",
+			"DiegoAmbrocio"
 		]
 	},
 	"lookupuser": "Ver información de usuario",
@@ -24,5 +25,6 @@
 	"lookupuser-info-authenticated": "Autenticación de correo electrónico: $1",
 	"lookupuser-useroptions": "Opciones de usuario:",
 	"lookupuser-foundmoreusers": "Se encontró más de un usuario:",
-	"right-lookupuser": "Ver preferencias de usuario"
+	"right-lookupuser": "Ver preferencias de usuario",
+	"action-lookupuser": "buscar las preferencias del usuario"
 }
