@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Michaello",
-			"Zoranzoki21"
+			"Zoranzoki21",
+			"Kizule"
 		]
 	},
-	"lookupuser": "Pogledaj informacije o korisniku",
-	"lookupuser-intro": "Unesite korisničko ime da bi ste videli podešavanja ovog korisnika. Imejl adresa se takođe može koristiti, i prikazaće sve naloge koji koriste taj imejl.",
+	"lookupuser": "Pretraga informacije o korisniku",
+	"lookupuser-intro": "Unesite korisničko ime da bi ste videli podešavanja ovog korisnika. Imejl-adresa se takođe može koristiti, a prikazaće sve naloge koji koriste taj imejl.",
 	"lookupuser-nonexistent": "Greška: Korisnik ne postoji",
 	"lookupuser-authenticated": "autorizacija na $1",
 	"lookupuser-not-authenticated": "nije autorizovano",
