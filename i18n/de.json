@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Brettchenweber",
 			"Kghbln",
 			"LWChris",
 			"Melancholie",
@@ -10,7 +11,7 @@
 		]
 	},
 	"lookupuser": "Benutzerinformationen einsehen",
-	"lookupuser-desc": "Erweitert das Wiki um eine [[Special:LookupUser|Spezialseite]] mit der Informationen zu Benutzern eingesehen werden können",
+	"lookupuser-desc": "Erweitert das Wiki um eine [[Special:LookupUser|Spezialseite]], mit der Informationen zu Benutzern eingesehen werden können",
 	"lookupuser-intro": "Bitte einen Benutzernamen angeben, um die persönlichen Einstellungen des zugehörigen Benutzers anzusehen. Es kann auch eine E-Mail-Adresse angegeben werden, wobei dann alle Benutzerkonten angezeigt werden, die diese E-Mail-Adresse nutzen.",
 	"lookupuser-nonexistent": "Fehler: Benutzer nicht vorhanden",
 	"lookupuser-authenticated": "E-Mail-Bestätigung: $1",
