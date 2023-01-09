@@ -4,5 +4,21 @@
 			"Eleassar"
 		]
 	},
-	"lookupuser-nonexistent": "Napaka: Uporabnik ne obstaja"
+	"lookupuser": "Vpogled v uporabnikove podatke",
+	"lookupuser-desc": "[[Special:LookupUser|Pridobite podatke]] o uporabniku, kot sta e-poštni naslov in ID",
+	"lookupuser-intro": "Vnesite uporabniško ime za vpogled v nastavitve tega uporabnika. Uporabite lahko tudi e-poštni naslov in bodo prikazani vsi računi, ki uporabljajo ta e-poštni naslov.",
+	"lookupuser-nonexistent": "Napaka: Uporabnik ne obstaja",
+	"lookupuser-authenticated": "avtentikacija dne $1",
+	"lookupuser-not-authenticated": "ni avtenticiran",
+	"lookupuser-email": "E-poštni naslov: [[Special:EmailUser/$2|$1]]",
+	"lookupuser-no-email": "ni naveden",
+	"lookupuser-realname": "Pravo ime: $1",
+	"lookupuser-registration": "Datum registracije: $1",
+	"lookupuser-no-registration": "ni zabeleženo",
+	"lookupuser-touched": "Zadnja posodobitev zapisa o uporabniku: $1",
+	"lookupuser-info-authenticated": "E-poštna avtentikacija: $1",
+	"lookupuser-useroptions": "Uporabniške možnosti:",
+	"lookupuser-foundmoreusers": "Najden več kot en uporabnik:",
+	"right-lookupuser": "Vpogled v uporabniške nastavitve",
+	"action-lookupuser": "vpogled v uporabniške nastavitve"
 }
