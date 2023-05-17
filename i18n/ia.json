@@ -5,7 +5,7 @@
 		]
 	},
 	"lookupuser": "Cercar info de usator",
-	"lookupuser-desc": "[[Special:LookupUser|Recupera informationes]] super un usator como adresse de e-mail e numero de ID",
+	"lookupuser-desc": "[[Special:LookupUser|Recuperar information]] sur un usator como adresse de e-mail e identificator",
 	"lookupuser-intro": "Entra un nomine de usator pro vider le preferentias de ille usator. Un adresse de e-mail pote anque esser usate, e monstrara tote le contos que usa ille adresse.",
 	"lookupuser-nonexistent": "Error: Usator non existe",
 	"lookupuser-authenticated": "authenticate le $1",
