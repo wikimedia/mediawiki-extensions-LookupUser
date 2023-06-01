@@ -2,14 +2,26 @@
 	"@metadata": {
 		"authors": [
 			"Eitvys200",
-			"Tomasdd"
+			"Tomasdd",
+			"Nokeoo"
 		]
 	},
+	"lookupuser": "Žiūrėti naudotojo informaciją",
+	"lookupuser-desc": "[[Special:LookupUser|Gauti informaciją]] apie naudotoją, pvz., el. paštą ar ID",
+	"lookupuser-intro": "Įveskite naudotojo vardą, kad peržiūrėtumėte naudotojo nustatymus. Taip pat galima naudoti ir el. pašto adresą, tai parodys visas paskyras, naudojančias tą el. paštą.",
 	"lookupuser-nonexistent": "Klaida: Naudotojo tokiu vardu nėra",
+	"lookupuser-authenticated": "autentifikuota $1",
+	"lookupuser-not-authenticated": "neautentifikuota",
 	"lookupuser-id": "Naudotojo ID: <code>#$1</code>",
+	"lookupuser-email": "El. paštas: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "nenurodytas",
 	"lookupuser-realname": "Tikras vardas: $1",
 	"lookupuser-registration": "Užsiregistravimo data: $1",
 	"lookupuser-no-registration": "įrašų nėra",
-	"lookupuser-useroptions": "Vartotojo parinktys:"
+	"lookupuser-touched": "Paskutinis naudotojo prisijungimas: $1",
+	"lookupuser-info-authenticated": "El. pašto autentifikavimas: $1",
+	"lookupuser-useroptions": "Vartotojo parinktys:",
+	"lookupuser-foundmoreusers": "Rasta daugiau nei vienas naudotojas:",
+	"right-lookupuser": "Peržiūrėti naudotojo parinktis",
+	"action-lookupuser": "peržiūrėti naudotojo parinktis"
 }
