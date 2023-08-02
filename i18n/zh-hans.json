@@ -7,12 +7,13 @@
 			"LNDDYL",
 			"Liuxinyu970226",
 			"Wrightbus",
-			"Yfdyh000"
+			"Yfdyh000",
+			"Diskdance"
 		]
 	},
 	"lookupuser": "查询用户信息",
 	"lookupuser-desc": "[[Special:LookupUser|检索]]有关某位用户的信息，例如电子邮件地址和ID",
-	"lookupuser-intro": "输入用户名查看该用户的参数设置。也可以使用电子邮箱地址，将显示使用该地址的所有帐户。",
+	"lookupuser-intro": "输入用户名查看该用户的参数设置。也可以使用电子邮箱地址，将显示使用该地址的所有账号。",
 	"lookupuser-nonexistent": "错误：用户不存在",
 	"lookupuser-authenticated": "$1 已验证",
 	"lookupuser-not-authenticated": "不进行身份验证",
