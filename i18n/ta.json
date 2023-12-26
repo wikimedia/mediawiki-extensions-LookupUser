@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Fahimrazick",
 			"Karthi.dr",
 			"Shanmugamp7",
 			"மதனாஹரன்"
@@ -14,5 +15,5 @@
 	"lookupuser-registration": "பதிவுத் திகதி: $1",
 	"lookupuser-no-registration": "பதிவு செய்யப்படவில்லை",
 	"lookupuser-info-authenticated": "மின்னஞ்சல் உறுதிப்படுத்தல்: $1",
-	"lookupuser-useroptions": "பயனர் விருப்பத் தேர்வுகள்:"
+	"lookupuser-useroptions": "பயனர் தெரிவுகள்:"
 }
