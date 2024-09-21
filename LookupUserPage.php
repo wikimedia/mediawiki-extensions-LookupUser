@@ -105,7 +105,7 @@ class LookupUserPage extends SpecialPage {
 		if ( strpos( $target, '@' ) !== false ) {
 			// Find username by email
 			$emailUser = htmlspecialchars( $emailUser, ENT_QUOTES );
-			$dbr = wfGetDB( DB_REPLICA );
+			$dbr = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_REPLICA );
 
 			$res = $dbr->select(
 				'user',
