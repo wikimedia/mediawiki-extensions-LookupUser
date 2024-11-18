@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Les Meloures",
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"lookupuser": "Benotzerinformatiounen nokucken",
@@ -12,7 +13,7 @@
 	"lookupuser-authenticated": "E-Mail-Confirmatioun: $1",
 	"lookupuser-not-authenticated": "net identifizéiert",
 	"lookupuser-id": "Benotzer-Nummer: <code>#$1</code>",
-	"lookupuser-email": "E-mail: [[Special:EmailUser/$2|$1]]",
+	"lookupuser-email": "E-Mail: [[Special:EmailUser/$2|$1]]",
 	"lookupuser-no-email": "net uginn",
 	"lookupuser-realname": "Richtegen Numm: $1",
 	"lookupuser-registration": "Datum vun der Umeldung: $1",
