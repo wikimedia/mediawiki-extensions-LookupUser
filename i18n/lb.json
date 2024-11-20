@@ -8,7 +8,7 @@
 	},
 	"lookupuser": "Benotzerinformatiounen nokucken",
 	"lookupuser-desc": "[[Special:LookupUser|Informatioune vun engem Benotzer kréien]] wéi seng E-Mailadress a seng Idendifikatiounsnummer (ID)",
-	"lookupuser-intro": "Gitt e Benotzernumm a fir d'Astellunge vum Benotzer ze kucken. D'Mailadress kann och benotzt ginn a weist all Benotzerkonten déi déi Mailadress benotzen.",
+	"lookupuser-intro": "Gitt e Benotzernumm a fir d'Astellunge vum Benotzer ze kucken. Eng E-Mail-Adress kann och benotzt ginn a weist all Benotzerkonten, déi dës E-Mail-Adress benotzen.",
 	"lookupuser-nonexistent": "Feeler: De Benotzer gëtt et net",
 	"lookupuser-authenticated": "E-Mail-Confirmatioun: $1",
 	"lookupuser-not-authenticated": "net identifizéiert",
