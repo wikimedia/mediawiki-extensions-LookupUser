@@ -18,7 +18,7 @@ class LookupUserPage extends SpecialPage {
 
 	/** @inheritDoc */
 	function getDescription() {
-		return $this->msg( 'lookupuser' )->text();
+		return $this->msg( 'lookupuser' );
 	}
 
 	/**
