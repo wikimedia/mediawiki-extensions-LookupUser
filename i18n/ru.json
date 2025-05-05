@@ -6,6 +6,7 @@
 			"Kaganer",
 			"Mailman",
 			"Okras",
+			"Vlad5250",
 			"Александр Сигачёв"
 		]
 	},
@@ -25,6 +26,6 @@
 	"lookupuser-info-authenticated": "Аутентификация по почте: $1",
 	"lookupuser-useroptions": "Настройки участника:",
 	"lookupuser-foundmoreusers": "Найдено более одного пользователя:",
-	"right-lookupuser": "поиск настроек участников",
+	"right-lookupuser": "Поиск настроек участников",
 	"action-lookupuser": "просмотр пользовательских настроек"
 }
