@@ -168,12 +168,23 @@ $specialPageAliases['tr'] = [
 	'LookupUser' => [ 'KullanıcıAra' ],
 ];
 
-/** Simplified Chinese (中文（简体）‎) */
-$specialPageAliases['zh-hans'] = [
-	'LookupUser' => [ '查阅用户' ],
+/** Chinese (中文) */
+$specialPageAliases['zh'] = [
+	'LookupUser' => [ 'LookupUser' ],
 ];
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Arabic (العربية) */
+/** Simplified Chinese (中文（简体）) */
+$specialPageAliases['zh-hans'] = [
+	'LookupUser' => [ '查询用户', '查阅用户' ],
+];
+
+/** Traditional Chinese (中文（繁體）) */
 $specialPageAliases['zh-hant'] = [
-	'LookupUser' => [ '搜尋使用者' ],
+	'LookupUser' => [ '查詢使用者', '搜尋使用者' ],
+];
+
+/** Chinese (Hong Kong) (中文（香港）) */
+$specialPageAliases['zh-hk'] = [
+	'LookupUser' => [ '查詢用戶' ],
 ];
