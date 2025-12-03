@@ -1,9 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
+			"Anterdc99",
 			"Liuxinyu970226"
 		]
 	},
+	"lookupuser": "查詢用戶資訊",
+	"lookupuser-desc": "[[Special:LookupUser|檢索資訊]] 有關的用戶 ID 的電子郵件地址等",
 	"lookupuser-intro": "輸入用戶名稱以檢視該用戶的偏好設定，亦可使用電子郵件位址，並顯示所有使用該電子郵件位址的戶口。",
-	"lookupuser-id": "用戶 ID: <code>#$1</code>"
+	"lookupuser-nonexistent": "錯誤：用戶不存在",
+	"lookupuser-id": "用戶 ID: <code>#$1</code>",
+	"lookupuser-touched": "最後觸及的用戶記錄：$1",
+	"lookupuser-useroptions": "用戶選擇：",
+	"lookupuser-foundmoreusers": "找到多位用戶：",
+	"right-lookupuser": "檢視用戶設定",
+	"action-lookupuser": "檢視用戶設定"
 }
