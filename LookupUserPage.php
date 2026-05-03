@@ -178,13 +178,8 @@ class LookupUserPage extends SpecialPage {
 			}
 			$optionsString = '';
 
-			if ( method_exists( MediaWikiServices::class, 'getUserOptionsLookup' ) ) {
-				// MW 1.35+
-				$userOptionsLookup = MediaWikiServices::getInstance()->getUserOptionsLookup();
-				$options = $userOptionsLookup->getOptions( $user );
-			} else {
-				$options = $user->getOptions();
-			}
+			$userOptionsLookup = MediaWikiServices::getInstance()->getUserOptionsLookup();
+			$options = $userOptionsLookup->getOptions( $user );
 
 			foreach ( $options as $name => $value ) {
 				$optionsString .= "$name = $value <br />";
@@ -230,13 +225,8 @@ class LookupUserPage extends SpecialPage {
 	 * @param SpecialPage $sp
 	 */
 	public static function onContributionsToolLinks( $id, $nt, &$links, SpecialPage $sp ) {
-		if ( method_exists( MediaWikiServices::class, 'getUserNameUtils' ) ) {
-			// MW 1.35+
-			$userNameUtils = MediaWikiServices::getInstance()->getUserNameUtils();
-			$isIp = $userNameUtils->isIP( $nt->getText() );
-		} else {
-			$isIp = User::isIP( $nt->getText() );
-		}
+		$userNameUtils = MediaWikiServices::getInstance()->getUserNameUtils();
+		$isIp = $userNameUtils->isIP( $nt->getText() );
 
 		if ( $sp->getUser()->isAllowed( 'lookupuser' ) && !$isIp ) {
 			$links[] = $sp->getLinkRenderer()->makeKnownLink(
