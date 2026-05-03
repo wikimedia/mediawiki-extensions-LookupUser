@@ -3,7 +3,7 @@
 use MediaWiki\HTMLForm\HTMLForm;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\User\Options\UserOptionsLookup;
-use MediaWiki\User\User;
+use MediaWiki\User\UserFactory;
 use Wikimedia\Rdbms\IConnectionProvider;
 
 /**
@@ -18,6 +18,7 @@ class LookupUserPage extends SpecialPage {
 	 */
 	public function __construct(
 		private readonly IConnectionProvider $dbProvider,
+		private readonly UserFactory $userFactory,
 		private readonly UserOptionsLookup $userOptionsLookup,
 	) {
 		parent::__construct( 'LookupUser' );
@@ -141,8 +142,8 @@ class LookupUserPage extends SpecialPage {
 		}
 
 		$ourUser = ( !empty( $userTarget ) ) ? $userTarget : $target;
-		$user = User::newFromName( $ourUser );
-		if ( $user == null || $user->getId() == 0 ) {
+		$user = $this->userFactory->newFromName( $ourUser );
+		if ( !$user || $user->getId() == 0 ) {
 			$out->addWikiTextAsInterface( '<span class="error">' . $this->msg( 'lookupuser-nonexistent', $target )->text() . '</span>' );
 		} else {
 			# Multiple matches?

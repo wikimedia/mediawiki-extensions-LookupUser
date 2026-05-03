@@ -16,6 +16,7 @@
 			"class": "LookupUserPage",
 			"services": [
 				"ConnectionProvider",
+				"UserFactory",
 				"UserOptionsLookup"
 			]
 		}
