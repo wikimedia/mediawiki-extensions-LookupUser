@@ -1,6 +1,9 @@
 <?php
 
+use MediaWiki\HTMLForm\HTMLForm;
+use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\User\Options\UserOptionsLookup;
+use MediaWiki\User\User;
 use Wikimedia\Rdbms\IConnectionProvider;
 
 /**
