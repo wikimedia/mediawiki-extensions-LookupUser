@@ -25,8 +25,16 @@
 	"AutoloadClasses": {
 		"LookupUserPage": "LookupUserPage.php"
 	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\LookupUser\\": "includes/"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\LookupUser\\Hooks"
+		}
+	},
 	"Hooks": {
-		"ContributionsToolLinks": "LookupUserPage::onContributionsToolLinks"
+		"ContributionsToolLinks": "main"
 	},
 	"AvailableRights": [
 		"lookupuser"
