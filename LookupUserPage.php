@@ -13,7 +13,12 @@ class LookupUserPage extends SpecialPage {
 	 * Constructor
 	 */
 	public function __construct() {
-		parent::__construct( 'LookupUser'/*class*/, 'lookupuser'/*restriction*/ );
+		parent::__construct( 'LookupUser' );
+	}
+
+	/** @inheritDoc */
+	public function getRestriction(): string {
+		return 'lookupuser';
 	}
 
 	/** @inheritDoc */
