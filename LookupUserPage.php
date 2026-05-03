@@ -1,6 +1,7 @@
 <?php
 
-use MediaWiki\MediaWikiServices;
+use MediaWiki\User\Options\UserOptionsLookup;
+use Wikimedia\Rdbms\IConnectionProvider;
 
 /**
  * Provides the special page to look up user info
@@ -12,7 +13,10 @@ class LookupUserPage extends SpecialPage {
 	/**
 	 * Constructor
 	 */
-	public function __construct() {
+	public function __construct(
+		private readonly IConnectionProvider $dbProvider,
+		private readonly UserOptionsLookup $userOptionsLookup,
+	) {
 		parent::__construct( 'LookupUser' );
 	}
 
@@ -110,7 +114,7 @@ class LookupUserPage extends SpecialPage {
 		if ( strpos( $target, '@' ) !== false ) {
 			// Find username by email
 			$emailUser = htmlspecialchars( $emailUser, ENT_QUOTES );
-			$dbr = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_REPLICA );
+			$dbr = $this->dbProvider->getReplicaDatabase();
 
 			$res = $dbr->select(
 				'user',
@@ -178,8 +182,7 @@ class LookupUserPage extends SpecialPage {
 			}
 			$optionsString = '';
 
-			$userOptionsLookup = MediaWikiServices::getInstance()->getUserOptionsLookup();
-			$options = $userOptionsLookup->getOptions( $user );
+			$options = $this->userOptionsLookup->getOptions( $user );
 
 			foreach ( $options as $name => $value ) {
 				$optionsString .= "$name = $value <br />";

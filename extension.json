@@ -12,7 +12,13 @@
 		"MediaWiki": ">= 1.46.0"
 	},
 	"SpecialPages": {
-		"LookupUser": "LookupUserPage"
+		"LookupUser": {
+			"class": "LookupUserPage",
+			"services": [
+				"ConnectionProvider",
+				"UserOptionsLookup"
+			]
+		}
 	},
 	"MessagesDirs": {
 		"LookupUser": [
@@ -30,7 +36,10 @@
 	},
 	"HookHandlers": {
 		"main": {
-			"class": "MediaWiki\\Extension\\LookupUser\\Hooks"
+			"class": "MediaWiki\\Extension\\LookupUser\\Hooks",
+			"services": [
+				"UserNameUtils"
+			]
 		}
 	},
 	"Hooks": {
