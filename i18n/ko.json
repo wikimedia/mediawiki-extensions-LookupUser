@@ -3,6 +3,7 @@
 		"authors": [
 			"Kwj2772",
 			"Priviet",
+			"Tensama0415",
 			"Ykhwong"
 		]
 	},
@@ -22,6 +23,6 @@
 	"lookupuser-info-authenticated": "이메일 인증: $1",
 	"lookupuser-useroptions": "사용자 선택 사항:",
 	"lookupuser-foundmoreusers": "한 명 이상의 사용자를 찾음:",
-	"right-lookupuser": "사용자 환경설정을 검색",
-	"action-lookupuser": "사용자 환경설정을 검색"
+	"right-lookupuser": "사용자 환경 설정을 검색",
+	"action-lookupuser": "사용자 환경 설정을 검색"
 }
