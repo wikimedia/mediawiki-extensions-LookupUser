@@ -3,7 +3,8 @@
 		"authors": [
 			"Helix84",
 			"Luky001",
-			"Vlad5250"
+			"Vlad5250",
+			"Wizzard"
 		]
 	},
 	"lookupuser": "Vyhľadať informácie o používateľovi",
@@ -21,6 +22,7 @@
 	"lookupuser-touched": "Posledný záznam používateľa: $1",
 	"lookupuser-info-authenticated": "Overenie emailu: $1",
 	"lookupuser-useroptions": "Nastavenia používateľa:",
+	"lookupuser-foundmoreusers": "Nájdených viacero používateľov:",
 	"right-lookupuser": "Zistiť nastavenia používateľa",
 	"action-lookupuser": "zistiť nastavenia používateľa"
 }
