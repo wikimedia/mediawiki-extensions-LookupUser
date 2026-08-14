@@ -1,6 +1,7 @@
 <?php
 
 use MediaWiki\HTMLForm\HTMLForm;
+use MediaWiki\MainConfigNames;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\User\Options\UserOptionsLookup;
 use MediaWiki\User\UserFactory;
@@ -65,10 +66,7 @@ class LookupUserPage extends SpecialPage {
 	 * @param string $target User whose info we're about to look up
 	 */
 	function showForm( $target ) {
-		global $wgScript;
-
 		$title = htmlspecialchars( $this->getPageTitle()->getPrefixedText(), ENT_QUOTES );
-		$action = htmlspecialchars( $wgScript, ENT_QUOTES );
 		$target = htmlspecialchars( $target, ENT_QUOTES );
 		$ok = $this->msg( 'go' )->text();
 		$username = $this->msg( 'username' )->text();
@@ -89,7 +87,7 @@ class LookupUserPage extends SpecialPage {
 		$htmlForm = HTMLForm::factory( 'ooui', $formDescriptor, $this->getContext() );
 		$htmlForm
 			->addHiddenField( 'title', $title )
-			->setAction( $action )
+			->setAction( $this->getConfig()->get( MainConfigNames::Script ) )
 			->setMethod( 'get' )
 			->setSubmitName( 'submit' )
 			->setSubmitText( $ok )
@@ -105,8 +103,6 @@ class LookupUserPage extends SpecialPage {
 	 * @param string $emailUser E-mail address (like example@example.com)
 	 */
 	function showInfo( $target, $emailUser = '' ) {
-		global $wgScript;
-
 		$lang = $this->getLanguage();
 		$out = $this->getOutput();
 
@@ -171,7 +167,7 @@ class LookupUserPage extends SpecialPage {
 					->addHiddenField( 'title', $this->getPageTitle()->getPrefixedText() )
 					->addHiddenField( 'target', $target )
 					->setMethod( 'get' )
-					->setAction( $wgScript )
+					->setAction( $this->getConfig()->get( MainConfigNames::Script ) )
 					->setSubmitText( $this->msg( 'go' )->text() )
 					->setWrapperLegend( null )
 					->prepareForm()
