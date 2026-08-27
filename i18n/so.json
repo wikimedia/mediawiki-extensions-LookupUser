@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"lookupuser": "Raadi macluumaadka isticmaalaha",
+	"lookupuser-desc": "[[Special:LookupUser|Hel macluumaad]] ku saabsan isticmaale, sida ciwaanka iimaylka iyo aqoonsigiisa",
+	"lookupuser-intro": "Geli magaca isticmaale si aad u aragto dookhyada isticmaalahaas. Cinwaan iimayl ayaa sidoo kale la isticmaali karaa, wuxuuna muujin doonaa dhammaan akoonnada isticmaalaya iimaylkaas.",
+	"lookupuser-nonexistent": "Khalad: Isticmaaluhu ma jiro",
+	"lookupuser-authenticated": "Waxaa lagu xaqiijiyay $1",
+	"lookupuser-not-authenticated": "Lama xaqiijin",
+	"lookupuser-id": "Aqoonsiga isticmaalaha: <code>#$1</code>",
+	"lookupuser-email": "Iimaylka: [[Special:EmailUser/$2|$1]]",
+	"lookupuser-no-email": "lama bixin",
+	"lookupuser-realname": "Magaca dhabta ah: $1",
+	"lookupuser-registration": "Taariikhda diiwaangelinta: $1",
+	"lookupuser-no-registration": "Lama diiwaangelin",
+	"lookupuser-touched": "Diiwaanka isticmaalaha markii ugu dambaysay la taabtay: $1",
+	"lookupuser-info-authenticated": "Xaqiijinta iimaylka: $1",
+	"lookupuser-useroptions": "Ikhtiyaarrada isticmaalaha:",
+	"lookupuser-foundmoreusers": "Waxaa la helay in ka badan hal isticmaale:",
+	"right-lookupuser": "Raadi dookhyada isticmaalaha",
+	"action-lookupuser": "Raadi dookhyada isticmaalaha"
+}
