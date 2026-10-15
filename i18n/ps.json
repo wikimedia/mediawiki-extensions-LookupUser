@@ -1,12 +1,26 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
-	"lookupuser-nonexistent": "ستونزه: دا کارن نه شته",
+	"lookupuser": "د کارن مالومات وگورئ",
+	"lookupuser-desc": "د کارن په اړه د \n[[Special:LookupUser|مالوماتو بياترلاسنه]] لکه برېښليک پته او پېژند.",
+	"lookupuser-intro": "د هغه کارن د غوره‌توبونو کتلو لپاره يو کارن‌نوم ورکړئ. برېښليک پته هم کارول کېدی شي او ټول هغه گڼونونه به وښيي چې دا برېښليک کاروي.",
+	"lookupuser-nonexistent": "تېروتنه: دا کارن نه شته",
+	"lookupuser-authenticated": "په $1 کې تاييدشوی",
+	"lookupuser-not-authenticated": "تاييد شوی نه دی",
+	"lookupuser-id": "کارن پېژند: <code>$1</code>",
 	"lookupuser-email": "برېښليک: [[Special:EmailUser/$2|$1]]",
+	"lookupuser-no-email": "چمتو شوی نه دی",
 	"lookupuser-realname": "اصلي نوم: $1",
 	"lookupuser-registration": "د نومليکنې نېټه: $1",
-	"lookupuser-useroptions": "د کارن خوښنې:"
+	"lookupuser-no-registration": "ريکارډ‌شوی نه دی",
+	"lookupuser-touched": "د کارن ثبت وروستۍ لمس کېدنه: $1",
+	"lookupuser-info-authenticated": "برېښليک تاييد: $1",
+	"lookupuser-useroptions": "د کارن خوښنې:",
+	"lookupuser-foundmoreusers": "له يو څخه ډېر کارنان وموندل شول:",
+	"right-lookupuser": "د کارن غوره‌توبونه وگورئ",
+	"action-lookupuser": "د کارن غوره‌توبونه وگورئ"
 }
